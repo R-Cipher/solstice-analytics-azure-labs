@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+tfplan
+crash.log
+
+# Unfinished labs (remove each line when that lab is complete)
+Lab-02-Storage/
+Lab-03-Compute/
+Lab-04-Virtual-Networking/
+Lab-05-Monitoring/
+
+# Source material, not part of the portfolio
+files/
+files.zip
