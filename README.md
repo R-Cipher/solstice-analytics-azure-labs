@@ -8,8 +8,8 @@ Hands-on Azure labs built around **Solstice Analytics**, a fictional B2B SaaS co
 
 - **Who I am:** Microsoft Support Escalation Engineer (Microsoft Teams) moving into Azure cloud engineering.
 - **What this repo shows:** how I design for least privilege, enforce governance with policy, codify infrastructure in Terraform, and document trade-offs and limitations honestly.
-- **Status:** Lab 01 is complete. Labs 02–05 are in progress and will be added as each is finished.
-- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
+- **Status:** Labs 01 and 02 are complete. Labs 03–05 are in progress and will be added as each is finished.
+- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
 
 ## Featured: Lab 01 — Identities & Governance
 
@@ -28,7 +28,7 @@ The scenario: a new Client Success team and two external contractors need access
 | # | Lab | Focus | Status |
 |---|-----|-------|--------|
 | 01 | [Identities & Governance](./Lab-01-Identity%20%26%20Governance/) | RBAC, Entra ID groups, Azure Policy, resource locks | ✅ Complete |
-| 02 | Storage | Secure storage and data ingestion | 🔜 Planned |
+| 02 | [Storage](./Lab-02-Storage/) | Secure storage, private endpoints and data ingestion | ✅ Complete |
 | 03 | Compute | VM scale sets and container workloads | 🔜 Planned |
 | 04 | Virtual Networking | Hub-and-spoke networking, isolation | 🔜 Planned |
 | 05 | Monitor & Maintain | Monitoring, alerting, backup and recovery | 🔜 Planned |
@@ -78,4 +78,4 @@ I work as a Microsoft Support Escalation Engineer, focused on complex Microsoft 
 
 **Certifications:** AZ-900 · SC-900 · MS-900 · AI-900 · CompTIA Security+ · CompTIA A+
 
-**Connect:** [LinkedIn — Romy Francis](https://www.linkedin.com/in/romy-francis) · [GitHub — R-Cipher](https://github.com/R-Cipher)
+**Connect:** [LinkedIn — Romy Francis](https://www.linkedin.com/in/romy-francis)

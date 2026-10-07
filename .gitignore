@@ -8,7 +8,6 @@ tfplan
 crash.log
 
 # Unfinished labs (remove each line when that lab is complete)
-Lab-02-Storage/
 Lab-03-Compute/
 Lab-04-Virtual-Networking/
 Lab-05-Monitoring/

@@ -14,7 +14,18 @@
 
 **Tools:** Microsoft Azure · Microsoft Entra ID · Azure RBAC · Azure Policy · Resource Locks · Terraform · PowerShell · Git/GitHub
 
+**Jump to:** [Business Problem](#business-problem) · [Architectural Design](#architectural-design) · [Design Decisions](#design-decisions) · [Future Considerations](#future-considerations)
+
 ---
+
+## Prerequisites
+
+This is the first lab, so nothing has to exist before it. You need:
+
+- An Azure subscription where your account holds **Owner** (creating role definitions, policy assignments and locks needs it).
+- An Entra ID tenant where you can create security groups and invite B2B guests.
+- Terraform 1.5 or later, Azure CLI signed in with `az login`, and PowerShell 7.
+- The subscription ID, supplied to Terraform through a local `terraform.tfvars` file that stays out of version control.
 
 ## Business Problem
 
@@ -25,6 +36,20 @@ Solstice Analytics is a B2B SaaS company that builds retail sales-analytics dash
 Today the subscription has no formal access tiers, no tagging standard, and no policy preventing someone from spinning up resources in a non-approved region. This lab builds the governance layer that every later lab (storage, compute, networking, monitoring) will sit on top of.
 
 ## Architectural Design
+
+Access is granted to **groups** in Entra ID, and the groups receive a custom role scoped to one resource group. Two `deny` policies and a delete lock on that resource group enforce the rules at deployment time, so the guardrails do not depend on anyone remembering them. Every later lab deploys under these controls.
+
+![Governance layout: Entra ID groups, a custom role assigned to sg-client-success, two deny policies and a CanNotDelete lock on rg-solstice-core, and PIM shown as not implemented](./Diagrams/governance-architecture.svg)
+
+| Layer | Resources (9 in Terraform) | Purpose |
+|---|---|---|
+| Identity | 2 Entra ID security groups: `sg-client-success`, `sg-contractors-external` | Access is managed by group membership, not by individual role assignments |
+| Access control | Custom role `Dashboard Operator` and its role assignment to `sg-client-success` | Least privilege: read/write on Web Apps and Storage, no delete on networking or Key Vault |
+| Governance | Custom policy definition `require-costcenter-tag` and 2 policy assignments (CostCenter tag, allowed locations) | Every resource is traceable to a cost center and kept in approved regions |
+| Protection | `CanNotDelete` lock on `rg-solstice-core` | Nothing built on this foundation can be torn down by accident |
+| Container | Resource group `rg-solstice-core` (`CostCenter = SOL-001`) | Scope for the role, policies and lock |
+
+Resource layout:
 
 ```
 Tenant: solsticeanalytics.onmicrosoft.com
@@ -52,6 +77,10 @@ Tenant: solsticeanalytics.onmicrosoft.com
 - **Policy over documentation.** A tagging standard written in a wiki gets ignored. An Azure Policy with `deny` effect enforces it at deployment time.
 - **PIM eligible, not permanent, for the break-glass admin.** Standing Owner access is a liability. Eligible assignment means the account has to actively activate the role (with justification/MFA) to use it, which is exactly what PIM is for. *(Not implemented in this environment — see Known Limitations below.)*
 - **Resource lock at the resource-group level**, not per-resource, since this group holds shared governance resources that nothing later in the lab series should be able to tear down accidentally.
+- **A reusable custom tag policy, assigned at resource-group scope.** The `require-costcenter-tag` definition is created once, and each resource group opts in by assigning it. Lab 02 reuses the same definition for its new resource groups instead of redefining it.
+- **Azure's built-in "Allowed locations" definition, referenced by ID.** Microsoft maintains the definition, and only the parameter (`eastus`, `eastus2`) is specific to this lab.
+- **The lock is ordered last with `depends_on`.** It is the final resource created and the first removed on destroy, so teardown is not blocked by the lock it manages.
+- **Provider versions pinned to a major version, with the lock file committed.** `~> 5.0` and `~> 3.0` keep the code from moving to a new major version unannounced, and `.terraform.lock.hcl` records the exact builds (`azurerm` 5.8.0, `azuread` 3.10.0).
 
 ## Known Limitations
 
@@ -310,7 +339,42 @@ output "client_success_group_object_id" {
 
 ![terraform state list](./Screenshots/terraform%20state%20list.png)
 
+## Verify
+
+Each guardrail was tested by trying to break it. Run the tests against `rg-solstice-core` with an account that can create resources there. A new policy assignment can take a few minutes to start denying requests.
+
+| Test | How | Expected result |
+|---|---|---|
+| Missing tag | Create a resource in the group with no `CostCenter` tag | Denied with `RequestDisallowedByPolicy` (Require CostCenter Tag) |
+| Wrong region | Create a tagged resource in a region other than East US or East US 2 | Denied with `RequestDisallowedByPolicy` (Allowed Locations) |
+| Delete the group | Delete `rg-solstice-core` from the portal or CLI | Refused with `ScopeLocked` |
+| Terraform matches reality | Run `terraform plan` after the apply | No infrastructure changes |
+
+```powershell
+# Denied: no CostCenter tag
+az storage account create -g rg-solstice-core -n <unique-name> -l eastus --sku Standard_LRS
+
+# Denied: region not allowed
+az storage account create -g rg-solstice-core -n <unique-name> -l westus --sku Standard_LRS --tags CostCenter=SOL-001
+```
+
+The screenshots for each denial are in Step 1, step 9.
+
+## Hands Off To Lab 02
+
+Lab 02 builds directly on what exists now. It **looks up** these resources with Terraform `data` sources instead of redefining them:
+
+- the `require-costcenter-tag` policy definition (found by name),
+- the built-in "Allowed locations" definition (found by ID),
+- the `sg-client-success` group (found by display name), which receives read-only access to the storage container that holds processed output.
+
+Lab 02 also assigns both policies to its new resource groups, so the controls from this lab apply to everything built afterwards.
+
+**Lab 01 must be applied before Lab 02.** If you destroyed it after finishing, run `terraform apply` in this lab's `Terraform` folder again. Group membership was added by hand in the portal, so re-add members to `sg-client-success` if you want to test Client Success access.
+
 ## Teardown
+
+Destroy this lab **last**, after Labs 02 to 05 are gone. Later labs look up this lab's groups and policy definition, so destroying it first breaks their `terraform plan`.
 
 ```powershell
 terraform destroy
