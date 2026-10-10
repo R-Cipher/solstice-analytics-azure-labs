@@ -8,8 +8,8 @@ Hands-on Azure labs built around **Solstice Analytics**, a fictional B2B SaaS co
 
 - **Who I am:** Microsoft Support Escalation Engineer (Microsoft Teams) moving into Azure cloud engineering.
 - **What this repo shows:** how I design for least privilege, enforce governance with policy, codify infrastructure in Terraform, and document trade-offs and limitations honestly.
-- **Status:** Labs 01 and 02 are complete. Labs 03–05 are in progress and will be added as each is finished.
-- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
+- **Status:** Labs 01, 02 and 03 are complete. Labs 04 and 05 are in progress and will be added as each is finished.
+- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · VM Scale Sets with autoscale · Azure Load Balancer · Azure Container Registry and Container Instances · managed identity · App Service · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
 
 ## Featured: Lab 01 — Identities & Governance
 
@@ -29,7 +29,7 @@ The scenario: a new Client Success team and two external contractors need access
 |---|-----|-------|--------|
 | 01 | [Identities & Governance](./Lab-01-Identity%20%26%20Governance/) | RBAC, Entra ID groups, Azure Policy, resource locks | ✅ Complete |
 | 02 | [Storage](./Lab-02-Storage/) | Secure storage, private endpoints and data ingestion | ✅ Complete |
-| 03 | Compute | VM scale sets and container workloads | 🔜 Planned |
+| 03 | [Compute](./Lab-03-Compute/) | Zone-redundant VM scale set, container batch job, App Service | ✅ Complete |
 | 04 | Virtual Networking | Hub-and-spoke networking, isolation | 🔜 Planned |
 | 05 | Monitor & Maintain | Monitoring, alerting, backup and recovery | 🔜 Planned |
 
@@ -57,13 +57,13 @@ Lab 02 (Storage)              Lab 03 (Compute)
 ## How Each Lab Is Built
 
 1. **Business problem:** a realistic requirement with a clear constraint.
-2. **Portal build:** configured by hand first, with screenshots, to understand every setting.
+2. **Portal build:** configured by hand first to understand every setting.
 3. **Terraform rebuild:** the same environment as code.
 4. **Verification:** test that the guardrails actually work, not just that resources exist.
 5. **Teardown:** destroy everything to keep costs near zero.
 6. **Write-up:** architecture, design decisions, known limitations and future considerations.
 
-Each lab folder contains a `README.md`, a `Terraform/` folder with the code, and a `Screenshots/` folder with the evidence.
+Each lab folder contains a `README.md`, a `Terraform/` folder with the code, and a `Diagrams/` and/or `Screenshots/` folder with the visuals.
 
 ## Tech Stack
 

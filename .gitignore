@@ -6,9 +6,9 @@
 !*.tfvars.example
 tfplan
 crash.log
+Lab-03-Compute/Terraform/autoscale.json
 
 # Unfinished labs (remove each line when that lab is complete)
-Lab-03-Compute/
 Lab-04-Virtual-Networking/
 Lab-05-Monitoring/
 
