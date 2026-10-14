@@ -6,11 +6,11 @@
 
 ## Summary
 
-- **Built** a zone-redundant VM scale set behind a Standard load balancer, with CPU-based autoscale (2–6 instances, scale out above 70%, scale in below 30%).
-- **Built** a containerised batch job (Azure Container Registry plus Container Instances) that reads the manifests from Lab 02 and writes a summary to `processed`, authenticating with a managed identity instead of keys.
-- **Compared** IaaS and PaaS by running a small internal admin tool on App Service.
-- **Extended Labs 01 and 02:** reused the governance policies, the prod VNet and the storage account.
-- **Rebuilt as Infrastructure as Code**, including the two-step image and apply flow the batch job needs.
+- **I built** a zone-redundant VM scale set behind a Standard load balancer, with CPU-based autoscale (2–6 instances, scale out above 70%, scale in below 30%).
+- **I built** a containerized batch job (Azure Container Registry plus Container Instances) that reads the manifests from Lab 02 and writes a summary to `processed`, authenticating with a managed identity instead of keys.
+- **I compared** IaaS and PaaS by running a small internal admin tool on App Service.
+- **I extended Labs 01 and 02:** I reused the governance policies, the prod VNet and the storage account.
+- **I rebuilt it as Infrastructure as Code**, including the two-step image and apply flow the batch job needs.
 
 **Tools:** Microsoft Azure · Virtual Machine Scale Sets · Azure Load Balancer · Azure Monitor autoscale · Azure Container Registry · Azure Container Instances · App Service · Managed Identity · Terraform · Docker · Azure CLI
 
@@ -87,7 +87,7 @@ rg-solstice-compute (new)
 - **A Standard load balancer needs an NSG.** Standard load balancers are closed by default, so `subnet-compute` carries an NSG that allows HTTP in. Rules are separate resources so Lab 04 can add more without the two configurations overwriting each other.
 - **No public IPs on instances.** Only the load balancer's frontend is public. Instances have no direct internet inbound path; the subnet NSG only admits port 80.
 - **Default outbound through the load balancer, replaced in Lab 04.** Instances have no public IPs, so their outbound traffic (boot-time package installs) leaves through the Standard load balancer's default outbound SNAT. That is enough for this lab and needs no extra resources. It is also unmanaged and shared with inbound traffic, so Lab 04 replaces it with a NAT gateway.
-- **`Standard_D2nlds_v6` and Ubuntu 24.04.** The first plan used `Standard_B2s`, but no `B2s` capacity was available in this subscription, and `Standard_D2nlds_v6` was the size that was. The size is a variable-level detail, not an architectural one: any 2 vCPU size that supports zones works.
+- **`Standard_D2nlds_v6` and Ubuntu 24.04.** My first plan used `Standard_B2s`, but no `B2s` capacity was available in my subscription, so I used `Standard_D2nlds_v6` instead. The size is a detail I can change without touching the architecture: any 2 vCPU size that supports zones works.
 - **cloud-init bootstrap, not golden images**, at this stage. cloud-init installs `nginx` (so the load balancer probe has something to hit) and `stress-ng` (for the autoscale test) and writes a page that shows the hostname, which makes load balancing visible. Image Builder is a Future Consideration.
 - **ACI inside the VNet, not on the public internet.** The batch job is deployed into a delegated subnet of the prod VNet, so it runs on the same private network as the Lab 02 storage account. That account has been locked down since Lab 02, so the VNet and its private endpoint are the only way the job can reach it. Because it has an IP address, ACI requires a port declared at both the group and container level even though the job never listens on one (see Findings).
 - **Managed identity for storage, not keys.** The job authenticates as `id-solstice-batch`, scoped to read one container and write another. No secret is baked into the image, and the roles are separate: the job can't write to `raw-manifests` or read anything outside the two containers.
@@ -98,16 +98,16 @@ rg-solstice-compute (new)
 
 ## Known Limitations
 
-- **The batch script only processes loose `.csv` files.** The portal build uploaded the Lab 02 manifests as one `.zip`, and `batch.py` filters on `.csv`, so the Terraform run completed successfully but reported `0 manifests`. The identity, network path and write permission were still proven by the summary file it wrote. Reading zips is a small change using Python's `zipfile` module and was left out of scope.
+- **The batch script only processes loose `.csv` files.** I uploaded the Lab 02 manifests as one `.zip` in the portal build, and `batch.py` filters on `.csv`, so my Terraform run completed but reported `0 manifests`. The identity, network path and write permission were still proven by the summary file it wrote. Reading zips would be a small change using Python's `zipfile` module, but I left it out of scope.
 - **ACR admin credentials are used for image pulls.** ACI can pull with a managed identity, but that requires a user-assigned identity with `AcrPull` and, in Microsoft's walkthrough, a Premium registry. This lab uses a Basic registry with the admin account instead. The admin password lands in Terraform state (which is gitignored); in production the answer is identity-based pull.
 - **Image packages are unpinned.** `requirements.txt` lists `azure-identity` and `azure-storage-blob` without versions, so a rebuild can pick up newer releases than the build that was tested.
 - **The batch job runs once per start, not nightly.** `restart_policy = "Never"` means it executes at creation and when started manually (`az container start`). Scheduling it is future work.
 - **The load balancer is public and plain HTTP.** The API is exposed on port 80 through the load balancer so clients can reach it. There is no TLS, WAF or Application Gateway in front, and Lab 04 tightens the network around it without adding one.
 - **Boot-time package installs depend on outbound internet and an external mirror.** Every instance replacement repeats the download, which is slow, and a mirror or SNAT problem fails cloud-init without failing the deployment.
-- **Autoscale was configured but not load-tested in this run, to avoid the cost.** A real test scales the set out to extra instances for the length of the test. The rules are in place and the Verify section has the `stress-ng` procedure, but no scale-out event was captured, so this README does not claim one.
+- **I configured autoscale but didn't load-test it in this run, to avoid the cost.** A real test scales the set out to extra instances for the length of the test. The rules are in place and the Verify section has the `stress-ng` procedure, but I didn't capture a scale-out event, so this README doesn't claim one.
 - **The storage account stays locked down, so nothing can be tested from outside the VNet.** Uploading new test manifests from a laptop is refused, as in Lab 02. Anything that reads or writes blobs has to run from inside the network, which is why the batch job is the test client here.
 - **VM SKU and quota vary.** Size availability differs by region and subscription. `Standard_B2s` wasn't available here, and a different subscription may need a different size; check `az vm list-skus --location eastus --size <size> --zone`.
-- **The admin app serves the default placeholder page.** No application code is deployed to it.
+- **The admin app serves the default placeholder page.** I didn't deploy any application code to it.
 
 ## Future Considerations
 

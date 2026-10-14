@@ -1,0 +1,1101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="915" viewBox="0 0 1500 915" font-family="Segoe UI, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozODI4ZDY0OS1hZjJkLTQwMzAtYjZmMy0zY2E4MGQ5MGY1MDAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDtj4WC+IRsDP48yQibFeJ0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5NTk0NTlmMS0zOTNlLTRlZGEtOGI1NC1jNzFhYmRkNDM0MTFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoYWOGWlpAR9P/pxq6bStezwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg0bReBPaJQ9gx/9FLP2onO1JqtRoKvB2SCqPdXkxala+kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaO4mOfgRYoPZekLQMrXUODwAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDa5IF89o0Zoo6v9uJ+uCJ6qD6afIZzZ4IkLItvDfNRU2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBj4Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjM4MjhkNjQ5LWFmMmQtNDAzMC1iNmYzLTNjYTgwZDkwZjUwMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjZkM2RmZDMyLTBkYTItNGZjNC1hNDk0LThhZjU5YTBhMmIyMHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDRtF4E9olD2DH/0Us/aic7Umq1Ggq8HZIKo91eTFqVr6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggncZ2I0vr1laiXQ2zlSCnHOeRY9kA/JoP55/TF95HAaSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggkHBnqF7Z0zWU5xHcdTfWAQDLQP30p+CXBTW/hXVxtbJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQPGTWzMw5nydaiSVgmIIK8AgUULD7UnQl7ObBzTvfkhye1+eP0l2nohl9gAt+ljY7lJO+ipNpl++wT89kdZflVY=</c2pa:manifest></metadata>
+<title>Lab 04 hub-and-spoke virtual network architecture for Solstice Analytics</title>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1.5 1L8.5 5L1.5 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<symbol id="ic-Virtual_Networks" viewBox="0 0 18.006025 10.784314">
+  
+  <defs
+     id="VirtualNetworks-defs70798">
+    <linearGradient
+       id="VirtualNetworks-f020fb7e-2243-4501-8153-5d69bd3c34f7"
+       x1="9.8800001"
+       y1="8.5900002"
+       x2="11.52"
+       y2="10.23"
+       gradientTransform="rotate(-0.08,-285.46384,-1454.0801)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#86d633"
+         id="VirtualNetworks-stop70783" />
+      <stop
+         offset="1"
+         stop-color="#5e9624"
+         id="VirtualNetworks-stop70785" />
+    </linearGradient>
+    <linearGradient
+       id="VirtualNetworks-b3c2bc94-8c7c-48a2-9719-6ee899a43a97"
+       x1="6.1799998"
+       y1="8.5900002"
+       x2="7.8099999"
+       y2="10.23"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#86d633"
+         id="VirtualNetworks-stop70788" />
+      <stop
+         offset="1"
+         stop-color="#5e9624"
+         id="VirtualNetworks-stop70790" />
+    </linearGradient>
+    <linearGradient
+       id="VirtualNetworks-e900c35d-0958-4d4f-b28f-302eeaaf52f5"
+       x1="2.48"
+       y1="8.5900002"
+       x2="4.1100001"
+       y2="10.23"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#86d633"
+         id="VirtualNetworks-stop70793" />
+      <stop
+         offset="1"
+         stop-color="#5e9624"
+         id="VirtualNetworks-stop70795" />
+    </linearGradient>
+  </defs>
+  <title
+     id="VirtualNetworks-title70800">Icon-networking-61</title>
+  <circle
+     cx="12.744286"
+     cy="5.3829632"
+     r="1.16"
+     id="VirtualNetworks-circle70802"
+     style="fill:url(#VirtualNetworks-f020fb7e-2243-4501-8153-5d69bd3c34f7)" />
+  <circle
+     cx="9.0442858"
+     cy="5.3929634"
+     r="1.16"
+     id="VirtualNetworks-circle70804"
+     style="fill:url(#VirtualNetworks-b3c2bc94-8c7c-48a2-9719-6ee899a43a97)" />
+  <circle
+     cx="5.3442855"
+     cy="5.3929634"
+     r="1.16"
+     id="VirtualNetworks-circle70806"
+     style="fill:url(#VirtualNetworks-e900c35d-0958-4d4f-b28f-302eeaaf52f5)" />
+  <path
+     d="M 6.1863956,10.030542 5.5226439,10.69615 a 0.3,0.3 0 0 1 -0.4242636,5.93e-4 L 0.18421208,5.7962782 A 0.6,0.6 0 0 1 0.18302731,4.9477509 L 0.84677897,4.2821431 6.1858032,9.6062787 a 0.3,0.3 0 0 1 5.924e-4,0.4242633 z"
+     id="VirtualNetworks-path70808"
+    
+     style="fill:#50e6ff" />
+  <path
+     d="M 5.4221989,0.10117925 6.0878067,0.76493091 A 0.3,0.3 0 0 1 6.0883991,1.1891946 L 0.84193654,6.4503285 0.17632875,5.7865769 A 0.6,0.6 0 0 1 0.17514398,4.9380496 L 4.9979353,0.10177164 a 0.3,0.3 0 0 1 0.4242636,-5.9239e-4 z"
+     id="VirtualNetworks-path70810"
+    
+     style="fill:#1490df" />
+  <path
+     d="m 17.160946,4.2730297 0.663752,0.6656078 a 0.6,0.6 0 0 1 -0.0012,0.8485273 l -4.914168,4.9004642 a 0.3,0.3 0 0 1 -0.424264,-5.92e-4 l -0.663752,-0.665608 a 0.3,0.3 0 0 1 5.93e-4,-0.4242636 z"
+     id="VirtualNetworks-path70812"
+    
+     style="fill:#50e6ff" />
+  <path
+     d="M 17.822617,5.7800309 17.157009,6.4437825 11.910546,1.1826486 a 0.3,0.3 0 0 1 5.93e-4,-0.42426368 l 0.672688,-0.67081284 a 0.3,0.3 0 0 1 0.424264,5.9238e-4 l 4.822791,4.83627794 a 0.6,0.6 0 0 1 -0.0012,0.8485273 z"
+     id="VirtualNetworks-path70814"
+    
+     style="fill:#1490df" />
+  
+</symbol>
+<symbol id="ic-Subnet" viewBox="0 0 16.998 10.175">
+	<defs>
+		<linearGradient id="Subnet-A" x1="8.531" y1="6.392" x2="8.531" y2="3.782" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#5e9624"/>
+			<stop offset=".241" stop-color="#6fb02a"/>
+			<stop offset=".501" stop-color="#7cc52f"/>
+			<stop offset=".756" stop-color="#83d232"/>
+			<stop offset="1" stop-color="#86d633"/>
+		</linearGradient>
+	</defs>
+	<path d="M8.529 3.787a1.305 1.305 0 1 0 1.307 1.3 1.305 1.305 0 0 0-1.307-1.3z" fill="url(#Subnet-A)"/>
+	<path d="M5.839 9.462l-.627.629a.284.284 0 0 1-.402.001L.172 5.465a.568.568 0 0 1-.001-.803l.627-.629 5.04 5.026a.284.284 0 0 1 .001.402z" fill="#50e6ff"/>
+	<path d="M5.118.083l.628.626a.284.284 0 0 1 .001.402L.793 6.078.167 5.454a.568.568 0 0 1-.001-.803L4.718.085A.284.284 0 0 1 5.12.085z" fill="#1490df"/>
+	<path d="M16.2 4.034l.627.629a.568.568 0 0 1-.001.803l-4.639 4.626a.284.284 0 0 1-.402-.001l-.627-.629a.284.284 0 0 1 .001-.402z" fill="#50e6ff"/>
+	<path d="M16.831 5.451l-.629.627-4.953-4.967a.284.284 0 0 1 .001-.402l.628-.626a.284.284 0 0 1 .402.001l4.552 4.565a.568.568 0 0 1-.001.803z" fill="#1490df"/>
+</symbol>
+<symbol id="ic-Network_Security_Groups" viewBox="0 0 14.72 17.997572">
+  
+  <defs
+     id="NetworkSecurityGroups-defs65790">
+    <linearGradient
+       id="NetworkSecurityGroups-fe5ce43f-2823-4617-bb54-57df9e778372"
+       x1="9.0100002"
+       y1="0.75"
+       x2="9.0100002"
+       y2="17.25"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#5ea0ef"
+         id="NetworkSecurityGroups-stop65779" />
+      <stop
+         offset="0.18"
+         stop-color="#559cec"
+         id="NetworkSecurityGroups-stop65781" />
+      <stop
+         offset="0.47"
+         stop-color="#3c91e5"
+         id="NetworkSecurityGroups-stop65783" />
+      <stop
+         offset="0.84"
+         stop-color="#1380da"
+         id="NetworkSecurityGroups-stop65785" />
+      <stop
+         offset="1"
+         stop-color="#0078d4"
+         id="NetworkSecurityGroups-stop65787" />
+    </linearGradient>
+  </defs>
+  <title
+     id="NetworkSecurityGroups-title65792">Icon-networking-67</title>
+  <path
+     d="m 14.72,8.4 c 0,4.84 -5.85,8.74 -7.12,9.53 a 0.46,0.46 0 0 1 -0.48,0 C 5.85,17.14 1.2845085e-8,13.24 1.2845085e-8,8.4 V 2.58 A 0.46,0.46 0 0 1 0.45000001,2.12 C 5,2 3.95,0 7.36,0 c 3.41,0 2.36,2 6.91,2.12 a 0.46,0.46 0 0 1 0.45,0.46 z"
+     id="NetworkSecurityGroups-path65794"
+    
+     style="fill:#0078d4" />
+  <path
+     d="m 14.11,8.45 c 0,4.44 -5.36,8 -6.53,8.74 a 0.43,0.43 0 0 1 -0.44,0 C 5.97,16.47 0.61000001,12.89 0.61000001,8.45 V 3.11 A 0.42,0.42 0 0 1 1.02,2.69 C 5.19,2.58 4.23,0.75 7.36,0.75 c 3.13,0 2.17,1.83 6.34,1.94 a 0.42,0.42 0 0 1 0.41,0.42 z"
+     id="NetworkSecurityGroups-path65796"
+    
+     style="fill:#6bb9f2" />
+  <path
+     d="M 7.36,9 V 0.75 c 3.13,0 2.17,1.83 6.34,1.94 a 0.43,0.43 0 0 1 0.41,0.43 v 5.34 a 4.89,4.89 0 0 1 0,0.54 z m 0,0 H 0.64000001 C 1.04,13.18 6.02,16.5 7.14,17.19 a 0.39,0.39 0 0 0 0.18,0.06 h 0.04 z"
+     id="NetworkSecurityGroups-path65798"
+    
+     style="fill:url(#NetworkSecurityGroups-fe5ce43f-2823-4617-bb54-57df9e778372)" />
+  <path
+     d="M 1.02,2.69 C 5.19,2.58 4.23,0.75 7.36,0.75 V 9 H 0.64000001 a 4.89,4.89 0 0 1 0,-0.54 V 3.12 A 0.43,0.43 0 0 1 1.02,2.69 Z"
+     id="NetworkSecurityGroups-path65800"
+    
+     style="fill:#50e6ff" />
+  <path
+     d="M 14.08,9 H 7.36 v 8.25 0 A 0.39,0.39 0 0 0 7.54,17.19 C 8.7,16.5 13.68,13.18 14.08,9 Z"
+     id="NetworkSecurityGroups-path65802"
+    
+     style="fill:#50e6ff" />
+  
+</symbol>
+<symbol id="ic-NAT" viewBox="0 0 17.74493 17.74493">
+  
+  <defs
+     id="NAT-defs65218">
+    <linearGradient
+       id="NAT-bb278f11-acc5-4f81-a956-3c7e2103f9e0"
+       x1="9"
+       y1="18.17"
+       x2="9"
+       y2="1.506"
+       gradientTransform="rotate(45,8.7827707,9.089194)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#238ab0"
+         id="NAT-stop65211" />
+      <stop
+         offset="0.109"
+         stop-color="#2da4c8"
+         id="NAT-stop65213" />
+      <stop
+         offset="0.775"
+         stop-color="#3ed3f2"
+         id="NAT-stop65215" />
+    </linearGradient>
+  </defs>
+  <g
+     id="NAT-g65236"
+     transform="translate(-0.12674981,-0.12753514)">
+    <rect
+       x="2.553"
+       y="2.553"
+       width="12.893"
+       height="12.893"
+       rx="0.59100002"
+       transform="rotate(-45,8.999961,9.0000941)"
+       id="NAT-rect65220"
+       style="fill:url(#NAT-bb278f11-acc5-4f81-a956-3c7e2103f9e0)" />
+    <polygon
+       points="13.734,8.33 10.877,8.33 10.877,9.85 12.158,9.85 8.94,13.069 5.721,9.85 7.023,9.85 7.023,8.33 3.885,8.33 3.885,9.85 4.004,9.85 3.788,10.067 8.286,14.565 8.94,13.912 9.593,14.565 14.092,10.067 13.734,9.709 "
+       id="NAT-polygon65222"
+       style="fill:#9cebff" />
+    <g
+       id="NAT-g65228">
+      <ellipse
+         id="NAT-e7444779-97d4-41c0-b615-8f20dff7b430"
+         cx="3.977"
+         cy="9.0900002"
+         rx="1.577"
+         ry="1.585"
+         transform="rotate(-45.121,3.9765883,9.0907054)"
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-f49a3027-2a70-4956-8377-b9fde0692268"
+         cx="3.977"
+         cy="9.0900002"
+         rx="0.89600003"
+         ry="0.90499997"
+         transform="rotate(-45.061,3.9763194,9.0902711)"
+         style="fill:#86d633" />
+      <ellipse
+         id="NAT-a1afee39-6bd9-4799-a876-a587d30d68e2"
+         cx="14.014"
+         cy="9.0900002"
+         rx="1.577"
+         ry="1.585"
+         transform="rotate(-45.121,14.014661,9.090831)"
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-e3be4992-7cb5-4729-a727-b6df3846a260"
+         cx="14.014"
+         cy="9.0900002"
+         rx="0.89600003"
+         ry="0.90499997"
+         transform="rotate(-45.061,14.015122,9.0900713)"
+         style="fill:#86d633" />
+    </g>
+    <g
+       id="NAT-g65234">
+      <path
+         d="m 11.04,4.806 -2,-2 a 0.15,0.15 0 0 0 -0.213,0 l -2,2 A 0.15,0.15 0 0 0 6.933,5.063 H 8.068 A 0.107,0.107 0 0 1 8.175,5.17 V 15.433 H 9.7 V 5.17 A 0.107,0.107 0 0 1 9.8,5.063 h 1.131 A 0.15,0.15 0 0 0 11.04,4.806 Z"
+         id="NAT-path65230"
+        
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-b39a4da1-83b2-4022-9206-dc01785cf428"
+         cx="8.9350004"
+         cy="14.139"
+         rx="1.577"
+         ry="1.585"
+         transform="rotate(-45.121,8.9356423,14.138538)"
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-fc8023b8-202d-4292-8ba0-f1db060a36ef"
+         cx="8.9350004"
+         cy="14.139"
+         rx="0.89600003"
+         ry="0.90499997"
+         transform="rotate(-45.061,8.9358405,14.138373)"
+         style="fill:#86d633" />
+    </g>
+  </g>
+  
+</symbol>
+<symbol id="ic-Public_IP_Addresses" viewBox="0 0 17 13.67">
+  
+  <defs
+     id="PublicIPAddresses-defs67598">
+    <linearGradient
+       id="PublicIPAddresses-ad52e31e-75de-46af-9bdc-bea038ab4209"
+       x1="9"
+       y1="15.83"
+       x2="9"
+       y2="5.79"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#32bedd"
+         id="PublicIPAddresses-stop67589" />
+      <stop
+         offset="0.18"
+         stop-color="#32caea"
+         id="PublicIPAddresses-stop67591" />
+      <stop
+         offset="0.41"
+         stop-color="#32d2f2"
+         id="PublicIPAddresses-stop67593" />
+      <stop
+         offset="0.78"
+         stop-color="#32d4f5"
+         id="PublicIPAddresses-stop67595" />
+    </linearGradient>
+  </defs>
+  <title
+     id="PublicIPAddresses-title67600">Icon-networking-69</title>
+  <path
+     d="m 0,3.62 h 17 v 9.48 a 0.57,0.57 0 0 1 -0.57,0.57 H 0.57 A 0.57,0.57 0 0 1 0,13.1 Z"
+     id="PublicIPAddresses-path67602"
+    
+     style="fill:url(#PublicIPAddresses-ad52e31e-75de-46af-9bdc-bea038ab4209)" />
+  <path
+     d="M 0.57,0 H 16.43 A 0.57,0.57 0 0 1 17,0.57000001 V 3.62 H 0 V 0.56000001 A 0.57,0.57 0 0 1 0.57,0 Z"
+     id="PublicIPAddresses-path67604"
+    
+     style="fill:#767676" />
+  <circle
+     cx="12.32"
+     cy="8.0199995"
+     r="1.38"
+     id="PublicIPAddresses-circle67606"
+     style="fill:#f2f2f2" />
+  <circle
+     cx="8.5600004"
+     cy="8.0199995"
+     r="1.38"
+     id="PublicIPAddresses-circle67608"
+     style="fill:#f2f2f2" />
+  <circle
+     cx="4.6799998"
+     cy="8.0199995"
+     r="1.38"
+     id="PublicIPAddresses-circle67610"
+     style="fill:#f2f2f2" />
+  <rect
+     x="2.29"
+     y="1.08"
+     width="12.43"
+     height="1.46"
+     rx="0.28"
+     id="PublicIPAddresses-rect67612"
+     style="fill:#f2f2f2" />
+  
+</symbol>
+<symbol id="ic-Load_Balancers" viewBox="0 0 18.003101 18.003065">
+  
+  <defs
+     id="LoadBalancers-defs65009">
+    <linearGradient
+       id="LoadBalancers-ef84663a-a7b6-46a7-a275-1e419f5eae62"
+       x1="9"
+       y1="19.85"
+       x2="9"
+       y2="-1.02"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#5e9624"
+         id="LoadBalancers-stop65002" />
+      <stop
+         offset="0.02"
+         stop-color="#5f9724"
+         id="LoadBalancers-stop65004" />
+      <stop
+         offset="1"
+         stop-color="#76bc2d"
+         id="LoadBalancers-stop65006" />
+    </linearGradient>
+  </defs>
+  <title
+     id="LoadBalancers-title65011">Icon-networking-62</title>
+  <path
+     d="M 0.18155048,8.5715505 8.5715505,0.18155048 a 0.6,0.6 0 0 1 0.86,0 L 17.82155,8.5715505 a 0.6,0.6 0 0 1 0,0.86 L 9.4215505,17.83155 a 0.6,0.6 0 0 1 -0.84,0 L 0.18155048,9.4315505 a 0.6,0.6 0 0 1 0,-0.86 z"
+     id="LoadBalancers-path65013"
+    
+     style="fill:url(#LoadBalancers-ef84663a-a7b6-46a7-a275-1e419f5eae62)" />
+  <path
+     d="m 11.20155,4.0015505 -2.1199995,-2.11 a 0.12,0.12 0 0 0 -0.16,0 l -2.12,2.11 a 0.1,0.1 0 0 0 0.08,0.18 h 1.24 a 0.11,0.11 0 0 1 0.11,0.11 v 2 a 0.11,0.11 0 0 0 0.11,0.11 h 1.32 a 0.11,0.11 0 0 0 0.11,-0.11 v -2 a 0.11,0.11 0 0 1 0.11,-0.11 H 11.12155 a 0.1,0.1 0 0 0 0.08,-0.18 z"
+     id="LoadBalancers-path65015"
+    
+     style="fill:#b4ec36" />
+  <path
+     d="m 4.0015505,6.6115505 -2.1,2.13 a 0.11,0.11 0 0 0 0,0.15 l 2.1,2.1099995 a 0.11,0.11 0 0 0 0.19,-0.08 V 9.6915505 a 0.11,0.11 0 0 1 0.11,-0.11 h 2 a 0.1,0.1 0 0 0 0.1,-0.11 v -1.32 a 0.1,0.1 0 0 0 -0.07,-0.15 h -2 a 0.1,0.1 0 0 1 -0.11,-0.1 v -1.21 a 0.117047,0.117047 0 0 0 -0.22,-0.08 z"
+     id="LoadBalancers-path65017"
+    
+     style="fill:#b4ec36" />
+  <path
+     d="m 14.08155,11.00155 2.13,-2.1199995 a 0.11,0.11 0 0 0 0,-0.15 l -2.13,-2.12 a 0.11,0.11 0 0 0 -0.18,0.08 v 1.25 a 0.1,0.1 0 0 1 -0.11,0.1 h -2 a 0.1,0.1 0 0 0 -0.1,0.11 v 1.32 a 0.1,0.1 0 0 0 0.1,0.11 h 2 a 0.11,0.11 0 0 1 0.11,0.11 V 10.93155 a 0.11,0.11 0 0 0 0.18,0.07 z"
+     id="LoadBalancers-path65019"
+    
+     style="fill:#b4ec36" />
+  <path
+     d="M 11.79155,9.0015505 A 2.79,2.79 0 1 0 8.2515505,11.67155 v 0.95 a 1.71,1.71 0 1 0 1.57,0 v -1 A 2.77,2.77 0 0 0 11.79155,9.0015505 Z"
+     id="LoadBalancers-path65021"
+    
+     style="fill:#ffffff" />
+  <circle
+     id="LoadBalancers-e99c3387-15c3-4f28-bd4b-cb209b430e06"
+     cx="9.0115509"
+     cy="8.9915504"
+     r="1.62"
+     style="fill:#5ea0ef" />
+  
+</symbol>
+<symbol id="ic-Private_Endpoint" viewBox="0 0 53.798553 49.537819">
+  <defs
+     id="PrivateEndpoint-defs2" />
+  
+  
+  <g
+    
+    
+     id="PrivateEndpoint-layer1"
+     transform="translate(-77.843845,-68.46614)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#7b7b7b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 102.94336,75.623047 v 24.320312 h 3.40039 V 75.623047 Z"
+       id="PrivateEndpoint-path4546"
+       />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#369dc6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.53865981;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="PrivateEndpoint-path4529"
+       cx="104.74665"
+       cy="73.30896"
+       r="4.8428197" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#84b926;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.53865981;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="PrivateEndpoint-path4529-0"
+       cx="104.7939"
+       cy="103.04635"
+       r="5.9295011" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#369dc6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 116.61133,88.082031 a 1.70017,1.70017 0 0 0 -1.16016,2.929688 l 12.07422,11.873051 -12.24805,12.20312 a 1.70017,1.70017 0 1 0 2.39844,2.41016 l 13.4668,-13.41797 a 1.70017,1.70017 0 0 0 -0.008,-2.41602 L 117.83594,88.587891 a 1.70017,1.70017 0 0 0 -1.22461,-0.50586 z m -23.787111,0.002 a 1.70017,1.70017 0 0 0 -1.173828,0.503907 L 78.351562,101.66406 a 1.70017,1.70017 0 0 0 -0.0078,2.41602 l 13.466797,13.41797 a 1.70017,1.70017 0 1 0 2.398437,-2.41016 L 81.960938,102.88477 94.035156,91.011719 a 1.70017,1.70017 0 0 0 -1.210937,-2.927735 z"
+       id="PrivateEndpoint-path4548-6"
+       />
+  </g>
+</symbol>
+<symbol id="ic-DNS_Zones" viewBox="0 0 16.967587 16.971489">
+  
+  <defs
+     id="DNSZones-defs63912">
+    <radialGradient
+       id="DNSZones-e7579f4d-36a3-4693-a726-7a6050ac5671"
+       cx="-6811.3999"
+       cy="6729.6899"
+       r="17"
+       gradientTransform="matrix(0.5,0,0,-0.5,3414.91,3374.05)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.18"
+         stop-color="#5ea0ef"
+         id="DNSZones-stop63907" />
+      <stop
+         offset="1"
+         stop-color="#0078d4"
+         id="DNSZones-stop63909" />
+    </radialGradient>
+  </defs>
+  <title
+     id="DNSZones-title63914">Icon-networking-64</title>
+  <path
+     id="DNSZones-f57e105d-6d2d-4ad7-b8c3-c10684c9f9b8"
+     d="M 13.713088,15.188401 A 8.5030877,8.5030877 0 0 1 3.2930877,1.7484011 l 0.09,-0.06 A 8.5,8.5 0 0 1 13.713088,15.188401"
+    
+     style="fill:url(#DNSZones-e7579f4d-36a3-4693-a726-7a6050ac5671)" />
+  <path
+     d="M 8.5030877,0.77840107 A 7.69,7.69 0 1 0 16.193088,8.4684011 7.7,7.7 0 0 0 8.5030877,0.77840107 Z M 13.653088,3.3684011 a 7.37,7.37 0 0 1 -2.15,0.8 8.83,8.83 0 0 0 -1.25,-2.7 7.2,7.2 0 0 1 3.4,1.9 z m -5.1500003,-2.16 a 6.59,6.59 0 0 1 1.09,0.09 v 0 a 7.48,7.48 0 0 1 1.5300003,3 15.12,15.12 0 0 1 -5.4500003,0 7.38,7.38 0 0 1 1.51,-2.94 v 0 a 7.34,7.34 0 0 1 1.32,-0.15 z m -2,0.26 a 8.72,8.72 0 0 0 -1.27,2.68 5.58,5.58 0 0 1 -1.9,-0.77 7.35,7.35 0 0 1 3.17,-1.91 z m -3.28,11.9999999 a 5.27,5.27 0 0 1 1.78,-0.76 7.08,7.08 0 0 0 1.35,2.72 7.25,7.25 0 0 1 -3.13,-1.96 z m 6.41,2.2 a 7.08,7.08 0 0 1 -1.13,0.06 6.83,6.83 0 0 1 -1.44,-0.15 v 0 a 6,6 0 0 1 -1.67,-3 14.73,14.73 0 0 1 5.8800003,0 6,6 0 0 1 -1.6900003,3 z m 0.7300003,-0.16 a 7.13,7.13 0 0 0 1.38,-2.8 6.68,6.68 0 0 1 2,0.83 7.13,7.13 0 0 1 -3.38,1.93 z m 1.48,-3.22 c 0.08,-0.36 0.15,-0.73 0.2,-1.12 l -0.46,0.11 c -0.05,0.31 -0.1,0.62 -0.17,0.91 a 15.23,15.23 0 0 0 -6.0900003,0 c -0.07,-0.27 -0.12,-0.56 -0.17,-0.86 a 0.28,0.28 0 0 1 0,-0.09 l -0.46,-0.13 a 2.36,2.36 0 0 0 0,0.28 c 0,0.32 0.11,0.62 0.17,0.91 a 5.9,5.9 0 0 0 -2,0.85 7.24,7.24 0 0 1 0.11,-9.3999999 6.29,6.29 0 0 0 2.08,0.86 c -0.07,0.24 -0.13,0.5 -0.18,0.76 -0.05,0.26 0,0.25 -0.08,0.37 l 0.47,-0.11 v -0.17 c 0.06,-0.26 0.12,-0.51 0.19,-0.75 a 14.89,14.89 0 0 0 3.05,0.24 15,15 0 0 0 2.7800003,-0.26 c 0.07,0.27 0.14,0.56 0.2,0.85 l 0.46,0.11 q -0.11,-0.54 -0.24,-1 a 7.73,7.73 0 0 0 2.3,-0.91 7.22,7.22 0 0 1 0.06,9.4899999 7.28,7.28 0 0 0 -2.22,-0.97 z"
+     id="DNSZones-path63917"
+    
+     style="fill:#5ea0ef" />
+  <path
+     d="m 3.1930877,6.4684011 a 7.92,7.92 0 0 1 1.16,-0.08 2.44,2.44 0 0 1 1.71,0.52 2,2 0 0 1 0.59,1.46 2.21,2.21 0 0 1 -0.61,1.6399999 2.6,2.6 0 0 1 -1.86,0.61 9.17,9.17 0 0 1 -1,-0.05 z m 0.55,3.7299999 a 4,4 0 0 0 0.55,0 1.62,1.62 0 0 0 1.79,-1.8099999 1.5,1.5 0 0 0 -1.71,-1.62 3.17,3.17 0 0 0 -0.63,0 z"
+     id="DNSZones-path63919"
+    
+     style="fill:#ffffff" />
+  <path
+     d="M 7.3630877,10.578401 V 6.3684011 h 0.59 l 1.35,2.1 a 12.18,12.18 0 0 1 0.7600003,1.37 v 0 c -0.05,-0.56 -0.06,-1.07 -0.06,-1.73 v -1.74 h 0.5 V 10.578401 H 9.9530877 l -1.32,-2.1099999 c -0.29,-0.47 -0.57,-1 -0.79,-1.4 v 0 c 0,0.53 0,1 0,1.74 v 1.7999999 z"
+     id="DNSZones-path63921"
+    
+     style="fill:#ffffff" />
+  <path
+     d="m 11.393088,9.9184011 a 2,2 0 0 0 1,0.2699999 c 0.56,0 0.88,-0.2899999 0.88,-0.7199999 0,-0.43 -0.22,-0.62 -0.79,-0.83 -0.57,-0.21 -1.12,-0.6 -1.12,-1.2 a 1.22,1.22 0 0 1 1.37,-1.14 2,2 0 0 1 0.93,0.2 l -0.16,0.45 a 1.63,1.63 0 0 0 -0.8,-0.2 c -0.58,0 -0.8,0.34 -0.8,0.63 0,0.29 0.26,0.59 0.84,0.81 0.58,0.22 1.08,0.62 1.08,1.24 0,0.6199999 -0.48,1.2099999 -1.48,1.2099999 a 2.16,2.16 0 0 1 -1.07,-0.27 z"
+     id="DNSZones-path63923"
+    
+     style="fill:#ffffff" />
+  
+</symbol>
+<symbol id="ic-Virtual_Machine" viewBox="0 0 18 16.629999">
+  
+  <defs
+     id="VirtualMachine-defs9590">
+    <linearGradient
+       id="VirtualMachine-f34d9569-2bd0-4002-8f16-3d01d8106cb5"
+       x1="8.8800001"
+       y1="12.21"
+       x2="8.8800001"
+       y2="0.20999999"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="VirtualMachine-stop9580" />
+      <stop
+         offset="0.82"
+         stop-color="#5ea0ef"
+         id="VirtualMachine-stop9582" />
+    </linearGradient>
+    <linearGradient
+       id="VirtualMachine-bdb45a0b-eb58-4970-a60a-fb2ce314f866"
+       x1="8.8800001"
+       y1="16.84"
+       x2="8.8800001"
+       y2="12.21"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.15"
+         stop-color="#ccc"
+         id="VirtualMachine-stop9585" />
+      <stop
+         offset="1"
+         stop-color="#707070"
+         id="VirtualMachine-stop9587" />
+    </linearGradient>
+  </defs>
+  <title
+     id="VirtualMachine-title9592">Icon-compute-21</title>
+  <rect
+     x="0"
+     y="0"
+     width="18"
+     height="12"
+     rx="0.60000002"
+     id="VirtualMachine-rect9594"
+     style="fill:url(#VirtualMachine-f34d9569-2bd0-4002-8f16-3d01d8106cb5)" />
+  <polygon
+     points="8.88,9.71 8.88,6.21 11.88,4.46 11.88,7.95 "
+     id="VirtualMachine-polygon9596"
+     style="fill:#50e6ff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="5.88,4.46 8.88,2.71 11.88,4.46 8.88,6.22 "
+     id="VirtualMachine-polygon9598"
+     style="fill:#c3f1ff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="5.88,7.95 5.88,4.46 8.88,6.22 8.88,9.71 "
+     id="VirtualMachine-polygon9600"
+     style="fill:#9cebff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="8.88,9.71 5.88,7.95 8.88,6.21 "
+     id="VirtualMachine-polygon9602"
+     style="fill:#c3f1ff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="8.88,9.71 11.88,7.95 8.88,6.21 "
+     id="VirtualMachine-polygon9604"
+     style="fill:#9cebff"
+     transform="translate(0.12,-0.20999999)" />
+  <path
+     d="M 12.61,15.63 C 10.83,15.35 10.76,14.07 10.76,12 H 7.23 c 0,2.07 -0.06,3.35 -1.84,3.63 a 1,1 0 0 0 -0.89,1 h 9 a 1,1 0 0 0 -0.89,-1 z"
+     id="VirtualMachine-path9606"
+    
+     style="fill:url(#VirtualMachine-bdb45a0b-eb58-4970-a60a-fb2ce314f866)" />
+  
+</symbol>
+<symbol id="ic-VM_Scale_Sets" viewBox="0 0 17 17">
+  
+  <defs
+     id="VMScaleSets-defs10077">
+    <linearGradient
+       id="VMScaleSets-b816c8ea-05a2-41fb-ba99-96d84599c9f4"
+       x1="12.74"
+       y1="15.28"
+       x2="12.74"
+       y2="8.5200005"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="VMScaleSets-stop10067" />
+      <stop
+         offset="0.82"
+         stop-color="#5ea0ef"
+         id="VMScaleSets-stop10069" />
+    </linearGradient>
+    <linearGradient
+       id="VMScaleSets-ab373d88-41af-4fc3-b172-d4489f9107a0"
+       x1="12.74"
+       y1="17.889999"
+       x2="12.74"
+       y2="15.28"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.15"
+         stop-color="#ccc"
+         id="VMScaleSets-stop10072" />
+      <stop
+         offset="1"
+         stop-color="#707070"
+         id="VMScaleSets-stop10074" />
+    </linearGradient>
+  </defs>
+  <title
+     id="VMScaleSets-title10079">Icon-compute-34</title>
+  <rect
+     x="0"
+     y="0"
+     width="10.11"
+     height="6.75"
+     rx="0.34"
+     id="VMScaleSets-rect10081"
+     style="fill:#005ba1" />
+  <polygon
+     points="5.85,6.23 5.85,4.27 7.53,3.28 7.53,5.25 "
+     id="VMScaleSets-polygon10083"
+     style="fill:#50e6ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="4.16,3.28 5.85,2.29 7.53,3.28 5.85,4.27 "
+     id="VMScaleSets-polygon10085"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="4.16,5.25 4.16,3.28 5.85,4.27 5.85,6.23 "
+     id="VMScaleSets-polygon10087"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <rect
+     x="3.9700003"
+     y="3.8700004"
+     width="10.11"
+     height="6.75"
+     rx="0.34"
+     id="VMScaleSets-rect10089"
+     style="fill:#0078d4" />
+  <polygon
+     points="9.82,10.11 9.82,8.14 11.5,7.16 11.5,9.12 "
+     id="VMScaleSets-polygon10091"
+     style="fill:#50e6ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="8.13,7.16 9.82,6.17 11.5,7.16 9.82,8.14 "
+     id="VMScaleSets-polygon10093"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="8.13,9.12 8.13,7.16 9.82,8.14 9.82,10.11 "
+     id="VMScaleSets-polygon10095"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <rect
+     x="6.8899999"
+     y="7.6300006"
+     width="10.11"
+     height="6.75"
+     rx="0.34"
+     id="VMScaleSets-rect10097"
+     style="fill:url(#VMScaleSets-b816c8ea-05a2-41fb-ba99-96d84599c9f4)" />
+  <polygon
+     points="12.74,13.87 12.74,11.9 14.42,10.92 14.42,12.88 "
+     id="VMScaleSets-polygon10099"
+     style="fill:#50e6ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="11.05,10.92 12.74,9.93 14.42,10.92 12.74,11.91 "
+     id="VMScaleSets-polygon10101"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="11.05,12.88 11.05,10.92 12.74,11.91 12.74,13.87 "
+     id="VMScaleSets-polygon10103"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="12.74,13.87 11.05,12.88 12.74,11.9 "
+     id="VMScaleSets-polygon10105"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="12.74,13.87 14.42,12.88 12.74,11.9 "
+     id="VMScaleSets-polygon10107"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <path
+     d="m 13.97,16.43 c -1,-0.16 -1,-0.88 -1,-2 h -2 c 0,1.16 0,1.88 -1,2 A 0.59,0.59 0 0 0 9.47,17 h 5 a 0.59,0.59 0 0 0 -0.5,-0.57 z"
+     id="VMScaleSets-path10109"
+    
+     style="fill:url(#VMScaleSets-ab373d88-41af-4fc3-b172-d4489f9107a0)" />
+  
+</symbol>
+<symbol id="ic-Container_Instances" viewBox="0 0 16.889999 18.00601">
+  
+  <defs
+     id="ContainerInstances-defs4096">
+    <linearGradient
+       id="ContainerInstances-f7543904-4a89-435e-96cd-11521c829faa"
+       x1="9"
+       y1="11.95"
+       x2="9"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="ContainerInstances-stop4085" />
+      <stop
+         offset="0.16"
+         stop-color="#1380da"
+         id="ContainerInstances-stop4087" />
+      <stop
+         offset="0.53"
+         stop-color="#3c91e5"
+         id="ContainerInstances-stop4089" />
+      <stop
+         offset="0.82"
+         stop-color="#559cec"
+         id="ContainerInstances-stop4091" />
+      <stop
+         offset="1"
+         stop-color="#5ea0ef"
+         id="ContainerInstances-stop4093" />
+    </linearGradient>
+  </defs>
+  <title
+     id="ContainerInstances-title4098">Icon-containers-104</title>
+  <path
+     d="m 16.89,8.2124895 a 3.78,3.78 0 0 0 -3.29,-3.64 A 4.77,4.77 0 0 0 8.68,0.00248954 4.91,4.91 0 0 0 4,3.1924895 a 4.52,4.52 0 0 0 -4,4.35 4.6,4.6 0 0 0 4.78,4.4600005 h 0.42 7.68 0.21 a 3.84,3.84 0 0 0 3.8,-3.7900005 z"
+     id="ContainerInstances-path4100"
+    
+     style="fill:url(#ContainerInstances-f7543904-4a89-435e-96cd-11521c829faa)" />
+  <path
+     d="m 5.82,6.4624895 2.64,-2.59 a 0.3,0.3 0 0 1 0.43,0 l 2.57,2.59 a 0.13,0.13 0 0 1 -0.1,0.23 H 9.74 a 0.15,0.15 0 0 0 -0.14,0.14 V 10.07249 a 0.11,0.11 0 0 1 -0.11,0.11 H 7.75 a 0.11,0.11 0 0 1 -0.11,-0.11 V 6.8324895 a 0.14,0.14 0 0 0 -0.13,-0.14 h -1.6 a 0.13,0.13 0 0 1 -0.09,-0.23 z"
+     id="ContainerInstances-path4102"
+    
+     style="fill:#f2f2f2" />
+  <path
+     d="m 13.46,11.37249 a 0.13,0.13 0 0 0 -0.09,-0.13 L 8.62,9.6524895 H 8.46 V 18.00249 h 0.13 l 4.71,-1.88 a 0.13,0.13 0 0 0 0.16,-0.12 z"
+     id="ContainerInstances-path4104"
+    
+     style="fill:#a67af4" />
+  <path
+     d="M 8.46,9.6824895 3.95,10.51249 a 0.14,0.14 0 0 0 -0.12,0.13 v 6.23 a 0.15,0.15 0 0 0 0.11,0.14 l 4.52,0.99 a 0.13,0.13 0 0 0 0.16,-0.13 V 9.8724895 a 0.14,0.14 0 0 0 -0.16,-0.19 z"
+     id="ContainerInstances-path4106"
+    
+     style="fill:#552f99" />
+  <polygon
+     points="8.49,16.98 8.49,10.65 6.92,10.92 6.92,16.73 "
+     id="ContainerInstances-polygon4108"
+     style="opacity:0.75;fill:#b77af4"
+     transform="translate(-0.54,0.00248954)" />
+  <polygon
+     points="6.35,16.6 6.35,11.01 4.98,11.24 4.98,16.32 "
+     id="ContainerInstances-polygon4110"
+     style="opacity:0.75;fill:#b77af4"
+     transform="translate(-0.54,0.00248954)" />
+  
+</symbol>
+<symbol id="ic-Storage_Accounts" viewBox="0 0 17 13.67">
+  
+  <defs
+     id="StorageAccounts-defs75527">
+    <linearGradient
+       id="StorageAccounts-ad4c4f96-09aa-4f91-ba10-5cb8ad530f74"
+       x1="9"
+       y1="15.83"
+       x2="9"
+       y2="5.79"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#b3b3b3"
+         id="StorageAccounts-stop75520" />
+      <stop
+         offset="0.26"
+         stop-color="#c1c1c1"
+         id="StorageAccounts-stop75522" />
+      <stop
+         offset="1"
+         stop-color="#e6e6e6"
+         id="StorageAccounts-stop75524" />
+    </linearGradient>
+  </defs>
+  <title
+     id="StorageAccounts-title75529">Icon-storage-86</title>
+  <path
+     d="m 0,3.62 h 17 v 9.48 a 0.57,0.57 0 0 1 -0.57,0.57 H 0.57 A 0.57,0.57 0 0 1 0,13.1 Z"
+     id="StorageAccounts-path75531"
+    
+     style="fill:url(#StorageAccounts-ad4c4f96-09aa-4f91-ba10-5cb8ad530f74)" />
+  <path
+     d="M 0.57,0 H 16.43 A 0.57,0.57 0 0 1 17,0.57000001 V 3.62 H 0 V 0.56000001 A 0.57,0.57 0 0 1 0.57,0 Z"
+     id="StorageAccounts-path75533"
+    
+     style="fill:#37c2b1" />
+  <path
+     d="m 2.31,4.72 h 12.37 a 0.27,0.27 0 0 1 0.26,0.27 v 1.4 A 0.27,0.27 0 0 1 14.68,6.66 H 2.31 A 0.27,0.27 0 0 1 2.05,6.39 V 4.99 A 0.27,0.27 0 0 1 2.31,4.72 Z"
+     id="StorageAccounts-path75535"
+    
+     style="fill:#ffffff" />
+  <path
+     d="m 2.32,7.51 h 12.37 a 0.27,0.27 0 0 1 0.26,0.27 V 9.19 A 0.27,0.27 0 0 1 14.69,9.46 H 2.32 A 0.27,0.27 0 0 1 2.06,9.19 V 7.83 A 0.27,0.27 0 0 1 2.32,7.51 Z"
+     id="StorageAccounts-path75537"
+    
+     style="fill:#37c2b1" />
+  <path
+     d="m 2.32,10.33 h 12.37 a 0.27,0.27 0 0 1 0.26,0.27 v 1.41 a 0.27,0.27 0 0 1 -0.26,0.27 H 2.32 A 0.27,0.27 0 0 1 2.06,12.01 V 10.6 a 0.27,0.27 0 0 1 0.26,-0.27 z"
+     id="StorageAccounts-path75539"
+    
+     style="fill:#258277" />
+  
+</symbol>
+<symbol id="ic-Globe" viewBox="0 0 14.3701 17">
+  
+  <defs
+     id="Globe-defs25852">
+    <linearGradient
+       id="Globe-bc325d07-864b-4946-a0b7-6e17647feb1e"
+       x1="-212.049"
+       y1="722.745"
+       x2="-212.049"
+       y2="734.87097"
+       gradientTransform="matrix(0.707,0.707,0.707,-0.707,-355.725,672.349)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="Globe-stop25844" />
+      <stop
+         offset="0.82"
+         stop-color="#5ea0ef"
+         id="Globe-stop25846" />
+    </linearGradient>
+    <clipPath
+       id="Globe-a2d3a9ab-6b81-49cc-a6d0-1eb27e4d8e5e">
+      <circle
+         cx="7.8709998"
+         cy="6.5630002"
+         r="6.0630002"
+         id="Globe-circle25849"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <title
+     id="Globe-title25854">MsPortalFx.base.images-68</title>
+  <g
+     id="Globe-ae08251c-f90b-45c3-901b-bcb035722af4"
+     transform="translate(-1.8079996,-0.5)">
+    <g
+       id="Globe-g25880">
+      <path
+         d="m 9.3,14.752 c 0,-0.154 -0.613,-0.154 -0.613,0 a 1.656,1.656 0 0 1 -1.636,1.8 h 3.882 A 1.655,1.655 0 0 1 9.3,14.752 Z"
+         id="Globe-path25856"
+        
+         style="fill:#ef7100" />
+      <path
+         d="m 13.335,1.1 a 0.571,0.571 0 0 1 0.807,0 l 0.026,0.028 a 8.32,8.32 0 0 1 -11.736,11.73 0.57,0.57 0 0 1 -0.049,-0.8 l 0.025,-0.026 v 0 A 0.571,0.571 0 0 1 3.19,12 7.178,7.178 0 0 0 13.312,1.882 0.573,0.573 0 0 1 13.335,1.1 Z"
+         id="Globe-path25858"
+        
+         style="fill:#f78d1e" />
+      <path
+         d="m 11.946,17.5 h -5.9 A 0.476,0.476 0 0 1 5.57,17.024 v 0 a 0.476,0.476 0 0 1 0.476,-0.476 h 5.9 a 0.476,0.476 0 0 1 0.475,0.476 v 0 A 0.476,0.476 0 0 1 11.946,17.5 Z"
+         id="Globe-path25860"
+        
+         style="fill:#f78d1e" />
+      <circle
+         cx="7.8709998"
+         cy="6.5630002"
+         r="6.0630002"
+         id="Globe-circle25862"
+         style="fill:url(#Globe-bc325d07-864b-4946-a0b7-6e17647feb1e)" />
+      <g
+         clip-path="url(#Globe-a2d3a9ab-6b81-49cc-a6d0-1eb27e4d8e5e)"
+         id="Globe-g25878">
+        <path
+           d="m 0.724,1.776 1.962,1.962 a 0.839,0.839 0 0 1 0,1.187 v 0 a 0.839,0.839 0 0 1 -1.187,0 L -0.463,2.963 a 0.839,0.839 0 0 1 0,-1.187 v 0 a 0.841,0.841 0 0 1 1.187,0 z"
+           id="Globe-path25864"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 6.7,5.389 v 0 a 0.839,0.839 0 0 1 0,1.187 v 0 a 0.841,0.841 0 0 1 -1.187,0 v 0 a 0.841,0.841 0 0 1 0,-1.187 v 0 a 0.839,0.839 0 0 1 1.187,0 z"
+           id="Globe-path25866"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 3.871,-1.974 3.286,3.286 a 1.407,1.407 0 0 1 0,1.989 v 0 a 1.407,1.407 0 0 1 -1.989,0 L 1.882,0.015 a 1.407,1.407 0 0 1 0,-1.989 v 0 a 1.407,1.407 0 0 1 1.989,0 z"
+           id="Globe-path25868"
+          
+           style="fill:#42e8ca" />
+        <rect
+           x="12.667"
+           y="3.516"
+           width="4.5960002"
+           height="12.191"
+           rx="2.2969999"
+           transform="rotate(-45,14.96511,9.6112487)"
+           id="Globe-rect25870"
+           style="fill:#42e8ca" />
+        <path
+           d="m 9.744,11.85 6.119,6.119 a 2.618,2.618 0 0 1 0,3.7 v 0 a 2.618,2.618 0 0 1 -3.7,0 L 6.041,15.554 a 2.619,2.619 0 0 1 0,-3.7 v 0 A 2.619,2.619 0 0 1 9.744,11.85 Z"
+           id="Globe-path25872"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 10.478,9.637 a 0.446,0.446 0 0 0 0.63,0 v 0 0 a 0.445,0.445 0 0 0 0,-0.63 v 0 l 5.04,5.039 -1.407,1.418"
+           id="Globe-path25874"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 10.487,9.646 1.468,1.468 a 0.606,0.606 0 0 1 0,0.856 v 0 a 0.606,0.606 0 0 1 -0.856,0 L 9.631,10.5 a 0.606,0.606 0 0 1 0,-0.856 v 0 a 0.606,0.606 0 0 1 0.856,0.002 z"
+           id="Globe-path25876"
+          
+           style="fill:#42e8ca" />
+      </g>
+    </g>
+  </g>
+  
+</symbol>
+</defs>
+<rect width="1500" height="915" fill="#FFFFFF"/>
+<text x="30" y="34" font-size="22" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Lab 04 · Hub-and-spoke virtual networking</text>
+<text x="30" y="62" font-size="12.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Solstice Analytics · rg-solstice-network · East US · as defined in Terraform (27 resource instances)</text>
+<rect x="640" y="100" width="280" height="60" rx="30" fill="#F7F7F4" stroke="#A9A79E" stroke-width="1"/>
+<use href="#ic-Globe" x="668" y="115" width="25" height="30"/>
+<text x="704" y="122" font-size="13.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Internet</text>
+<text x="704" y="140" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">inbound HTTP and outbound egress</text>
+<rect x="40" y="100" width="290" height="60" rx="8" fill="#EAF2FB" stroke="#2F6FB0" stroke-width="1"/>
+<use href="#ic-Load_Balancers" x="50" y="115.0" width="30" height="30"/>
+<text x="90" y="122.0" font-size="12.5" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">lb-dashboard-api</text>
+<text x="90" y="138.0" font-size="11" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">Standard LB · pip-dashboard-api · Lab 03</text>
+<line x1="638" y1="130" x2="333" y2="130" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="485" y="119" font-size="11" font-weight="600" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">HTTP 80</text>
+<rect x="30" y="200" width="520" height="612" rx="18" fill="#F1EFE8" stroke="#8A8880" stroke-width="1"/>
+<use href="#ic-Virtual_Networks" x="80" y="218" width="34" height="21"/>
+<text x="124" y="222" font-size="14.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">vnet-solstice-prod</text>
+<text x="124" y="241" font-size="11.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">10.1.0.0/16 · from Labs 02 and 03</text>
+<rect x="42" y="262" width="496" height="206" rx="12" fill="none" stroke="#9C9A92" stroke-width="1" stroke-dasharray="5 4"/>
+<use href="#ic-Subnet" x="72" y="276" width="20" height="12"/>
+<text x="98" y="282" font-size="12" font-weight="600" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-compute · 10.1.1.0/24</text>
+<rect x="50" y="300" width="222" height="70" rx="8" fill="#E4F5EE" stroke="#2F8A68" stroke-width="1"/>
+<use href="#ic-VM_Scale_Sets" x="60" y="320.0" width="30" height="30"/>
+<text x="100" y="319.0" font-size="12.5" font-weight="700" fill="#0B4F3A" text-anchor="start" dominant-baseline="central">vmss-dashboard-api</text>
+<text x="100" y="335.0" font-size="11" font-weight="400" fill="#0B4F3A" text-anchor="start" dominant-baseline="central">VM scale set · 2 to 6</text>
+<text x="100" y="351.0" font-size="11" font-weight="400" fill="#0B4F3A" text-anchor="start" dominant-baseline="central">zones 1, 2, 3 · Lab 03</text>
+<rect x="284" y="300" width="246" height="70" rx="8" fill="#EFEEFD" stroke="#6C63C7" stroke-width="1"/>
+<use href="#ic-NAT" x="294" y="320.0" width="30" height="30"/>
+<text x="334" y="319.0" font-size="12.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">natgw-prod-compute</text>
+<text x="334" y="335.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">NAT gateway (Standard)</text>
+<text x="334" y="351.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">pip-nat-prod-compute</text>
+<rect x="484" y="292" width="38" height="17" rx="8.5" fill="#0F6E56"/>
+<text x="503" y="301" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">NEW</text>
+<rect x="50" y="376" width="480" height="92" rx="8" fill="#FDF4E6" stroke="#C98A2B" stroke-width="1"/>
+<use href="#ic-Network_Security_Groups" x="60" y="400" width="25" height="30"/>
+<text x="96" y="388" font-size="12.5" font-weight="700" fill="#7A4B08" text-anchor="start" dominant-baseline="central">nsg-prod-compute</text>
+<text x="225" y="388" font-size="11" font-weight="400" fill="#7A4B08" text-anchor="start" dominant-baseline="central">Lab 03 NSG, rules added in Lab 04</text>
+<text x="96" y="402" font-size="10.5" font-weight="600" fill="#7A4B08" text-anchor="start" dominant-baseline="central">105   allow TCP 80 from AzureLoadBalancer (health probe)</text>
+<text x="96" y="415" font-size="10.5" font-weight="400" fill="#7A4B08" text-anchor="start" dominant-baseline="central">100  allow TCP 80 from Internet (Lab 03)</text>
+<text x="96" y="428" font-size="10.5" font-weight="600" fill="#7A4B08" text-anchor="start" dominant-baseline="central">110  allow TCP 22 from 10.0.1.0/24 (hub ops)</text>
+<text x="96" y="441" font-size="10.5" font-weight="600" fill="#A32D2D" text-anchor="start" dominant-baseline="central">120  deny all from 10.2.0.0/16 (dev)</text>
+<text x="96" y="454" font-size="10.5" font-weight="700" fill="#A32D2D" text-anchor="start" dominant-baseline="central">4096 deny all inbound</text>
+<text x="518" y="402" font-size="10" font-weight="700" fill="#0F6E56" text-anchor="end" dominant-baseline="central">new</text>
+<text x="518" y="428" font-size="10" font-weight="700" fill="#0F6E56" text-anchor="end" dominant-baseline="central">new</text>
+<text x="518" y="441" font-size="10" font-weight="700" fill="#0F6E56" text-anchor="end" dominant-baseline="central">new</text>
+<text x="518" y="454" font-size="10" font-weight="700" fill="#0F6E56" text-anchor="end" dominant-baseline="central">new</text>
+<line x1="60" y1="162" x2="60" y2="298" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="42" y="480" width="496" height="92" rx="12" fill="none" stroke="#9C9A92" stroke-width="1" stroke-dasharray="5 4"/>
+<use href="#ic-Subnet" x="72" y="494" width="20" height="12"/>
+<text x="98" y="500" font-size="12" font-weight="600" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-batch · 10.1.3.0/24 · delegated to ACI</text>
+<rect x="50" y="516" width="300" height="48" rx="8" fill="#FBEFEA" stroke="#B4583A" stroke-width="1"/>
+<use href="#ic-Container_Instances" x="60" y="527.0" width="26" height="26"/>
+<text x="96" y="532.0" font-size="12.5" font-weight="700" fill="#712B13" text-anchor="start" dominant-baseline="central">aci-batch-processor</text>
+<text x="96" y="548.0" font-size="11" font-weight="400" fill="#8F3A1F" text-anchor="start" dominant-baseline="central">Lab 03 batch job · user-assigned identity</text>
+<rect x="42" y="584" width="496" height="218" rx="12" fill="none" stroke="#9C9A92" stroke-width="1" stroke-dasharray="5 4"/>
+<use href="#ic-Subnet" x="72" y="598" width="20" height="12"/>
+<text x="98" y="604" font-size="12" font-weight="600" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-data · 10.1.2.0/24</text>
+<rect x="50" y="622" width="230" height="56" rx="8" fill="#EFEEFD" stroke="#6C63C7" stroke-width="1"/>
+<use href="#ic-Private_Endpoint" x="60" y="636.0" width="28" height="28"/>
+<text x="98" y="642.0" font-size="12.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">pe-stsolsticedata-blob</text>
+<text x="98" y="658.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">private endpoint · 10.1.2.x</text>
+<rect x="50" y="690" width="480" height="104" rx="8" fill="#FDF4E6" stroke="#C98A2B" stroke-width="1"/>
+<use href="#ic-Network_Security_Groups" x="60" y="718" width="25" height="30"/>
+<text x="96" y="706" font-size="12.5" font-weight="700" fill="#7A4B08" text-anchor="start" dominant-baseline="central">nsg-prod-data</text>
+<rect x="484" y="682" width="38" height="17" rx="8.5" fill="#0F6E56"/>
+<text x="503" y="691" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">NEW</text>
+<text x="96" y="724" font-size="11" font-weight="400" fill="#7A4B08" text-anchor="start" dominant-baseline="central">100  allow TCP 443 from 10.1.1.0/24 (compute)</text>
+<text x="96" y="740" font-size="11" font-weight="400" fill="#7A4B08" text-anchor="start" dominant-baseline="central">110  allow TCP 443 from 10.1.3.0/24 (batch)</text>
+<text x="96" y="756" font-size="11" font-weight="400" fill="#7A4B08" text-anchor="start" dominant-baseline="central">120  allow TCP 443 from 10.0.1.0/24 (hub ops)</text>
+<text x="96" y="774" font-size="11" font-weight="700" fill="#A32D2D" text-anchor="start" dominant-baseline="central">4096  deny all inbound</text>
+<line x1="266" y1="566" x2="266" y2="620" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="273" y="593" font-size="10.5" font-weight="600" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">443</text>
+<path d="M510 298 V185 H700 V163" fill="none" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="600" y="176" font-size="10.5" font-weight="600" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">egress via NAT</text>
+<rect x="610" y="230" width="340" height="302" rx="18" fill="#E9F2FB" stroke="#2F6FB0" stroke-width="1"/>
+<use href="#ic-Virtual_Networks" x="626" y="248" width="34" height="21"/>
+<text x="670" y="252" font-size="14.5" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">vnet-solstice-hub</text>
+<text x="670" y="271" font-size="11.5" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">10.0.0.0/16 · shared services</text>
+<rect x="818" y="244" width="38" height="17" rx="8.5" fill="#0F6E56"/>
+<text x="837" y="253" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">NEW</text>
+<rect x="620" y="292" width="320" height="230" rx="12" fill="none" stroke="#5D8FC4" stroke-width="1" stroke-dasharray="5 4"/>
+<use href="#ic-Subnet" x="634" y="306" width="20" height="12"/>
+<text x="660" y="312" font-size="12" font-weight="600" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">subnet-shared-services · 10.0.1.0/24</text>
+<rect x="630" y="334" width="300" height="62" rx="8" fill="#EFEEFD" stroke="#6C63C7" stroke-width="1"/>
+<use href="#ic-NAT" x="640" y="350.0" width="30" height="30"/>
+<text x="680" y="349.0" font-size="12.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">natgw-hub</text>
+<text x="680" y="365.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">NAT gateway (Standard)</text>
+<text x="680" y="381.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">pip-nat-hub · static public IP</text>
+<rect x="630" y="410" width="300" height="100" rx="8" fill="#FFFFFF" stroke="#5D8FC4" stroke-width="1"/>
+<use href="#ic-Virtual_Machine" x="640" y="444.0" width="32" height="32"/>
+<text x="682" y="428.0" font-size="12.5" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">vm-solstice-ops</text>
+<text x="682" y="444.0" font-size="11" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">Standard_D2nlds_v6 · Ubuntu 24.04</text>
+<text x="682" y="460.0" font-size="11" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">nic-solstice-ops · no public IP</text>
+<text x="682" y="476.0" font-size="11" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">system-assigned identity</text>
+<text x="682" y="492.0" font-size="11" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">test point now, backup target in Lab 05</text>
+<line x1="915" y1="332" x2="915" y2="163" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="553" y1="400" x2="607" y2="400" stroke="#2F6FB0" stroke-width="2.2" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="580" y="386" font-size="11" font-weight="600" fill="#2F6FB0" text-anchor="middle" dominant-baseline="central">peered</text>
+<line x1="953" y1="400" x2="1007" y2="400" stroke="#2F6FB0" stroke-width="2.2" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="980" y="386" font-size="11" font-weight="600" fill="#2F6FB0" text-anchor="middle" dominant-baseline="central">peered</text>
+<rect x="1010" y="200" width="460" height="390" rx="18" fill="#E9F2FB" stroke="#2F6FB0" stroke-width="1"/>
+<use href="#ic-Virtual_Networks" x="1026" y="218" width="34" height="21"/>
+<text x="1070" y="222" font-size="14.5" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">vnet-solstice-dev</text>
+<text x="1070" y="241" font-size="11.5" font-weight="400" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">10.2.0.0/16 · dev spoke</text>
+<rect x="1418" y="207" width="38" height="17" rx="8.5" fill="#0F6E56"/>
+<text x="1437" y="216" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">NEW</text>
+<rect x="1022" y="262" width="436" height="314" rx="12" fill="none" stroke="#5D8FC4" stroke-width="1" stroke-dasharray="5 4"/>
+<use href="#ic-Subnet" x="1036" y="276" width="20" height="12"/>
+<text x="1062" y="282" font-size="12" font-weight="600" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">subnet-compute · 10.2.1.0/24</text>
+<rect x="1032" y="300" width="416" height="72" rx="8" fill="#FDF4E6" stroke="#C98A2B" stroke-width="1"/>
+<use href="#ic-Network_Security_Groups" x="1042" y="312" width="25" height="30"/>
+<text x="1078" y="316" font-size="12.5" font-weight="700" fill="#7A4B08" text-anchor="start" dominant-baseline="central">nsg-dev-compute</text>
+<text x="1078" y="332" font-size="10.5" font-weight="600" fill="#A32D2D" text-anchor="start" dominant-baseline="central">100  deny all from 10.1.0.0/16 (prod)</text>
+<text x="1078" y="346" font-size="10.5" font-weight="700" fill="#A32D2D" text-anchor="start" dominant-baseline="central">4096 deny all inbound</text>
+<text x="1078" y="360" font-size="10" font-weight="400" fill="#7A4B08" text-anchor="start" dominant-baseline="central">dev and prod are not peered; defense in depth</text>
+<rect x="1402" y="292" width="38" height="17" rx="8.5" fill="#0F6E56"/>
+<text x="1421" y="301" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">NEW</text>
+<rect x="1032" y="382" width="416" height="180" rx="10" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 4"/>
+<use href="#ic-Virtual_Machine" x="1046" y="396" width="26" height="24"/>
+<text x="1082" y="402" font-size="12.5" font-weight="700" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Empty at rest</text>
+<text x="1082" y="420" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">No VMs are managed by Terraform here.</text>
+<text x="1082" y="436" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">A throwaway test VM is created and deleted</text>
+<text x="1082" y="452" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">with the Azure CLI to prove isolation.</text>
+<text x="1082" y="478" font-size="11" font-weight="600" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">Default outbound access is off on this subnet,</text>
+<text x="1082" y="494" font-size="11" font-weight="600" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">so the empty subnet has no internet egress and</text>
+<text x="1082" y="510" font-size="11" font-weight="600" fill="#2F6FB0" text-anchor="start" dominant-baseline="central">no NAT gateway. Test VMs use run-command.</text>
+<line x1="553" y1="560" x2="1007" y2="560" stroke="#D9483B" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="660" cy="560" r="13" fill="#FFFFFF" stroke="#D9483B" stroke-width="2"/>
+<text x="660" y="560.5" font-size="18" font-weight="700" fill="#A32D2D" text-anchor="middle" dominant-baseline="central">×</text>
+<text x="682" y="576" font-size="12" font-weight="700" fill="#A32D2D" text-anchor="start" dominant-baseline="central">prod and dev are not peered</text>
+<text x="682" y="592" font-size="10.5" font-weight="400" fill="#A32D2D" text-anchor="start" dominant-baseline="central">peering is not transitive: no path via the hub</text>
+<rect x="610" y="608" width="320" height="80" rx="8" fill="#E4F5EE" stroke="#2F8A68" stroke-width="1"/>
+<use href="#ic-Storage_Accounts" x="620" y="632.0" width="32" height="32"/>
+<text x="662" y="632.0" font-size="12.5" font-weight="700" fill="#0B4F3A" text-anchor="start" dominant-baseline="central">stsolsticedata&lt;suffix&gt;</text>
+<text x="662" y="648.0" font-size="11" font-weight="400" fill="#0B4F3A" text-anchor="start" dominant-baseline="central">Storage account · RA-GZRS · Lab 02</text>
+<text x="662" y="664.0" font-size="11" font-weight="400" fill="#0B4F3A" text-anchor="start" dominant-baseline="central">rg-solstice-data · public access off</text>
+<path d="M282 650 H607" fill="none" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="450" y="640" font-size="11" font-weight="600" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">Private Link</text>
+<rect x="610" y="712" width="320" height="92" rx="8" fill="#EFEEFD" stroke="#6C63C7" stroke-width="1"/>
+<use href="#ic-DNS_Zones" x="620" y="743.0" width="30" height="30"/>
+<text x="660" y="734.0" font-size="12.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">privatelink.blob.core.windows.net</text>
+<text x="660" y="750.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">Private DNS zone · rg-solstice-data</text>
+<text x="660" y="766.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">link-vnet-solstice-prod (Lab 02)</text>
+<text x="660" y="782.0" font-size="11" font-weight="400" fill="#3C3489" text-anchor="start" dominant-baseline="central">link-vnet-solstice-hub (new)</text>
+<line x1="607" y1="758" x2="553" y2="758" stroke="#6C63C7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<path d="M932 740 H982 V545 H952" fill="none" stroke="#6C63C7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<text x="988" y="690" font-size="10.5" font-weight="600" fill="#6C63C7" text-anchor="start" dominant-baseline="central">new</text>
+<text x="988" y="704" font-size="10.5" font-weight="600" fill="#6C63C7" text-anchor="start" dominant-baseline="central">link</text>
+<rect x="1010" y="612" width="460" height="192" rx="10" fill="#FAFAF7" stroke="#C9C7BE" stroke-width="1"/>
+<text x="1028" y="634" font-size="13" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">How traffic flows</text>
+<text x="1028" y="658" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Hub peers with prod and with dev, two peering resources per pair.</text>
+<text x="1028" y="676" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Only compute, batch and hub ops reach the endpoint, on 443.</text>
+<text x="1028" y="694" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Hub ops can SSH to prod compute (110); the rest of the hub is denied.</text>
+<text x="1028" y="712" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Prod compute takes HTTP 80 from the internet and the health probe only.</text>
+<text x="1028" y="730" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Dev denies everything inbound and has no outbound internet access.</text>
+<text x="1028" y="748" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Hub and prod compute egress from their NAT gateways' static IPs.</text>
+<text x="1028" y="766" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">No VM or endpoint has a public IP; nothing reaches them from</text>
+<text x="1028" y="784" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">the internet except the load balancer on port 80.</text>
+<rect x="30" y="832" width="1440" height="58" rx="10" fill="#FFFFFF" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="50" y="852" width="38" height="17" rx="8.5" fill="#0F6E56"/>
+<text x="69" y="861" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">NEW</text>
+<text x="96" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">created in Lab 04</text>
+<rect x="220" y="852" width="34" height="18" rx="5" fill="#F1EFE8" stroke="#8A8880" stroke-width="1"/>
+<text x="264" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">existing VNet (Labs 02–03)</text>
+<rect x="430" y="852" width="34" height="18" rx="5" fill="#E9F2FB" stroke="#2F6FB0" stroke-width="1"/>
+<text x="474" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">new VNet</text>
+<line x1="560" y1="861" x2="596" y2="861" stroke="#5F5E5A" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="606" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">traffic</text>
+<line x1="680" y1="861" x2="716" y2="861" stroke="#2F6FB0" stroke-width="2.2" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="726" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">VNet peering</text>
+<line x1="830" y1="861" x2="866" y2="861" stroke="#6C63C7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<text x="876" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">private DNS link</text>
+<line x1="1000" y1="861" x2="1036" y2="861" stroke="#D9483B" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1046" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">no network path</text>
+<text x="1160" y="861" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Icons: Microsoft Azure architecture icons</text>
+</svg>

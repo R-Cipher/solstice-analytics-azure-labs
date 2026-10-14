@@ -6,11 +6,11 @@
 
 ## Summary
 
-- **Built** two Entra ID security groups, a custom least-privilege RBAC role ("Dashboard Operator") scoped to a single resource group, and a role assignment to a group instead of individuals.
-- **Enforced** governance with two Azure Policies using the `deny` effect: a required `CostCenter` tag and an allowed-regions restriction (East US, East US 2), plus a `CanNotDelete` lock on the core resource group.
-- **Verified** that untagged resources, out-of-region resources, and deletion of the resource group are all blocked (screenshots in Step 1).
-- **Rebuilt as Infrastructure as Code:** designed in the portal first, then recreated in Terraform (9 resources, `azurerm` 5.8 / `azuread` 3.10), applied and destroyed cleanly.
-- **Documented a real limitation:** PIM could not be implemented because it requires Entra ID P2 (see Known Limitations).
+- **I built** two Entra ID security groups, a custom least-privilege RBAC role ("Dashboard Operator") scoped to a single resource group, and a role assignment to a group instead of individuals.
+- **I enforced** governance with two Azure Policies using the `deny` effect: a required `CostCenter` tag and an allowed-regions restriction (East US, East US 2), plus a `CanNotDelete` lock on the core resource group.
+- **I verified** that untagged resources, out-of-region resources, and deletion of the resource group are all blocked (screenshots in Step 1).
+- **I rebuilt it as Infrastructure as Code:** I designed it in the portal first, then recreated it in Terraform (9 resources, `azurerm` 5.8 / `azuread` 3.10), and applied and destroyed it cleanly.
+- **I documented a real limitation:** PIM could not be implemented because it requires Entra ID P2 (see Known Limitations).
 
 **Tools:** Microsoft Azure · Microsoft Entra ID · Azure RBAC · Azure Policy · Resource Locks · Terraform · PowerShell · Git/GitHub
 
@@ -145,9 +145,9 @@ Tenant: solsticeanalytics.onmicrosoft.com
 
 ## Step 2 — Rebuild It in Terraform
 
-With the design validated in the portal, the same environment was rebuilt as code. The portal-built resources were removed first so Terraform could create everything from scratch.
+With the design validated in the portal, I rebuilt the same environment as code. I removed the portal-built resources first so Terraform could create everything from scratch.
 
-Provider versions (pinned in `.terraform.lock.hcl`): `azurerm` v5.8.0 and `azuread` v3.10.0. The `subscription_id` is supplied through a local `terraform.tfvars` file that is kept out of version control.
+Provider versions (pinned in `.terraform.lock.hcl`): `azurerm` v5.8.0 and `azuread` v3.10.0. I supply the `subscription_id` through a local `terraform.tfvars` file that stays out of version control.
 
 ```
 Terraform/
@@ -166,7 +166,7 @@ Terraform/
 - **Tag policy.** The custom definition uses mode `Indexed` and is assigned at the resource-group scope, so it denies any resource created inside `rg-solstice-core` without a `CostCenter` tag. The resource group itself carries `CostCenter = SOL-001`.
 - **Allowed locations.** This uses Azure's built-in definition (referenced by ID) with a parameter limiting deployments to `eastus` and `eastus2`.
 - **Lock ordering.** `depends_on` makes the lock the last resource created and therefore the first one removed on destroy, so teardown is not blocked by the lock.
-- **Group membership.** Adding internal members and inviting the guest contractors was done in the portal (Step 1) and is not managed in Terraform.
+- **Group membership.** I added internal members and invited the guest contractors in the portal (Step 1). Terraform doesn't manage group membership.
 - **PIM.** Not included in the Terraform code, for the same reason it was skipped in the portal: it requires Entra ID P2 (see Known Limitations).
 
 ### Terraform Code
@@ -341,7 +341,7 @@ output "client_success_group_object_id" {
 
 ## Verify
 
-Each guardrail was tested by trying to break it. Run the tests against `rg-solstice-core` with an account that can create resources there. A new policy assignment can take a few minutes to start denying requests.
+I tested each guardrail by trying to break it. Run the tests against `rg-solstice-core` with an account that can create resources there. A new policy assignment can take a few minutes to start denying requests.
 
 | Test | How | Expected result |
 |---|---|---|
@@ -370,7 +370,7 @@ Lab 02 builds directly on what exists now. It **looks up** these resources with 
 
 Lab 02 also assigns both policies to its new resource groups, so the controls from this lab apply to everything built afterwards.
 
-**Lab 01 must be applied before Lab 02.** If you destroyed it after finishing, run `terraform apply` in this lab's `Terraform` folder again. Group membership was added by hand in the portal, so re-add members to `sg-client-success` if you want to test Client Success access.
+**Lab 01 must be applied before Lab 02.** If you destroyed it after finishing, run `terraform apply` in this lab's `Terraform` folder again. I added group membership by hand in the portal, so re-add members to `sg-client-success` if you want to test Client Success access.
 
 ## Teardown
 
@@ -386,4 +386,4 @@ Because the lock is managed in Terraform and ordered last by `depends_on`, `terr
 
 ## Cost
 
-The resources in this lab (groups, role definition and assignment, policies, resource group and lock) have no direct cost. Everything was destroyed after the lab was completed.
+The resources in this lab (groups, role definition and assignment, policies, resource group and lock) have no direct cost. I destroyed everything after finishing the lab.

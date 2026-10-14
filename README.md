@@ -8,8 +8,8 @@ Hands-on Azure labs built around **Solstice Analytics**, a fictional B2B SaaS co
 
 - **Who I am:** Microsoft Support Escalation Engineer (Microsoft Teams) moving into Azure cloud engineering.
 - **What this repo shows:** how I design for least privilege, enforce governance with policy, codify infrastructure in Terraform, and document trade-offs and limitations honestly.
-- **Status:** Labs 01, 02 and 03 are complete. Labs 04 and 05 are in progress and will be added as each is finished.
-- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · VM Scale Sets with autoscale · Azure Load Balancer · Azure Container Registry and Container Instances · managed identity · App Service · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
+- **Status:** Labs 01 through 04 are complete. Lab 05 is in progress and will be added when finished.
+- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · VM Scale Sets with autoscale · Azure Load Balancer · hub-and-spoke VNet peering · NSGs · NAT gateway · Azure Container Registry and Container Instances · managed identity · App Service · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
 
 ## Featured: Lab 01 — Identities & Governance
 
@@ -17,11 +17,11 @@ Hands-on Azure labs built around **Solstice Analytics**, a fictional B2B SaaS co
 
 The scenario: a new Client Success team and two external contractors need access to a production subscription, with one rule from leadership: *nobody touches production by accident, nobody has more access than their job requires, and every resource is traceable to a cost center and an approved region.*
 
-- Built a **custom least-privilege RBAC role** and assigned it to a group instead of individuals.
-- Enforced **deny-effect Azure Policies** for a required `CostCenter` tag and approved regions only.
-- Protected the core resource group with a **CanNotDelete lock**.
-- Verified each guardrail by trying to break it, then **rebuilt everything in Terraform** (9 resources, clean apply and destroy).
-- Documented a real constraint: PIM needs Entra ID P2, which the lab tenant doesn't have, so the write-up explains the production approach.
+- I built a **custom least-privilege RBAC role** and assigned it to a group instead of individuals.
+- I enforced **deny-effect Azure Policies** for a required `CostCenter` tag and approved regions only.
+- I protected the core resource group with a **CanNotDelete lock**.
+- I verified each guardrail by trying to break it, then **rebuilt everything in Terraform** (9 resources, clean apply and destroy).
+- I documented a real constraint: PIM needs Entra ID P2, which my lab tenant doesn't have, so the write-up explains the production approach.
 
 ## Labs
 
@@ -30,14 +30,14 @@ The scenario: a new Client Success team and two external contractors need access
 | 01 | [Identities & Governance](./Lab-01-Identity%20%26%20Governance/) | RBAC, Entra ID groups, Azure Policy, resource locks | ✅ Complete |
 | 02 | [Storage](./Lab-02-Storage/) | Secure storage, private endpoints and data ingestion | ✅ Complete |
 | 03 | [Compute](./Lab-03-Compute/) | Zone-redundant VM scale set, container batch job, App Service | ✅ Complete |
-| 04 | Virtual Networking | Hub-and-spoke networking, isolation | 🔜 Planned |
+| 04 | [Virtual Networking](./Lab-04-Virtual-Networking/) | Hub-and-spoke networking, NSG isolation, NAT gateway | ✅ Complete |
 | 05 | Monitor & Maintain | Monitoring, alerting, backup and recovery | 🔜 Planned |
 
-The labs follow the five domains of the AZ-104 (Azure Administrator) exam, but each one is framed around a business problem rather than exam objectives.
+I followed the five domains of the AZ-104 (Azure Administrator) exam, but I framed each lab around a business problem rather than exam objectives.
 
-### How the labs will connect
+### How the labs connect
 
-The series is designed to grow the way a real Azure environment does:
+I designed the series to grow the way a real Azure environment does:
 
 ```
 Lab 01 (Identities/Governance)
@@ -54,14 +54,14 @@ Lab 02 (Storage)              Lab 03 (Compute)
            observes and backs up everything built in Labs 02–04
 ```
 
-## How Each Lab Is Built
+## How I Build Each Lab
 
-1. **Business problem:** a realistic requirement with a clear constraint.
-2. **Portal build:** configured by hand first to understand every setting.
-3. **Terraform rebuild:** the same environment as code.
-4. **Verification:** test that the guardrails actually work, not just that resources exist.
-5. **Teardown:** destroy everything to keep costs near zero.
-6. **Write-up:** architecture, design decisions, known limitations and future considerations.
+1. **Business problem:** I start with a realistic requirement and a clear constraint.
+2. **Portal build:** I configure it by hand first to understand every setting.
+3. **Terraform rebuild:** I recreate the same environment as code.
+4. **Verification:** I test that the guardrails actually work, not just that resources exist.
+5. **Teardown:** I destroy everything to keep costs near zero.
+6. **Write-up:** I document the architecture, design decisions, known limitations and future considerations.
 
 Each lab folder contains a `README.md`, a `Terraform/` folder with the code, and a `Diagrams/` and/or `Screenshots/` folder with the visuals.
 

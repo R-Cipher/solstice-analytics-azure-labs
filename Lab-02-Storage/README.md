@@ -6,11 +6,11 @@
 
 ## Summary
 
-- **Built** an RA-GZRS storage account with two containers, a lifecycle policy that tiers raw exports from Hot to Cool to Cold and deletes them after a year, and a private endpoint with private DNS so the account is not reachable from the internet.
-- **Extended Lab 01** by assigning the same `Require CostCenter Tag` and `Allowed Locations` policies to the new resource groups (looked up from Lab 01's policy definition) and giving the `sg-client-success` group read-only access to processed output.
-- **Started the network** that Labs 03 and 04 grow: the prod VNet (`vnet-solstice-prod`) and its `subnet-data`, which hosts the private endpoint.
-- **Verified** that test manifests upload with a SAS token, then that the same upload is refused (`403 AuthorizationFailure`) once public access is turned off.
-- **Rebuilt as Infrastructure as Code:** portal first, then Terraform (16 resources, applied cleanly).
+- **I built** an RA-GZRS storage account with two containers, a lifecycle policy that tiers raw exports from Hot to Cool to Cold and deletes them after a year, and a private endpoint with private DNS so the account is not reachable from the internet.
+- **I extended Lab 01** by assigning the same `Require CostCenter Tag` and `Allowed Locations` policies to the new resource groups (looked up from Lab 01's policy definition) and giving the `sg-client-success` group read-only access to processed output.
+- **I started the network** that Labs 03 and 04 grow: the prod VNet (`vnet-solstice-prod`) and its `subnet-data`, which hosts the private endpoint.
+- **I verified** that test manifests upload with a SAS token, then that the same upload is refused (`403 AuthorizationFailure`) once public access is turned off.
+- **I rebuilt it as Infrastructure as Code:** portal first, then Terraform (16 resources, applied cleanly).
 
 **Jump to:** [Business Problem](#business-problem) · [Architectural Design](#architectural-design) · [Design Decisions](#design-decisions) · [Future Considerations](#future-considerations)
 
@@ -26,7 +26,7 @@
 | Built-in `Allowed locations` policy | Assigned to both new resource groups (East US / East US 2) |
 | Entra group `sg-client-success` | Receives `Storage Blob Data Reader` on the `processed` container |
 
-**Before you start:** Lab 01 must be applied. If you destroyed it after finishing, run `terraform apply` in the Lab 01 `Terraform` folder first. Group membership was added by hand in the portal, so re-add members if you want to test the Client Success read access.
+**Before you start:** Lab 01 must be applied. If you destroyed it after finishing, run `terraform apply` in the Lab 01 `Terraform` folder first. I added group membership by hand in the portal, so re-add members if you want to test the Client Success read access.
 
 ## Business Problem
 
@@ -83,7 +83,7 @@ The prod VNet is created here, in its final form, rather than as a throwaway stu
 - **RA-GZRS over LRS.** Retail clients' sales data feeds board-level reporting, and Solstice can't afford a single-region outage taking down ingestion. RA-GZRS gives zone redundancy in the primary region plus geo-replication, and read access to the secondary copy if the primary region is unavailable, so dashboards can keep reading during an outage.
 - **Private endpoint instead of storage firewall IP rules.** IP allowlisting breaks the moment a client's network changes. A private endpoint takes the account off the public internet and routes traffic over the Microsoft backbone.
 - **Lifecycle policy on `raw-manifests` only.** Raw exports are disposable once processed, so they move to cheaper tiers and are eventually deleted. `processed` feeds the dashboards, so it stays in Hot with no automatic rule.
-- **Cool, then Cold, then delete, instead of Archive.** The original plan tiered to Archive at 90 days, but the portal didn't offer it. Archive isn't supported on ZRS, GZRS or RA-GZRS accounts, and this account is RA-GZRS. Solstice's ingestion has to survive a zone or regional outage, and that outweighs the extra savings of Archive, so the account keeps RA-GZRS and the policy uses Cold, which supports every redundancy option. A business whose goal was long-term retention would reasonably choose differently: GRS or RA-GRS with Archive, accepting the loss of zone redundancy in the primary region.
+- **Cool, then Cold, then delete, instead of Archive.** My original plan tiered to Archive at 90 days, but the portal didn't offer it. Archive isn't supported on ZRS, GZRS or RA-GZRS accounts, and this account is RA-GZRS. Solstice's ingestion has to survive a zone or regional outage, and that outweighs the extra savings of Archive, so the account keeps RA-GZRS and the policy uses Cold, which supports every redundancy option. A business whose goal was long-term retention would reasonably choose differently: GRS or RA-GRS with Archive, accepting the loss of zone redundancy in the primary region.
 - **Delete after 365 days.** The requirement was that old exports shouldn't sit in expensive storage "instead of someone remembering to clean them up." Tiering lowers the cost, and the delete rule means the files don't accumulate forever. Raw exports are reproducible from the clients' own systems and the useful output lives in `processed`, so a year is a reasonable starting point, flagged as a business decision to revisit with the retention requirements of each client.
 - **SAS tokens for client uploads, not account keys.** A short-lived, container-scoped SAS limits a leaked credential to one container for a limited time.
 - **Group-based, read-only data access.** Client Success reads processed output through an RBAC role on the container, not through keys, following Lab 01's "groups, not individuals" pattern.
@@ -137,19 +137,19 @@ The prod VNet is created here, in its final form, rather than as a throwaway stu
 
    ![sg-client-success with Storage Blob Data Reader on the processed container](./Screenshots/Client%20Success%20IAM.png)
 
-8. **Test a SAS upload (public access still on).** The first SAS was generated with Read and Add permissions only, and AzCopy was refused with `AuthorizationPermissionMismatch`. Regenerating it with Create and Write fixed the upload.
+8. **Test a SAS upload (public access still on).** The first SAS I generated had Read and Add permissions only, so AzCopy was refused with `AuthorizationPermissionMismatch`. Regenerating it with Create and Write fixed the upload.
 
    ![AzCopy refused: SAS missing the Create/Write permissions](./Screenshots/AzCopy%20SAS%20permission%20error.png)
    ![Test manifests uploaded to raw-manifests](./Screenshots/Sample%20Manifests.png)
 
-   *In the portal build the manifests were uploaded as one zip. The Terraform build uploads the three CSVs individually, because Lab 03's batch job reads `.csv` files.*
+   *In the portal build I uploaded the manifests as one zip. In the Terraform build I upload the three CSVs individually, because Lab 03's batch job reads `.csv` files.*
 
 9. **Create the private DNS zone and link it to the VNet, with tags.** The private endpoint wizard tries to create the zone's virtual network link for you, but it gives no way to tag that link, so the Lab 01 `Require CostCenter Tag` policy denies the deployment. The Activity log confirms the denied resource was the `virtualNetworkLinks` resource (see Findings).
 
    ![Private endpoint deployment denied by the CostCenter tag policy](./Screenshots/Tagging%20Policy%20Denial.png)
    ![Activity log: deny on the privateDnsZones/virtualNetworkLinks resource](./Screenshots/Tagging%20Policy%20Denial%202.png)
 
-   The fix was to create the zone (tagged) in `rg-solstice-data` in the portal, then create the link with the Azure CLI, which accepts tags:
+   My fix was to create the zone (tagged) in `rg-solstice-data` in the portal, then create the link with the Azure CLI, which accepts tags:
 
    ```powershell
    $vnetId = az network vnet show -g rg-solstice-network -n vnet-solstice-prod --query id -o tsv
@@ -178,12 +178,12 @@ The prod VNet is created here, in its final form, rather than as a throwaway stu
 ### Findings From the Portal Build
 
 1. **Two different 403s, two different causes.** `AuthorizationPermissionMismatch` meant the SAS token was valid but lacked the right permissions: *Add* only appends to append blobs, while uploading a new block blob needs *Create* or *Write*. `AuthorizationFailure` after lockdown meant the network path was closed, regardless of the token. Reading the error code, not just the status code, told the two apart.
-2. **The portal can't tag a private DNS virtual network link, so a deny tag policy blocks it.** The private endpoint wizard creates the link with a generated name and no tags, and the Lab 01 policy correctly denied it. Rather than weakening the policy to `audit`, the link was created with the Azure CLI, which supports tags. In production the cleaner fix is a policy with the `Modify` effect (for example, inherit `CostCenter` from the resource group), which adds the tag instead of rejecting the resource. Terraform avoids the problem because the link is its own resource with `tags`.
+2. **The portal can't tag a private DNS virtual network link, so a deny tag policy blocks it.** The private endpoint wizard creates the link with a generated name and no tags, and the Lab 01 policy correctly denied it. Rather than weakening the policy to `audit`, I created the link with the Azure CLI, which supports tags. In production the cleaner fix is a policy with the `Modify` effect (for example, inherit `CostCenter` from the resource group), which adds the tag instead of rejecting the resource. Terraform avoids the problem because the link is its own resource with `tags`.
 3. **Archive isn't available on RA-GZRS.** Microsoft documents that Archive only supports LRS, GRS and RA-GRS. The lifecycle policy uses Cold instead (see Design Decisions).
 
 ## Step 2 — Rebuild It in Terraform
 
-The portal build is repeated as code. Remove the portal-built resources first so Terraform can create everything from scratch.
+I repeated the portal build as code. I removed the portal-built resources first so Terraform could create everything from scratch.
 
 ```
 Terraform/
@@ -204,7 +204,7 @@ name_suffix     = "rf01"   # lowercase letters/digits; keeps global names unique
 
 ### Implementation Notes
 
-- **`data.tf` is the link to Lab 01.** Terraform doesn't share state between folders, so this lab *looks up* Lab 01's group and policy definitions by name instead of redefining them. If Lab 01 isn't applied, `plan` fails here, which is the correct behaviour.
+- **`data.tf` is the link to Lab 01.** Terraform doesn't share state between folders, so this lab *looks up* Lab 01's group and policy definitions by name instead of redefining them. If Lab 01 isn't applied, `plan` fails here, which is the behavior I wanted.
 - **Policy assignments use `for_each`** over both new resource groups, so one block covers both.
 - **`lock_down_public_access` makes the lockdown a deliberate second apply.** Apply with the default (`false`), upload the test files, then apply again with `-var="lock_down_public_access=true"`.
 - **Containers use `storage_account_id`**, which talks to the management plane. A container created through the storage endpoint would fail once public access is off.
@@ -510,7 +510,7 @@ Then lock the account down and confirm:
 1. **Re-run the AzCopy command.** It now fails with `AuthorizationFailure` (403). The SAS is valid, but the network path is closed.
 2. **Private endpoint:** Networking → Private endpoint connections shows `Approved`.
 3. **Private DNS:** the zone has an A record for the account, linked to `vnet-solstice-prod`.
-4. **From inside the network:** the name should resolve to a `10.1.2.x` address. You can't check that from your laptop yet. It is verified in Lab 04 from the ops VM and used by the Lab 03 batch job.
+4. **From inside the network:** the name should resolve to a `10.1.2.x` address. You can't check that from your laptop yet. I verify it in Lab 04 from the ops VM, and the Lab 03 batch job uses it too.
 
 <!-- Screenshot: azcopy 403 after lockdown -->
 
