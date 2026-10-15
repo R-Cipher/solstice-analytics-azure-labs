@@ -8,8 +8,8 @@ Hands-on Azure labs built around **Solstice Analytics**, a fictional B2B SaaS co
 
 - **Who I am:** Microsoft Support Escalation Engineer (Microsoft Teams) moving into Azure cloud engineering.
 - **What this repo shows:** how I design for least privilege, enforce governance with policy, codify infrastructure in Terraform, and document trade-offs and limitations honestly.
-- **Status:** Labs 01 through 04 are complete. Lab 05 is in progress and will be added when finished.
-- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · VM Scale Sets with autoscale · Azure Load Balancer · hub-and-spoke VNet peering · NSGs · NAT gateway · Azure Container Registry and Container Instances · managed identity · App Service · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
+- **Status:** All five labs are complete.
+- **Skills demonstrated so far:** Azure RBAC and custom roles · Microsoft Entra ID groups · Azure Policy (deny effect) · resource locks · Azure Storage (RA-GZRS, lifecycle management, SAS) · Private Link and private DNS · VM Scale Sets with autoscale · Azure Load Balancer · hub-and-spoke VNet peering · NSGs · NAT gateway · Azure Container Registry and Container Instances · managed identity · App Service · Log Analytics and KQL · metric and activity-log alerts with action groups · Azure Monitor Agent and data collection rules · Azure Backup (Recovery Services vault) · Terraform (`azurerm`, `azuread`) · governance design · technical documentation
 
 ## Featured: Lab 01 — Identities & Governance
 
@@ -31,7 +31,7 @@ The scenario: a new Client Success team and two external contractors need access
 | 02 | [Storage](./Lab-02-Storage/) | Secure storage, private endpoints and data ingestion | ✅ Complete |
 | 03 | [Compute](./Lab-03-Compute/) | Zone-redundant VM scale set, container batch job, App Service | ✅ Complete |
 | 04 | [Virtual Networking](./Lab-04-Virtual-Networking/) | Hub-and-spoke networking, NSG isolation, NAT gateway | ✅ Complete |
-| 05 | Monitor & Maintain | Monitoring, alerting, backup and recovery | 🔜 Planned |
+| 05 | [Monitor & Maintain](./Lab-05-Monitoring/) | Log Analytics, alerts, backup and recovery | ✅ Complete |
 
 I followed the five domains of the AZ-104 (Azure Administrator) exam, but I framed each lab around a business problem rather than exam objectives.
 
@@ -53,6 +53,8 @@ Lab 02 (Storage)              Lab 03 (Compute)
               Lab 05 (Monitor & Maintain)
            observes and backs up everything built in Labs 02–04
 ```
+
+![Labs 01 to 05 architecture](./Diagrams/solstice-platform-architecture.png)
 
 ## How I Build Each Lab
 

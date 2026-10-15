@@ -210,7 +210,7 @@ name_suffix     = "rf01"   # lowercase letters/digits; keeps global names unique
 - **Containers use `storage_account_id`**, which talks to the management plane. A container created through the storage endpoint would fail once public access is off.
 - **`private_endpoint_network_policies = "Enabled"`** on `subnet-data` is what lets the Lab 04 NSG filter traffic to the endpoint. Without it NSG rules are silently ignored for private endpoints.
 - **The DNS zone link** is what makes the storage name resolve to the private IP from inside the VNet.
-- **The RBAC scope is the container**, using `resource_manager_id`, so Client Success can read `processed` but not `raw-manifests`.
+- **The RBAC scope is the `processed` container's resource ID**, so Client Success can read `processed` but not `raw-manifests`.
 
 ### Terraform Code
 
@@ -218,7 +218,7 @@ name_suffix     = "rf01"   # lowercase letters/digits; keeps global names unique
 <summary><code>providers.tf</code></summary>
 
 ```hcl
-# Azure Provider source and versions
+# Azure Provider source being used to deploy resources in Azure
 terraform {
   required_version = ">= 1.5"
   required_providers {
@@ -249,7 +249,7 @@ provider "azuread" {}
 ```hcl
 variable "subscription_id" {
   type        = string
-  description = "Azure subscription ID"
+  description = "Azure subscription ID where the resources will be deployed."
 }
 
 variable "name_suffix" {
@@ -259,7 +259,7 @@ variable "name_suffix" {
 
 variable "lock_down_public_access" {
   type        = bool
-  description = "false = storage account reachable from the internet (used to upload test files). true = public access disabled."
+  description = "false = storage account reachable from the internet (used to upload test files). true = storage account only reachable from private endpoints."
   default     = false
 }
 ```
@@ -270,7 +270,6 @@ variable "lock_down_public_access" {
 <summary><code>data.tf</code></summary>
 
 ```hcl
-# Lab 01 outputs, looked up by name. Lab 01 must be applied first.
 data "azuread_group" "client_success" {
   display_name     = "sg-client-success"
   security_enabled = true
@@ -298,21 +297,20 @@ locals {
   }
 }
 
-# ---------- Resource groups ----------
+# Resources groups
+
 resource "azurerm_resource_group" "data" {
   name     = "rg-solstice-data"
   location = local.location
   tags     = local.tags
 }
 
-# Shared by Labs 02-04. Lab 02 creates it because the private endpoint needs a subnet.
 resource "azurerm_resource_group" "network" {
   name     = "rg-solstice-network"
   location = local.location
   tags     = local.tags
 }
 
-# ---------- Lab 01 governance, extended to the new resource groups ----------
 locals {
   governed_rgs = {
     data    = azurerm_resource_group.data.id
@@ -341,7 +339,6 @@ resource "azurerm_resource_group_policy_assignment" "allowed_locations" {
   })
 }
 
-# ---------- Network foundation (prod spoke, grown in Labs 03 and 04) ----------
 resource "azurerm_virtual_network" "prod" {
   name                = "vnet-solstice-prod"
   resource_group_name = azurerm_resource_group.network.name
@@ -351,32 +348,25 @@ resource "azurerm_virtual_network" "prod" {
 }
 
 resource "azurerm_subnet" "data" {
-  name                 = "subnet-data"
-  resource_group_name  = azurerm_resource_group.network.name
-  virtual_network_name = azurerm_virtual_network.prod.name
-  address_prefixes     = ["10.1.2.0/24"]
-
-  # Lets NSGs (added in Lab 04) apply to the private endpoint
+  name                              = "subnet-data"
+  resource_group_name               = azurerm_resource_group.network.name
+  virtual_network_name              = azurerm_virtual_network.prod.name
+  address_prefixes                  = ["10.1.2.0/24"]
   private_endpoint_network_policies = "Enabled"
 }
 
-# ---------- Storage ----------
 resource "azurerm_storage_account" "solstice" {
-  name                     = "stsolsticedata${var.name_suffix}"
-  resource_group_name      = azurerm_resource_group.data.name
-  location                 = local.location
-  account_tier             = "Standard"
-  account_replication_type = "RAGZRS"
-  min_tls_version          = "TLS1_2"
-
+  name                            = "stsolsticedata${var.name_suffix}"
+  resource_group_name             = azurerm_resource_group.data.name
+  location                        = local.location
+  account_tier                    = "Standard"
+  account_replication_type        = "RAGZRS"
+  min_tls_version                 = "TLS1_2"
   allow_nested_items_to_be_public = false
   public_network_access_enabled   = !var.lock_down_public_access
-
-  tags = local.tags
+  tags                            = local.tags
 }
 
-# Created through the management plane (storage_account_id) so they still work
-# after public network access is turned off.
 resource "azurerm_storage_container" "raw" {
   name               = "raw-manifests"
   storage_account_id = azurerm_storage_account.solstice.id
@@ -409,15 +399,13 @@ resource "azurerm_storage_management_policy" "lifecycle" {
   }
 }
 
-# Client Success (Lab 01 group) can read processed output, nothing else
 resource "azurerm_role_assignment" "client_success_processed" {
-  scope                = azurerm_storage_container.processed.resource_manager_id
+  scope                = azurerm_storage_container.processed.id
   role_definition_name = "Storage Blob Data Reader"
   principal_id         = data.azuread_group.client_success.object_id
   principal_type       = "Group"
 }
 
-# ---------- Private connectivity ----------
 resource "azurerm_private_dns_zone" "blob" {
   name                = "privatelink.blob.core.windows.net"
   resource_group_name = azurerm_resource_group.data.name
@@ -425,12 +413,11 @@ resource "azurerm_private_dns_zone" "blob" {
 }
 
 resource "azurerm_private_dns_zone_virtual_network_link" "prod" {
-  name                  = "link-vnet-solstice-prod"
-  resource_group_name   = azurerm_resource_group.data.name
-  private_dns_zone_name = azurerm_private_dns_zone.blob.name
-  virtual_network_id    = azurerm_virtual_network.prod.id
-  registration_enabled  = false
-  tags                  = local.tags
+  name                 = "link-vnet-solstice-prod"
+  private_dns_zone_id  = azurerm_private_dns_zone.blob.id
+  virtual_network_id   = azurerm_virtual_network.prod.id
+  registration_enabled = false
+  tags                 = local.tags
 }
 
 resource "azurerm_private_endpoint" "storage_blob" {

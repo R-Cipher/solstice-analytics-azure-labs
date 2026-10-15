@@ -187,20 +187,18 @@ name_suffix     = "rf01"   # same as Lab 02
 <summary><code>providers.tf</code></summary>
 
 ```hcl
-# Azure Provider source and versions
 terraform {
-  required_version = ">= 1.5"
+  required_version = ">= 1.5.0"
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 5.0"
+      version = "~> 5.0.0"
     }
   }
 }
 
 provider "azurerm" {
   features {}
-  subscription_id = var.subscription_id
 }
 ```
 
@@ -212,7 +210,7 @@ provider "azurerm" {
 ```hcl
 variable "subscription_id" {
   type        = string
-  description = "Azure subscription ID"
+  description = "Azure Subscription ID"
 }
 
 variable "name_suffix" {
@@ -228,7 +226,7 @@ variable "ssh_public_key_path" {
 
 variable "deploy_batch_job" {
   type        = bool
-  description = "false on the first apply (the image does not exist yet), true after the image is pushed to ACR"
+  description = "false on the first apply (image does not exist yet), true after the image is pushed to ACR"
   default     = false
 }
 ```
@@ -239,7 +237,6 @@ variable "deploy_batch_job" {
 <summary><code>data.tf</code></summary>
 
 ```hcl
-# Lab 01
 data "azurerm_policy_definition" "require_costcenter" {
   name = "require-costcenter-tag"
 }
@@ -248,7 +245,6 @@ data "azurerm_policy_definition" "allowed_locations" {
   name = "e56962a6-4747-49cd-b67b-bf8b01975c4c"
 }
 
-# Lab 02
 data "azurerm_resource_group" "network" {
   name = "rg-solstice-network"
 }
@@ -424,7 +420,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "dashboard_api" {
 
   source_image_reference {
     publisher = "Canonical"
-    offer     = "ubuntu-24.04-lts"
+    offer     = "ubuntu-24_04-lts"
     sku       = "server"
     version   = "latest"
   }
@@ -560,7 +556,6 @@ resource "azurerm_container_group" "batch_processor" {
   subnet_ids          = [azurerm_subnet.batch.id]
   tags                = local.tags
 
-  # Must match a ports block on the container below
   exposed_port {
     port     = 80
     protocol = "TCP"
@@ -583,12 +578,10 @@ resource "azurerm_container_group" "batch_processor" {
     cpu    = 0.5
     memory = 1
 
-    # ACI requires a port on any group with an IP address, even though the job never listens
     ports {
       port     = 80
       protocol = "TCP"
     }
-
     environment_variables = {
       AZURE_CLIENT_ID     = azurerm_user_assigned_identity.batch.client_id
       STORAGE_ACCOUNT_URL = "https://${data.azurerm_storage_account.solstice.name}.blob.core.windows.net"
@@ -769,7 +762,7 @@ terraform apply -var="deploy_batch_job=true"     # now create the container grou
 Lab 04 secures and extends the network this lab placed workloads on:
 
 - the **compute NSG** you created gets more rules (SSH from the hub ops subnet only, deny from dev),
-- the **private endpoint's subnet** gets an NSG that allows only `subnet-compute` and `subnet-batch`, which is why both subnets must exist first,
+- the **private endpoint's subnet** gets an NSG that allows HTTPS only from `subnet-compute`, `subnet-batch` and the hub's ops subnet, which is why the first two must exist first,
 - a **NAT gateway** takes over the instances' outbound traffic from the load balancer,
 - the prod VNet is **peered to a new hub**.
 
