@@ -1,157 +1,1272 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1020" viewBox="0 0 1640 1020" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5YzkwYzVjYi0xOTE5LTQyYzMtYWQ2NS1kZTAxYTdiMDdiZDAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaCl5xfenAjpQ2Hum/RNiSTkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowMDZjOWQ4MC01OGQyLTRlOGItYTZmYy03ODA2NWEzMmZlMTFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoAufOowHUoO0b/tm1GEO8uwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg/VJOYzjtG/igvNQivA3ez/t0GtEUSiBbbN+FVjr0NMOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKGXcQN1+WDcxnlJylnayhEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAJl8huLlcI1htpJLZNoq0Nf2d++PnOP5/5MBmA3giUv2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjljOTBjNWNiLTE5MTktNDJjMy1hZDY1LWRlMDFhN2IwN2JkMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjRiY2Y5NWZhLWM4MjctNDllMi04NDA3LTViYzk4ZjY0NTY3N3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD9Uk5jOO0b+KC81CK8Dd7P+3Qa0RRKIFts34VWOvQ0w6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggvLZitUclPBG0/+vrNvpnkNw9Cnlri7qUB/LpGOlRzp6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgga9imiUlIl5iTWiIplnrUoFXPenesq5sLcJPEyryV/P50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQFypKpkhWOV/RhCnQkY3e2nWAN9lQJKpXHbmKJES5uxlXL1hLfumkniJeNX4bE/zF2N6+BvGIcZwUakm3V8CZFE=</c2pa:manifest></metadata>
-<title>Solstice Analytics: Labs 01 to 05 architecture</title><desc>Lab 01 sets governance on every resource group. Lab 02 creates the RA-GZRS storage account and the prod VNet with a private endpoint. Lab 03 adds a zone-redundant scale set behind a Standard load balancer, a container batch job with a managed identity, and an App Service admin tool. Lab 04 adds a hub VNet with an ops VM, a dev spoke, NSGs and NAT gateways, with prod and dev not peered. Lab 05 sends storage logs and VM performance data to a Log Analytics workspace, alerts on CPU, storage availability and lock deletion, and backs up the ops VM.</desc>
-<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5F5E5A"/></marker><marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#534AB7"/></marker><marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F6E56"/></marker><marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#854F0B"/></marker></defs><rect width="1640" height="1020" fill="#FFFFFF"/>
-<text x="30" y="42" font-size="24" font-weight="700" fill="#2C2C2A" text-anchor="start">Solstice Analytics: Labs 01 to 05 architecture</text>
-<text x="30" y="66" font-size="13.5" font-weight="400" fill="#5F5E5A" text-anchor="start">The finished platform: governance, private storage, a load-balanced API with a batch job, a hub-and-spoke network, and monitoring with backup.</text>
-<rect x="30" y="84" width="1580" height="118" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.5"/>
-<text x="48" y="106" font-size="13" font-weight="700" fill="#633806" text-anchor="start">LAB 01  ·  Governance  ·  subscription Solstice-Production</text>
-<rect x="50" y="116" width="296" height="72" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1.5"/>
-<text x="64" y="138" font-size="12.5" font-weight="700" fill="#633806" text-anchor="start">Entra ID groups</text>
-<text x="64" y="158" font-size="12" font-weight="400" fill="#2C2C2A" text-anchor="start">sg-client-success</text>
-<text x="64" y="176" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">sg-contractors-external</text>
-<rect x="362" y="116" width="296" height="72" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1.5"/>
-<text x="376" y="138" font-size="12.5" font-weight="700" fill="#633806" text-anchor="start">Custom RBAC role</text>
-<text x="376" y="158" font-size="12" font-weight="400" fill="#2C2C2A" text-anchor="start">Dashboard Operator</text>
-<text x="376" y="176" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">assigned to groups, not users</text>
-<rect x="674" y="116" width="296" height="72" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1.5"/>
-<text x="688" y="138" font-size="12.5" font-weight="700" fill="#633806" text-anchor="start">Policy · deny</text>
-<text x="688" y="158" font-size="12" font-weight="400" fill="#2C2C2A" text-anchor="start">Require CostCenter tag</text>
-<text x="688" y="176" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">applied to every resource group</text>
-<rect x="986" y="116" width="296" height="72" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1.5"/>
-<text x="1000" y="138" font-size="12.5" font-weight="700" fill="#633806" text-anchor="start">Policy · deny</text>
-<text x="1000" y="158" font-size="12" font-weight="400" fill="#2C2C2A" text-anchor="start">Allowed locations</text>
-<text x="1000" y="176" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">East US and East US 2 only</text>
-<rect x="1298" y="116" width="296" height="72" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1.5"/>
-<text x="1312" y="138" font-size="12.5" font-weight="700" fill="#633806" text-anchor="start">Resource lock</text>
-<text x="1312" y="158" font-size="12" font-weight="400" fill="#2C2C2A" text-anchor="start">CanNotDelete</text>
-<text x="1312" y="176" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">on rg-solstice-core</text>
-<rect x="30" y="220" width="1000" height="430" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1.5"/>
-<text x="48" y="242" font-size="13" font-weight="700" fill="#085041" text-anchor="start">rg-solstice-network  ·  Labs 02 and 04</text>
-<text x="1012" y="242" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="end">hub ↔ prod and hub ↔ dev peered  ·  prod ✕ dev</text>
-<rect x="50" y="256" width="230" height="372" rx="8" fill="#FFFFFF" stroke="#5F5E5A" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="64" y="278" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">vnet-solstice-hub</text>
-<text x="64" y="294" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">10.0.0.0/16  ·  Lab 04</text>
-<rect x="64" y="306" width="202" height="130" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.5"/>
-<text x="78" y="326" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">subnet-shared-services</text>
-<text x="78" y="341" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">10.0.1.0/24</text>
-<g transform="translate(97.6,367.6) scale(0.85)"><rect x="4" y="7" width="40" height="28" rx="3" fill="#1976D2"/><rect x="8" y="11" width="32" height="20" fill="#BBDEFB"/><rect x="19" y="35" width="10" height="5" fill="#455A64"/><rect x="13" y="40" width="22" height="3" rx="1.5" fill="#455A64"/></g>
-<text x="152" y="384" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">vm-solstice-ops</text>
-<text x="152" y="399" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">no public IP</text>
-<text x="152" y="413" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">system identity for AMA</text>
-<rect x="64" y="446" width="202" height="52" rx="6" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1.5"/>
-<text x="78" y="466" font-size="11" font-weight="700" fill="#085041" text-anchor="start">natgw-hub + pip-nat-hub</text>
-<text x="78" y="482" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">static egress IP</text>
-<text x="64" y="518" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">peered to prod and dev</text>
-<text x="64" y="534" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">DNS link: storage resolves privately</text>
-<rect x="320" y="256" width="470" height="290" rx="8" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="334" y="278" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">vnet-solstice-prod</text>
-<text x="334" y="294" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">10.1.0.0/16  ·  Labs 02 and 03</text>
-<rect x="334" y="306" width="140" height="226" rx="6" fill="#F4FBF8" stroke="#0F6E56" stroke-width="1.5"/>
-<text x="346" y="326" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">subnet-compute</text>
-<text x="346" y="341" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">10.1.1.0/24</text>
-<g transform="translate(384.8,366.8) scale(0.8)"><rect x="3" y="4" width="25" height="17" rx="2" fill="#0B5CAD"/><rect x="12" y="15" width="25" height="17" rx="2" fill="#1976D2"/><rect x="20" y="27" width="25" height="17" rx="2" fill="#42A5F5"/><rect x="29" y="31" width="7" height="7" fill="#fff" opacity=".9"/></g>
-<text x="404" y="438" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle">VM scale set</text>
-<text x="404" y="452" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="middle">zones 1-3, 2 to 6</text>
-<text x="346" y="480" font-size="10" font-weight="700" fill="#2C2C2A" text-anchor="start">nsg-prod-compute</text>
-<text x="346" y="494" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">probe 105 · ssh 110</text>
-<text x="346" y="508" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">deny-all 4096</text>
-<text x="346" y="524" font-size="10" font-weight="700" fill="#085041" text-anchor="start">natgw-prod-compute</text>
-<rect x="484" y="306" width="140" height="226" rx="6" fill="#F8F7FF" stroke="#534AB7" stroke-width="1.5"/>
-<text x="496" y="326" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">subnet-batch</text>
-<text x="496" y="341" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">10.1.3.0/24 · ACI</text>
-<g transform="translate(534.8,366.8) scale(0.8)"><path d="M11 32a8 8 0 0 1 1-16a11 11 0 0 1 21 2a7.5 7.5 0 0 1 0 14Z" fill="#1E88E5"/><polygon points="23,24 33,20 44,24 44,36 33,42 23,36" fill="#7E57C2"/><polygon points="33,20 44,24 33,28 23,24" fill="#B39DDB"/><path d="M33 28V42" stroke="#4527A0" stroke-width="2"/></g>
-<text x="554" y="438" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle">aci-batch-processor</text>
-<text x="554" y="452" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="middle">private IP, runs once</text>
-<text x="496" y="480" font-size="10" font-weight="700" fill="#3C3489" text-anchor="start">id-solstice-batch</text>
-<text x="496" y="494" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">managed identity</text>
-<text x="480" y="524" font-size="9" font-weight="400" fill="#5F5E5A" text-anchor="start">→ storage via private endpoint</text>
-<rect x="634" y="306" width="146" height="226" rx="6" fill="#F4FBF8" stroke="#0F6E56" stroke-width="1.5"/>
-<text x="646" y="326" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">subnet-data</text>
-<text x="646" y="341" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">10.1.2.0/24</text>
-<g transform="translate(687.8,366.8) scale(0.8)"><polyline points="14,14 3,26 14,38" fill="none" stroke="#1E88E5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="34,14 45,26 34,38" fill="none" stroke="#1E88E5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 9V28" stroke="#78909C" stroke-width="3"/><circle cx="24" cy="8" r="5" fill="#29B6F6"/><circle cx="24" cy="30" r="6" fill="#8BC34A"/></g>
-<text x="707" y="438" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle">pe-stsolsticedata</text>
-<text x="707" y="452" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="middle">private IP 10.1.2.4</text>
-<text x="646" y="480" font-size="10" font-weight="700" fill="#2C2C2A" text-anchor="start">nsg-prod-data</text>
-<text x="646" y="494" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">443 from compute,</text>
-<text x="646" y="508" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">batch and hub ops</text>
-<text x="646" y="522" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">deny-all 4096</text>
-<rect x="810" y="256" width="200" height="372" rx="8" fill="#FFFFFF" stroke="#5F5E5A" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="824" y="278" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">vnet-solstice-dev</text>
-<text x="824" y="294" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">10.2.0.0/16  ·  Lab 04</text>
-<rect x="824" y="306" width="172" height="190" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.5"/>
-<text x="836" y="326" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">subnet-compute</text>
-<text x="836" y="341" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">10.2.1.0/24</text>
-<text x="836" y="366" font-size="10" font-weight="700" fill="#2C2C2A" text-anchor="start">nsg-dev-compute</text>
-<text x="836" y="380" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">deny from prod, deny-all</text>
-<text x="836" y="408" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">default outbound</text>
-<text x="836" y="422" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">access off</text>
-<text x="836" y="450" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">no NAT, no internet egress</text>
-<text x="836" y="480" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start">throwaway test VMs only</text>
-<text x="824" y="512" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">peered to hub only</text>
-<line x1="280" y1="330" x2="320" y2="330" stroke="#0F6E56" stroke-width="2" marker-end="url(#at)"/>
-<line x1="790" y1="330" x2="810" y2="330" stroke="#0F6E56" stroke-width="2" marker-end="url(#at)"/>
-<rect x="1050" y="220" width="560" height="200" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1.5"/>
-<text x="1066" y="242" font-size="13" font-weight="700" fill="#085041" text-anchor="start">rg-solstice-data  ·  Lab 02</text>
-<g transform="translate(1084.4,280.4) scale(0.9)"><rect x="3" y="6" width="42" height="11" rx="2.5" fill="#26A69A"/><rect x="3" y="19" width="42" height="11" rx="2.5" fill="#CFD8DC"/><rect x="3" y="32" width="42" height="11" rx="2.5" fill="#00897B"/><g stroke="#fff" stroke-width="2" opacity=".85"><path d="M8 11.5H20M8 24.5H20M8 37.5H20"/></g></g>
-<text x="1140" y="290" font-size="12" font-weight="700" fill="#2C2C2A" text-anchor="start">stsolsticedata{suffix}</text>
-<text x="1140" y="306" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">RA-GZRS · public access off after lock-down</text>
-<text x="1140" y="322" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">raw-manifests: Cool 30d, Cold 90d, delete 365d</text>
-<text x="1140" y="338" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">processed: sg-client-success reads (RBAC)</text>
-<rect x="1066" y="356" width="520" height="50" rx="6" fill="#F4FBF8" stroke="#0F6E56" stroke-width="1.5"/>
-<text x="1080" y="376" font-size="11.5" font-weight="700" fill="#085041" text-anchor="start">privatelink.blob.core.windows.net</text>
-<text x="1080" y="392" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Private DNS zone, linked to prod and hub VNets</text>
-<rect x="1050" y="436" width="560" height="214" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="1.5"/>
-<text x="1066" y="458" font-size="13" font-weight="700" fill="#3C3489" text-anchor="start">rg-solstice-compute  ·  Lab 03</text>
-<g transform="translate(1078.4,498.4) scale(0.9)"><path d="M24 2L46 24L24 46L2 24Z" fill="#7CB342" stroke="#558B2F" stroke-width="1.5"/><g stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M24 11V37M11 24H37"/></g><circle cx="24" cy="24" r="7" fill="#2196F3" stroke="#fff" stroke-width="2"/></g>
-<text x="1130" y="508" font-size="11.5" font-weight="700" fill="#2C2C2A" text-anchor="start">Standard load balancer</text>
-<text x="1130" y="524" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">public IP, port 80, HTTP probe</text>
-<text x="1130" y="540" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">backend pool: vmss-dashboard-api</text>
-<rect x="1066" y="556" width="240" height="44" rx="6" fill="#FFF8E8" stroke="#854F0B" stroke-width="1.5"/>
-<text x="1078" y="574" font-size="11" font-weight="700" fill="#633806" text-anchor="start">Autoscale 2 to 6</text>
-<text x="1078" y="590" font-size="9.5" font-weight="400" fill="#2C2C2A" text-anchor="start">CPU over 70% adds 1, under 30% removes 1</text>
-<rect x="1320" y="556" width="266" height="44" rx="6" fill="#EFEDFF" stroke="#534AB7" stroke-width="1.5"/>
-<text x="1332" y="574" font-size="11" font-weight="700" fill="#3C3489" text-anchor="start">crsolstice{suffix}  ·  Basic ACR</text>
-<text x="1332" y="590" font-size="10" font-weight="400" fill="#2C2C2A" text-anchor="start">batch-processor:v1 image, admin app</text>
-<rect x="1066" y="612" width="520" height="28" rx="6" fill="#FFFFFF" stroke="#534AB7" stroke-width="1.5" stroke-dasharray="4 3"/>
-<text x="1078" y="630" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start">app-solstice-admin  ·  App Service B1 (the PaaS comparison)</text>
-<rect x="30" y="670" width="1580" height="300" rx="10" fill="#FFFFFF" stroke="#185FA5" stroke-width="1.5"/>
-<text x="48" y="694" font-size="13" font-weight="700" fill="#0C447C" text-anchor="start">rg-solstice-monitoring  ·  Lab 05</text>
-<rect x="50" y="712" width="390" height="240" rx="8" fill="#F4F9FD" stroke="#185FA5" stroke-width="1.5"/>
-<g transform="translate(62.4,726.4) scale(0.9)"><rect x="4" y="4" width="40" height="40" rx="5" fill="#0078D4"/><g fill="#fff"><rect x="12" y="24" width="6" height="12"/><rect x="21" y="16" width="6" height="20"/><rect x="30" y="10" width="6" height="26"/></g></g>
-<text x="116" y="742" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">law-solstice</text>
-<text x="116" y="758" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Log Analytics workspace, 30 days</text>
-<text x="66" y="790" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">•  Blob logs and transactions from</text>
-<text x="80" y="806" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">stsolsticedata (diagnostic setting)</text>
-<text x="66" y="830" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">•  CPU and memory from vm-solstice-ops</text>
-<text x="80" y="846" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">(Azure Monitor Agent + data collection rule)</text>
-<text x="66" y="870" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">•  Saved KQL: storage errors and</text>
-<text x="80" y="886" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">CPU vs storage errors, 5-minute bins</text>
-<text x="66" y="912" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Query tables: StorageBlobLogs, Perf</text>
-<rect x="470" y="712" width="380" height="240" rx="8" fill="#F4F9FD" stroke="#185FA5" stroke-width="1.5"/>
-<g transform="translate(483.6,727.6) scale(0.85)"><path d="M24 4C16 4 13 10 13 17V28L8 34H40L35 28V17C35 10 32 4 24 4Z" fill="#FFB300"/><circle cx="24" cy="40" r="5" fill="#FB8C00"/></g>
-<text x="540" y="742" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">Azure Monitor alerts</text>
-<text x="540" y="758" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">metric and activity log rules</text>
-<text x="490" y="790" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">•  VMSS CPU above 85%, 15-minute window</text>
-<text x="490" y="830" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">•  Storage availability below 99.9%</text>
-<text x="490" y="870" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">•  Any resource lock deleted</text>
-<text x="490" y="912" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Protects the Lab 01 CanNotDelete lock</text>
-<rect x="890" y="712" width="270" height="240" rx="8" fill="#F4F9FD" stroke="#185FA5" stroke-width="1.5"/>
-<text x="910" y="752" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">ag-solstice-oncall</text>
-<text x="910" y="770" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Action group</text>
-<text x="910" y="804" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">email receiver:</text>
-<text x="910" y="820" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">primary on-call</text>
-<text x="910" y="856" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">One group serves all three</text>
-<text x="910" y="872" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">alert rules</text>
-<line x1="850" y1="832" x2="890" y2="832" stroke="#185FA5" stroke-width="2" marker-end="url(#ag)"/>
-<rect x="1180" y="712" width="420" height="240" rx="8" fill="#F4F9FD" stroke="#185FA5" stroke-width="1.5"/>
-<g transform="translate(1196.4,726.4) scale(0.9)"><path d="M11 32a8 8 0 0 1 1-16a11 11 0 0 1 21 2a7.5 7.5 0 0 1 0 14Z" fill="#43A047"/><path d="M30 26L38 29V35C38 39 34 42 30 43C26 42 22 39 22 35V29Z" fill="#2E7D32"/><path d="M26 35L29 38L35 31" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></g>
-<text x="1248" y="742" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start">rsv-solstice</text>
-<text x="1248" y="758" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Recovery Services vault, locally redundant</text>
-<text x="1196" y="790" font-size="11" font-weight="700" fill="#2C2C2A" text-anchor="start">policy-daily-30day</text>
-<text x="1196" y="806" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">daily at 23:00, keep 30 days</text>
-<text x="1196" y="836" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start">protects vm-solstice-ops</text>
-<text x="1196" y="852" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">(Lab 04 ops VM, backup not scale set)</text>
-<text x="1196" y="890" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">Vault soft delete is not set in code</text>
-<text x="1196" y="906" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start">(azurerm 5.x no longer exposes it)</text>
-<text x="30" y="1002" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start">Five Terraform configurations, five state files. Each lab looks up earlier labs by name with data sources. Build order 01 → 05; destroy in reverse.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1560" viewBox="0 0 2200 1560" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplYzE2NjU1MS04ZTVjLTQxOWItOGVmNi1kOTQyYjA2MGUxNjIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaBfzs2La1mmybCiJat0eE3EAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowOTM3MGUwYy0yZmFlLTQ1YjQtYWE0MC02NmFkN2MxZjI3YTRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNor4WFkMkWTuxvPhpu1ZuKrQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggGo8XjY6Lk7ZrOfa0uR2i4sKceh36Hqg3kI7YwbD92qmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJQwLOqzR743XA2+sgKylRgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCA1n1KeHM3/aHp/Ra0L5YKNJUrLHv1DUje3IznWPyIAuWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmVjMTY2NTUxLThlNWMtNDE5Yi04ZWY2LWQ5NDJiMDYwZTE2Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjVmYzA2MGZhLWQ4ZmMtNDc4NC04ZmVmLWRiMTlkYjIwOTdiMXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAajxeNjouTtms59rS5HaLiwpx6HfoeqDeQjtjBsP3aqaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg/PPOp8Yn7hQiDLNsavlC+hLlsQpPGBkNzUOVNj8X5vGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg0OCh2+gJ1+vVDlyI9bb90NyOO7I8vMQgxE64Gr6zmgh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKfb6Fs6JYxCC9lf70K/9r/x8KEEEMU26Ac0MhZKa7G8zJO69+DQCTrSciuNbVXU7N6G2Mt7d6f7U67oPPZlyzk=</c2pa:manifest></metadata>
+<title>Solstice Analytics: Labs 01 to 05 as one environment</title>
+<desc>One Azure subscription containing everything built in Labs 01 to 05. Internet clients reach the Standard load balancer and scale set in the prod VNet, and an App Service admin tool. A container batch job in the prod VNet reads and writes the RA-GZRS storage account through a private endpoint. A hub VNet holds an ops VM and is peered to prod and dev, which are not peered to each other. NAT gateways give prod compute and the hub outbound access. Storage logs and ops VM performance data flow to Log Analytics, alert rules notify an action group by email, and the ops VM is backed up to a Recovery Services vault. Lab 01 policies, role assignments and a resource lock govern the resource groups.</desc>
+<defs>
+<marker id="mk-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F2937"/></marker>
+<marker id="mk-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker>
+<marker id="mk-teal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F6E56"/></marker>
+<marker id="mk-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#185FA5"/></marker>
+<marker id="mk-amber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#854F0B"/></marker>
+<symbol id="ic-Virtual_Networks" viewBox="0 0 18.006025 10.784314">
+  
+  <defs
+     id="VirtualNetworks-defs70798">
+    <linearGradient
+       id="VirtualNetworks-f020fb7e-2243-4501-8153-5d69bd3c34f7"
+       x1="9.8800001"
+       y1="8.5900002"
+       x2="11.52"
+       y2="10.23"
+       gradientTransform="rotate(-0.08,-285.46384,-1454.0801)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#86d633"
+         id="VirtualNetworks-stop70783" />
+      <stop
+         offset="1"
+         stop-color="#5e9624"
+         id="VirtualNetworks-stop70785" />
+    </linearGradient>
+    <linearGradient
+       id="VirtualNetworks-b3c2bc94-8c7c-48a2-9719-6ee899a43a97"
+       x1="6.1799998"
+       y1="8.5900002"
+       x2="7.8099999"
+       y2="10.23"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#86d633"
+         id="VirtualNetworks-stop70788" />
+      <stop
+         offset="1"
+         stop-color="#5e9624"
+         id="VirtualNetworks-stop70790" />
+    </linearGradient>
+    <linearGradient
+       id="VirtualNetworks-e900c35d-0958-4d4f-b28f-302eeaaf52f5"
+       x1="2.48"
+       y1="8.5900002"
+       x2="4.1100001"
+       y2="10.23"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#86d633"
+         id="VirtualNetworks-stop70793" />
+      <stop
+         offset="1"
+         stop-color="#5e9624"
+         id="VirtualNetworks-stop70795" />
+    </linearGradient>
+  </defs>
+  <title
+     id="VirtualNetworks-title70800">Icon-networking-61</title>
+  <circle
+     cx="12.744286"
+     cy="5.3829632"
+     r="1.16"
+     id="VirtualNetworks-circle70802"
+     style="fill:url(#VirtualNetworks-f020fb7e-2243-4501-8153-5d69bd3c34f7)" />
+  <circle
+     cx="9.0442858"
+     cy="5.3929634"
+     r="1.16"
+     id="VirtualNetworks-circle70804"
+     style="fill:url(#VirtualNetworks-b3c2bc94-8c7c-48a2-9719-6ee899a43a97)" />
+  <circle
+     cx="5.3442855"
+     cy="5.3929634"
+     r="1.16"
+     id="VirtualNetworks-circle70806"
+     style="fill:url(#VirtualNetworks-e900c35d-0958-4d4f-b28f-302eeaaf52f5)" />
+  <path
+     d="M 6.1863956,10.030542 5.5226439,10.69615 a 0.3,0.3 0 0 1 -0.4242636,5.93e-4 L 0.18421208,5.7962782 A 0.6,0.6 0 0 1 0.18302731,4.9477509 L 0.84677897,4.2821431 6.1858032,9.6062787 a 0.3,0.3 0 0 1 5.924e-4,0.4242633 z"
+     id="VirtualNetworks-path70808"
+    
+     style="fill:#50e6ff" />
+  <path
+     d="M 5.4221989,0.10117925 6.0878067,0.76493091 A 0.3,0.3 0 0 1 6.0883991,1.1891946 L 0.84193654,6.4503285 0.17632875,5.7865769 A 0.6,0.6 0 0 1 0.17514398,4.9380496 L 4.9979353,0.10177164 a 0.3,0.3 0 0 1 0.4242636,-5.9239e-4 z"
+     id="VirtualNetworks-path70810"
+    
+     style="fill:#1490df" />
+  <path
+     d="m 17.160946,4.2730297 0.663752,0.6656078 a 0.6,0.6 0 0 1 -0.0012,0.8485273 l -4.914168,4.9004642 a 0.3,0.3 0 0 1 -0.424264,-5.92e-4 l -0.663752,-0.665608 a 0.3,0.3 0 0 1 5.93e-4,-0.4242636 z"
+     id="VirtualNetworks-path70812"
+    
+     style="fill:#50e6ff" />
+  <path
+     d="M 17.822617,5.7800309 17.157009,6.4437825 11.910546,1.1826486 a 0.3,0.3 0 0 1 5.93e-4,-0.42426368 l 0.672688,-0.67081284 a 0.3,0.3 0 0 1 0.424264,5.9238e-4 l 4.822791,4.83627794 a 0.6,0.6 0 0 1 -0.0012,0.8485273 z"
+     id="VirtualNetworks-path70814"
+    
+     style="fill:#1490df" />
+  
+</symbol>
+<symbol id="ic-Network_Security_Groups" viewBox="0 0 14.72 17.997572">
+  
+  <defs
+     id="NetworkSecurityGroups-defs65790">
+    <linearGradient
+       id="NetworkSecurityGroups-fe5ce43f-2823-4617-bb54-57df9e778372"
+       x1="9.0100002"
+       y1="0.75"
+       x2="9.0100002"
+       y2="17.25"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#5ea0ef"
+         id="NetworkSecurityGroups-stop65779" />
+      <stop
+         offset="0.18"
+         stop-color="#559cec"
+         id="NetworkSecurityGroups-stop65781" />
+      <stop
+         offset="0.47"
+         stop-color="#3c91e5"
+         id="NetworkSecurityGroups-stop65783" />
+      <stop
+         offset="0.84"
+         stop-color="#1380da"
+         id="NetworkSecurityGroups-stop65785" />
+      <stop
+         offset="1"
+         stop-color="#0078d4"
+         id="NetworkSecurityGroups-stop65787" />
+    </linearGradient>
+  </defs>
+  <title
+     id="NetworkSecurityGroups-title65792">Icon-networking-67</title>
+  <path
+     d="m 14.72,8.4 c 0,4.84 -5.85,8.74 -7.12,9.53 a 0.46,0.46 0 0 1 -0.48,0 C 5.85,17.14 1.2845085e-8,13.24 1.2845085e-8,8.4 V 2.58 A 0.46,0.46 0 0 1 0.45000001,2.12 C 5,2 3.95,0 7.36,0 c 3.41,0 2.36,2 6.91,2.12 a 0.46,0.46 0 0 1 0.45,0.46 z"
+     id="NetworkSecurityGroups-path65794"
+    
+     style="fill:#0078d4" />
+  <path
+     d="m 14.11,8.45 c 0,4.44 -5.36,8 -6.53,8.74 a 0.43,0.43 0 0 1 -0.44,0 C 5.97,16.47 0.61000001,12.89 0.61000001,8.45 V 3.11 A 0.42,0.42 0 0 1 1.02,2.69 C 5.19,2.58 4.23,0.75 7.36,0.75 c 3.13,0 2.17,1.83 6.34,1.94 a 0.42,0.42 0 0 1 0.41,0.42 z"
+     id="NetworkSecurityGroups-path65796"
+    
+     style="fill:#6bb9f2" />
+  <path
+     d="M 7.36,9 V 0.75 c 3.13,0 2.17,1.83 6.34,1.94 a 0.43,0.43 0 0 1 0.41,0.43 v 5.34 a 4.89,4.89 0 0 1 0,0.54 z m 0,0 H 0.64000001 C 1.04,13.18 6.02,16.5 7.14,17.19 a 0.39,0.39 0 0 0 0.18,0.06 h 0.04 z"
+     id="NetworkSecurityGroups-path65798"
+    
+     style="fill:url(#NetworkSecurityGroups-fe5ce43f-2823-4617-bb54-57df9e778372)" />
+  <path
+     d="M 1.02,2.69 C 5.19,2.58 4.23,0.75 7.36,0.75 V 9 H 0.64000001 a 4.89,4.89 0 0 1 0,-0.54 V 3.12 A 0.43,0.43 0 0 1 1.02,2.69 Z"
+     id="NetworkSecurityGroups-path65800"
+    
+     style="fill:#50e6ff" />
+  <path
+     d="M 14.08,9 H 7.36 v 8.25 0 A 0.39,0.39 0 0 0 7.54,17.19 C 8.7,16.5 13.68,13.18 14.08,9 Z"
+     id="NetworkSecurityGroups-path65802"
+    
+     style="fill:#50e6ff" />
+  
+</symbol>
+<symbol id="ic-NAT" viewBox="0 0 17.74493 17.74493">
+  
+  <defs
+     id="NAT-defs65218">
+    <linearGradient
+       id="NAT-bb278f11-acc5-4f81-a956-3c7e2103f9e0"
+       x1="9"
+       y1="18.17"
+       x2="9"
+       y2="1.506"
+       gradientTransform="rotate(45,8.7827707,9.089194)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#238ab0"
+         id="NAT-stop65211" />
+      <stop
+         offset="0.109"
+         stop-color="#2da4c8"
+         id="NAT-stop65213" />
+      <stop
+         offset="0.775"
+         stop-color="#3ed3f2"
+         id="NAT-stop65215" />
+    </linearGradient>
+  </defs>
+  <g
+     id="NAT-g65236"
+     transform="translate(-0.12674981,-0.12753514)">
+    <rect
+       x="2.553"
+       y="2.553"
+       width="12.893"
+       height="12.893"
+       rx="0.59100002"
+       transform="rotate(-45,8.999961,9.0000941)"
+       id="NAT-rect65220"
+       style="fill:url(#NAT-bb278f11-acc5-4f81-a956-3c7e2103f9e0)" />
+    <polygon
+       points="13.734,8.33 10.877,8.33 10.877,9.85 12.158,9.85 8.94,13.069 5.721,9.85 7.023,9.85 7.023,8.33 3.885,8.33 3.885,9.85 4.004,9.85 3.788,10.067 8.286,14.565 8.94,13.912 9.593,14.565 14.092,10.067 13.734,9.709 "
+       id="NAT-polygon65222"
+       style="fill:#9cebff" />
+    <g
+       id="NAT-g65228">
+      <ellipse
+         id="NAT-e7444779-97d4-41c0-b615-8f20dff7b430"
+         cx="3.977"
+         cy="9.0900002"
+         rx="1.577"
+         ry="1.585"
+         transform="rotate(-45.121,3.9765883,9.0907054)"
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-f49a3027-2a70-4956-8377-b9fde0692268"
+         cx="3.977"
+         cy="9.0900002"
+         rx="0.89600003"
+         ry="0.90499997"
+         transform="rotate(-45.061,3.9763194,9.0902711)"
+         style="fill:#86d633" />
+      <ellipse
+         id="NAT-a1afee39-6bd9-4799-a876-a587d30d68e2"
+         cx="14.014"
+         cy="9.0900002"
+         rx="1.577"
+         ry="1.585"
+         transform="rotate(-45.121,14.014661,9.090831)"
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-e3be4992-7cb5-4729-a727-b6df3846a260"
+         cx="14.014"
+         cy="9.0900002"
+         rx="0.89600003"
+         ry="0.90499997"
+         transform="rotate(-45.061,14.015122,9.0900713)"
+         style="fill:#86d633" />
+    </g>
+    <g
+       id="NAT-g65234">
+      <path
+         d="m 11.04,4.806 -2,-2 a 0.15,0.15 0 0 0 -0.213,0 l -2,2 A 0.15,0.15 0 0 0 6.933,5.063 H 8.068 A 0.107,0.107 0 0 1 8.175,5.17 V 15.433 H 9.7 V 5.17 A 0.107,0.107 0 0 1 9.8,5.063 h 1.131 A 0.15,0.15 0 0 0 11.04,4.806 Z"
+         id="NAT-path65230"
+        
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-b39a4da1-83b2-4022-9206-dc01785cf428"
+         cx="8.9350004"
+         cy="14.139"
+         rx="1.577"
+         ry="1.585"
+         transform="rotate(-45.121,8.9356423,14.138538)"
+         style="fill:#ffffff" />
+      <ellipse
+         id="NAT-fc8023b8-202d-4292-8ba0-f1db060a36ef"
+         cx="8.9350004"
+         cy="14.139"
+         rx="0.89600003"
+         ry="0.90499997"
+         transform="rotate(-45.061,8.9358405,14.138373)"
+         style="fill:#86d633" />
+    </g>
+  </g>
+  
+</symbol>
+<symbol id="ic-Public_IP_Addresses" viewBox="0 0 17 13.67">
+  
+  <defs
+     id="PublicIPAddresses-defs67598">
+    <linearGradient
+       id="PublicIPAddresses-ad52e31e-75de-46af-9bdc-bea038ab4209"
+       x1="9"
+       y1="15.83"
+       x2="9"
+       y2="5.79"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#32bedd"
+         id="PublicIPAddresses-stop67589" />
+      <stop
+         offset="0.18"
+         stop-color="#32caea"
+         id="PublicIPAddresses-stop67591" />
+      <stop
+         offset="0.41"
+         stop-color="#32d2f2"
+         id="PublicIPAddresses-stop67593" />
+      <stop
+         offset="0.78"
+         stop-color="#32d4f5"
+         id="PublicIPAddresses-stop67595" />
+    </linearGradient>
+  </defs>
+  <title
+     id="PublicIPAddresses-title67600">Icon-networking-69</title>
+  <path
+     d="m 0,3.62 h 17 v 9.48 a 0.57,0.57 0 0 1 -0.57,0.57 H 0.57 A 0.57,0.57 0 0 1 0,13.1 Z"
+     id="PublicIPAddresses-path67602"
+    
+     style="fill:url(#PublicIPAddresses-ad52e31e-75de-46af-9bdc-bea038ab4209)" />
+  <path
+     d="M 0.57,0 H 16.43 A 0.57,0.57 0 0 1 17,0.57000001 V 3.62 H 0 V 0.56000001 A 0.57,0.57 0 0 1 0.57,0 Z"
+     id="PublicIPAddresses-path67604"
+    
+     style="fill:#767676" />
+  <circle
+     cx="12.32"
+     cy="8.0199995"
+     r="1.38"
+     id="PublicIPAddresses-circle67606"
+     style="fill:#f2f2f2" />
+  <circle
+     cx="8.5600004"
+     cy="8.0199995"
+     r="1.38"
+     id="PublicIPAddresses-circle67608"
+     style="fill:#f2f2f2" />
+  <circle
+     cx="4.6799998"
+     cy="8.0199995"
+     r="1.38"
+     id="PublicIPAddresses-circle67610"
+     style="fill:#f2f2f2" />
+  <rect
+     x="2.29"
+     y="1.08"
+     width="12.43"
+     height="1.46"
+     rx="0.28"
+     id="PublicIPAddresses-rect67612"
+     style="fill:#f2f2f2" />
+  
+</symbol>
+<symbol id="ic-Load_Balancers" viewBox="0 0 18.003101 18.003065">
+  
+  <defs
+     id="LoadBalancers-defs65009">
+    <linearGradient
+       id="LoadBalancers-ef84663a-a7b6-46a7-a275-1e419f5eae62"
+       x1="9"
+       y1="19.85"
+       x2="9"
+       y2="-1.02"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#5e9624"
+         id="LoadBalancers-stop65002" />
+      <stop
+         offset="0.02"
+         stop-color="#5f9724"
+         id="LoadBalancers-stop65004" />
+      <stop
+         offset="1"
+         stop-color="#76bc2d"
+         id="LoadBalancers-stop65006" />
+    </linearGradient>
+  </defs>
+  <title
+     id="LoadBalancers-title65011">Icon-networking-62</title>
+  <path
+     d="M 0.18155048,8.5715505 8.5715505,0.18155048 a 0.6,0.6 0 0 1 0.86,0 L 17.82155,8.5715505 a 0.6,0.6 0 0 1 0,0.86 L 9.4215505,17.83155 a 0.6,0.6 0 0 1 -0.84,0 L 0.18155048,9.4315505 a 0.6,0.6 0 0 1 0,-0.86 z"
+     id="LoadBalancers-path65013"
+    
+     style="fill:url(#LoadBalancers-ef84663a-a7b6-46a7-a275-1e419f5eae62)" />
+  <path
+     d="m 11.20155,4.0015505 -2.1199995,-2.11 a 0.12,0.12 0 0 0 -0.16,0 l -2.12,2.11 a 0.1,0.1 0 0 0 0.08,0.18 h 1.24 a 0.11,0.11 0 0 1 0.11,0.11 v 2 a 0.11,0.11 0 0 0 0.11,0.11 h 1.32 a 0.11,0.11 0 0 0 0.11,-0.11 v -2 a 0.11,0.11 0 0 1 0.11,-0.11 H 11.12155 a 0.1,0.1 0 0 0 0.08,-0.18 z"
+     id="LoadBalancers-path65015"
+    
+     style="fill:#b4ec36" />
+  <path
+     d="m 4.0015505,6.6115505 -2.1,2.13 a 0.11,0.11 0 0 0 0,0.15 l 2.1,2.1099995 a 0.11,0.11 0 0 0 0.19,-0.08 V 9.6915505 a 0.11,0.11 0 0 1 0.11,-0.11 h 2 a 0.1,0.1 0 0 0 0.1,-0.11 v -1.32 a 0.1,0.1 0 0 0 -0.07,-0.15 h -2 a 0.1,0.1 0 0 1 -0.11,-0.1 v -1.21 a 0.117047,0.117047 0 0 0 -0.22,-0.08 z"
+     id="LoadBalancers-path65017"
+    
+     style="fill:#b4ec36" />
+  <path
+     d="m 14.08155,11.00155 2.13,-2.1199995 a 0.11,0.11 0 0 0 0,-0.15 l -2.13,-2.12 a 0.11,0.11 0 0 0 -0.18,0.08 v 1.25 a 0.1,0.1 0 0 1 -0.11,0.1 h -2 a 0.1,0.1 0 0 0 -0.1,0.11 v 1.32 a 0.1,0.1 0 0 0 0.1,0.11 h 2 a 0.11,0.11 0 0 1 0.11,0.11 V 10.93155 a 0.11,0.11 0 0 0 0.18,0.07 z"
+     id="LoadBalancers-path65019"
+    
+     style="fill:#b4ec36" />
+  <path
+     d="M 11.79155,9.0015505 A 2.79,2.79 0 1 0 8.2515505,11.67155 v 0.95 a 1.71,1.71 0 1 0 1.57,0 v -1 A 2.77,2.77 0 0 0 11.79155,9.0015505 Z"
+     id="LoadBalancers-path65021"
+    
+     style="fill:#ffffff" />
+  <circle
+     id="LoadBalancers-e99c3387-15c3-4f28-bd4b-cb209b430e06"
+     cx="9.0115509"
+     cy="8.9915504"
+     r="1.62"
+     style="fill:#5ea0ef" />
+  
+</symbol>
+<symbol id="ic-Private_Endpoint" viewBox="0 0 53.798553 49.537819">
+  <defs
+     id="PrivateEndpoint-defs2" />
+  
+  
+  <g
+    
+    
+     id="PrivateEndpoint-layer1"
+     transform="translate(-77.843845,-68.46614)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#7b7b7b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 102.94336,75.623047 v 24.320312 h 3.40039 V 75.623047 Z"
+       id="PrivateEndpoint-path4546"
+       />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#369dc6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.53865981;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="PrivateEndpoint-path4529"
+       cx="104.74665"
+       cy="73.30896"
+       r="4.8428197" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#84b926;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.53865981;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="PrivateEndpoint-path4529-0"
+       cx="104.7939"
+       cy="103.04635"
+       r="5.9295011" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#369dc6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 116.61133,88.082031 a 1.70017,1.70017 0 0 0 -1.16016,2.929688 l 12.07422,11.873051 -12.24805,12.20312 a 1.70017,1.70017 0 1 0 2.39844,2.41016 l 13.4668,-13.41797 a 1.70017,1.70017 0 0 0 -0.008,-2.41602 L 117.83594,88.587891 a 1.70017,1.70017 0 0 0 -1.22461,-0.50586 z m -23.787111,0.002 a 1.70017,1.70017 0 0 0 -1.173828,0.503907 L 78.351562,101.66406 a 1.70017,1.70017 0 0 0 -0.0078,2.41602 l 13.466797,13.41797 a 1.70017,1.70017 0 1 0 2.398437,-2.41016 L 81.960938,102.88477 94.035156,91.011719 a 1.70017,1.70017 0 0 0 -1.210937,-2.927735 z"
+       id="PrivateEndpoint-path4548-6"
+       />
+  </g>
+</symbol>
+<symbol id="ic-DNS_Zones" viewBox="0 0 16.967587 16.971489">
+  
+  <defs
+     id="DNSZones-defs63912">
+    <radialGradient
+       id="DNSZones-e7579f4d-36a3-4693-a726-7a6050ac5671"
+       cx="-6811.3999"
+       cy="6729.6899"
+       r="17"
+       gradientTransform="matrix(0.5,0,0,-0.5,3414.91,3374.05)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.18"
+         stop-color="#5ea0ef"
+         id="DNSZones-stop63907" />
+      <stop
+         offset="1"
+         stop-color="#0078d4"
+         id="DNSZones-stop63909" />
+    </radialGradient>
+  </defs>
+  <title
+     id="DNSZones-title63914">Icon-networking-64</title>
+  <path
+     id="DNSZones-f57e105d-6d2d-4ad7-b8c3-c10684c9f9b8"
+     d="M 13.713088,15.188401 A 8.5030877,8.5030877 0 0 1 3.2930877,1.7484011 l 0.09,-0.06 A 8.5,8.5 0 0 1 13.713088,15.188401"
+    
+     style="fill:url(#DNSZones-e7579f4d-36a3-4693-a726-7a6050ac5671)" />
+  <path
+     d="M 8.5030877,0.77840107 A 7.69,7.69 0 1 0 16.193088,8.4684011 7.7,7.7 0 0 0 8.5030877,0.77840107 Z M 13.653088,3.3684011 a 7.37,7.37 0 0 1 -2.15,0.8 8.83,8.83 0 0 0 -1.25,-2.7 7.2,7.2 0 0 1 3.4,1.9 z m -5.1500003,-2.16 a 6.59,6.59 0 0 1 1.09,0.09 v 0 a 7.48,7.48 0 0 1 1.5300003,3 15.12,15.12 0 0 1 -5.4500003,0 7.38,7.38 0 0 1 1.51,-2.94 v 0 a 7.34,7.34 0 0 1 1.32,-0.15 z m -2,0.26 a 8.72,8.72 0 0 0 -1.27,2.68 5.58,5.58 0 0 1 -1.9,-0.77 7.35,7.35 0 0 1 3.17,-1.91 z m -3.28,11.9999999 a 5.27,5.27 0 0 1 1.78,-0.76 7.08,7.08 0 0 0 1.35,2.72 7.25,7.25 0 0 1 -3.13,-1.96 z m 6.41,2.2 a 7.08,7.08 0 0 1 -1.13,0.06 6.83,6.83 0 0 1 -1.44,-0.15 v 0 a 6,6 0 0 1 -1.67,-3 14.73,14.73 0 0 1 5.8800003,0 6,6 0 0 1 -1.6900003,3 z m 0.7300003,-0.16 a 7.13,7.13 0 0 0 1.38,-2.8 6.68,6.68 0 0 1 2,0.83 7.13,7.13 0 0 1 -3.38,1.93 z m 1.48,-3.22 c 0.08,-0.36 0.15,-0.73 0.2,-1.12 l -0.46,0.11 c -0.05,0.31 -0.1,0.62 -0.17,0.91 a 15.23,15.23 0 0 0 -6.0900003,0 c -0.07,-0.27 -0.12,-0.56 -0.17,-0.86 a 0.28,0.28 0 0 1 0,-0.09 l -0.46,-0.13 a 2.36,2.36 0 0 0 0,0.28 c 0,0.32 0.11,0.62 0.17,0.91 a 5.9,5.9 0 0 0 -2,0.85 7.24,7.24 0 0 1 0.11,-9.3999999 6.29,6.29 0 0 0 2.08,0.86 c -0.07,0.24 -0.13,0.5 -0.18,0.76 -0.05,0.26 0,0.25 -0.08,0.37 l 0.47,-0.11 v -0.17 c 0.06,-0.26 0.12,-0.51 0.19,-0.75 a 14.89,14.89 0 0 0 3.05,0.24 15,15 0 0 0 2.7800003,-0.26 c 0.07,0.27 0.14,0.56 0.2,0.85 l 0.46,0.11 q -0.11,-0.54 -0.24,-1 a 7.73,7.73 0 0 0 2.3,-0.91 7.22,7.22 0 0 1 0.06,9.4899999 7.28,7.28 0 0 0 -2.22,-0.97 z"
+     id="DNSZones-path63917"
+    
+     style="fill:#5ea0ef" />
+  <path
+     d="m 3.1930877,6.4684011 a 7.92,7.92 0 0 1 1.16,-0.08 2.44,2.44 0 0 1 1.71,0.52 2,2 0 0 1 0.59,1.46 2.21,2.21 0 0 1 -0.61,1.6399999 2.6,2.6 0 0 1 -1.86,0.61 9.17,9.17 0 0 1 -1,-0.05 z m 0.55,3.7299999 a 4,4 0 0 0 0.55,0 1.62,1.62 0 0 0 1.79,-1.8099999 1.5,1.5 0 0 0 -1.71,-1.62 3.17,3.17 0 0 0 -0.63,0 z"
+     id="DNSZones-path63919"
+    
+     style="fill:#ffffff" />
+  <path
+     d="M 7.3630877,10.578401 V 6.3684011 h 0.59 l 1.35,2.1 a 12.18,12.18 0 0 1 0.7600003,1.37 v 0 c -0.05,-0.56 -0.06,-1.07 -0.06,-1.73 v -1.74 h 0.5 V 10.578401 H 9.9530877 l -1.32,-2.1099999 c -0.29,-0.47 -0.57,-1 -0.79,-1.4 v 0 c 0,0.53 0,1 0,1.74 v 1.7999999 z"
+     id="DNSZones-path63921"
+    
+     style="fill:#ffffff" />
+  <path
+     d="m 11.393088,9.9184011 a 2,2 0 0 0 1,0.2699999 c 0.56,0 0.88,-0.2899999 0.88,-0.7199999 0,-0.43 -0.22,-0.62 -0.79,-0.83 -0.57,-0.21 -1.12,-0.6 -1.12,-1.2 a 1.22,1.22 0 0 1 1.37,-1.14 2,2 0 0 1 0.93,0.2 l -0.16,0.45 a 1.63,1.63 0 0 0 -0.8,-0.2 c -0.58,0 -0.8,0.34 -0.8,0.63 0,0.29 0.26,0.59 0.84,0.81 0.58,0.22 1.08,0.62 1.08,1.24 0,0.6199999 -0.48,1.2099999 -1.48,1.2099999 a 2.16,2.16 0 0 1 -1.07,-0.27 z"
+     id="DNSZones-path63923"
+    
+     style="fill:#ffffff" />
+  
+</symbol>
+<symbol id="ic-Virtual_Machine" viewBox="0 0 18 16.629999">
+  
+  <defs
+     id="VirtualMachine-defs9590">
+    <linearGradient
+       id="VirtualMachine-f34d9569-2bd0-4002-8f16-3d01d8106cb5"
+       x1="8.8800001"
+       y1="12.21"
+       x2="8.8800001"
+       y2="0.20999999"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="VirtualMachine-stop9580" />
+      <stop
+         offset="0.82"
+         stop-color="#5ea0ef"
+         id="VirtualMachine-stop9582" />
+    </linearGradient>
+    <linearGradient
+       id="VirtualMachine-bdb45a0b-eb58-4970-a60a-fb2ce314f866"
+       x1="8.8800001"
+       y1="16.84"
+       x2="8.8800001"
+       y2="12.21"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.15"
+         stop-color="#ccc"
+         id="VirtualMachine-stop9585" />
+      <stop
+         offset="1"
+         stop-color="#707070"
+         id="VirtualMachine-stop9587" />
+    </linearGradient>
+  </defs>
+  <title
+     id="VirtualMachine-title9592">Icon-compute-21</title>
+  <rect
+     x="0"
+     y="0"
+     width="18"
+     height="12"
+     rx="0.60000002"
+     id="VirtualMachine-rect9594"
+     style="fill:url(#VirtualMachine-f34d9569-2bd0-4002-8f16-3d01d8106cb5)" />
+  <polygon
+     points="8.88,9.71 8.88,6.21 11.88,4.46 11.88,7.95 "
+     id="VirtualMachine-polygon9596"
+     style="fill:#50e6ff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="5.88,4.46 8.88,2.71 11.88,4.46 8.88,6.22 "
+     id="VirtualMachine-polygon9598"
+     style="fill:#c3f1ff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="5.88,7.95 5.88,4.46 8.88,6.22 8.88,9.71 "
+     id="VirtualMachine-polygon9600"
+     style="fill:#9cebff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="8.88,9.71 5.88,7.95 8.88,6.21 "
+     id="VirtualMachine-polygon9602"
+     style="fill:#c3f1ff"
+     transform="translate(0.12,-0.20999999)" />
+  <polygon
+     points="8.88,9.71 11.88,7.95 8.88,6.21 "
+     id="VirtualMachine-polygon9604"
+     style="fill:#9cebff"
+     transform="translate(0.12,-0.20999999)" />
+  <path
+     d="M 12.61,15.63 C 10.83,15.35 10.76,14.07 10.76,12 H 7.23 c 0,2.07 -0.06,3.35 -1.84,3.63 a 1,1 0 0 0 -0.89,1 h 9 a 1,1 0 0 0 -0.89,-1 z"
+     id="VirtualMachine-path9606"
+    
+     style="fill:url(#VirtualMachine-bdb45a0b-eb58-4970-a60a-fb2ce314f866)" />
+  
+</symbol>
+<symbol id="ic-VM_Scale_Sets" viewBox="0 0 17 17">
+  
+  <defs
+     id="VMScaleSets-defs10077">
+    <linearGradient
+       id="VMScaleSets-b816c8ea-05a2-41fb-ba99-96d84599c9f4"
+       x1="12.74"
+       y1="15.28"
+       x2="12.74"
+       y2="8.5200005"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="VMScaleSets-stop10067" />
+      <stop
+         offset="0.82"
+         stop-color="#5ea0ef"
+         id="VMScaleSets-stop10069" />
+    </linearGradient>
+    <linearGradient
+       id="VMScaleSets-ab373d88-41af-4fc3-b172-d4489f9107a0"
+       x1="12.74"
+       y1="17.889999"
+       x2="12.74"
+       y2="15.28"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.15"
+         stop-color="#ccc"
+         id="VMScaleSets-stop10072" />
+      <stop
+         offset="1"
+         stop-color="#707070"
+         id="VMScaleSets-stop10074" />
+    </linearGradient>
+  </defs>
+  <title
+     id="VMScaleSets-title10079">Icon-compute-34</title>
+  <rect
+     x="0"
+     y="0"
+     width="10.11"
+     height="6.75"
+     rx="0.34"
+     id="VMScaleSets-rect10081"
+     style="fill:#005ba1" />
+  <polygon
+     points="5.85,6.23 5.85,4.27 7.53,3.28 7.53,5.25 "
+     id="VMScaleSets-polygon10083"
+     style="fill:#50e6ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="4.16,3.28 5.85,2.29 7.53,3.28 5.85,4.27 "
+     id="VMScaleSets-polygon10085"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="4.16,5.25 4.16,3.28 5.85,4.27 5.85,6.23 "
+     id="VMScaleSets-polygon10087"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <rect
+     x="3.9700003"
+     y="3.8700004"
+     width="10.11"
+     height="6.75"
+     rx="0.34"
+     id="VMScaleSets-rect10089"
+     style="fill:#0078d4" />
+  <polygon
+     points="9.82,10.11 9.82,8.14 11.5,7.16 11.5,9.12 "
+     id="VMScaleSets-polygon10091"
+     style="fill:#50e6ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="8.13,7.16 9.82,6.17 11.5,7.16 9.82,8.14 "
+     id="VMScaleSets-polygon10093"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="8.13,9.12 8.13,7.16 9.82,8.14 9.82,10.11 "
+     id="VMScaleSets-polygon10095"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <rect
+     x="6.8899999"
+     y="7.6300006"
+     width="10.11"
+     height="6.75"
+     rx="0.34"
+     id="VMScaleSets-rect10097"
+     style="fill:url(#VMScaleSets-b816c8ea-05a2-41fb-ba99-96d84599c9f4)" />
+  <polygon
+     points="12.74,13.87 12.74,11.9 14.42,10.92 14.42,12.88 "
+     id="VMScaleSets-polygon10099"
+     style="fill:#50e6ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="11.05,10.92 12.74,9.93 14.42,10.92 12.74,11.91 "
+     id="VMScaleSets-polygon10101"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="11.05,12.88 11.05,10.92 12.74,11.91 12.74,13.87 "
+     id="VMScaleSets-polygon10103"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="12.74,13.87 11.05,12.88 12.74,11.9 "
+     id="VMScaleSets-polygon10105"
+     style="fill:#c3f1ff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <polygon
+     points="12.74,13.87 14.42,12.88 12.74,11.9 "
+     id="VMScaleSets-polygon10107"
+     style="fill:#9cebff"
+     transform="translate(-0.79000002,-0.88999999)" />
+  <path
+     d="m 13.97,16.43 c -1,-0.16 -1,-0.88 -1,-2 h -2 c 0,1.16 0,1.88 -1,2 A 0.59,0.59 0 0 0 9.47,17 h 5 a 0.59,0.59 0 0 0 -0.5,-0.57 z"
+     id="VMScaleSets-path10109"
+    
+     style="fill:url(#VMScaleSets-ab373d88-41af-4fc3-b172-d4489f9107a0)" />
+  
+</symbol>
+<symbol id="ic-Container_Instances" viewBox="0 0 16.889999 18.00601">
+  
+  <defs
+     id="ContainerInstances-defs4096">
+    <linearGradient
+       id="ContainerInstances-f7543904-4a89-435e-96cd-11521c829faa"
+       x1="9"
+       y1="11.95"
+       x2="9"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="ContainerInstances-stop4085" />
+      <stop
+         offset="0.16"
+         stop-color="#1380da"
+         id="ContainerInstances-stop4087" />
+      <stop
+         offset="0.53"
+         stop-color="#3c91e5"
+         id="ContainerInstances-stop4089" />
+      <stop
+         offset="0.82"
+         stop-color="#559cec"
+         id="ContainerInstances-stop4091" />
+      <stop
+         offset="1"
+         stop-color="#5ea0ef"
+         id="ContainerInstances-stop4093" />
+    </linearGradient>
+  </defs>
+  <title
+     id="ContainerInstances-title4098">Icon-containers-104</title>
+  <path
+     d="m 16.89,8.2124895 a 3.78,3.78 0 0 0 -3.29,-3.64 A 4.77,4.77 0 0 0 8.68,0.00248954 4.91,4.91 0 0 0 4,3.1924895 a 4.52,4.52 0 0 0 -4,4.35 4.6,4.6 0 0 0 4.78,4.4600005 h 0.42 7.68 0.21 a 3.84,3.84 0 0 0 3.8,-3.7900005 z"
+     id="ContainerInstances-path4100"
+    
+     style="fill:url(#ContainerInstances-f7543904-4a89-435e-96cd-11521c829faa)" />
+  <path
+     d="m 5.82,6.4624895 2.64,-2.59 a 0.3,0.3 0 0 1 0.43,0 l 2.57,2.59 a 0.13,0.13 0 0 1 -0.1,0.23 H 9.74 a 0.15,0.15 0 0 0 -0.14,0.14 V 10.07249 a 0.11,0.11 0 0 1 -0.11,0.11 H 7.75 a 0.11,0.11 0 0 1 -0.11,-0.11 V 6.8324895 a 0.14,0.14 0 0 0 -0.13,-0.14 h -1.6 a 0.13,0.13 0 0 1 -0.09,-0.23 z"
+     id="ContainerInstances-path4102"
+    
+     style="fill:#f2f2f2" />
+  <path
+     d="m 13.46,11.37249 a 0.13,0.13 0 0 0 -0.09,-0.13 L 8.62,9.6524895 H 8.46 V 18.00249 h 0.13 l 4.71,-1.88 a 0.13,0.13 0 0 0 0.16,-0.12 z"
+     id="ContainerInstances-path4104"
+    
+     style="fill:#a67af4" />
+  <path
+     d="M 8.46,9.6824895 3.95,10.51249 a 0.14,0.14 0 0 0 -0.12,0.13 v 6.23 a 0.15,0.15 0 0 0 0.11,0.14 l 4.52,0.99 a 0.13,0.13 0 0 0 0.16,-0.13 V 9.8724895 a 0.14,0.14 0 0 0 -0.16,-0.19 z"
+     id="ContainerInstances-path4106"
+    
+     style="fill:#552f99" />
+  <polygon
+     points="8.49,16.98 8.49,10.65 6.92,10.92 6.92,16.73 "
+     id="ContainerInstances-polygon4108"
+     style="opacity:0.75;fill:#b77af4"
+     transform="translate(-0.54,0.00248954)" />
+  <polygon
+     points="6.35,16.6 6.35,11.01 4.98,11.24 4.98,16.32 "
+     id="ContainerInstances-polygon4110"
+     style="opacity:0.75;fill:#b77af4"
+     transform="translate(-0.54,0.00248954)" />
+  
+</symbol>
+<symbol id="ic-Storage_Accounts" viewBox="0 0 17 13.67">
+  
+  <defs
+     id="StorageAccounts-defs75527">
+    <linearGradient
+       id="StorageAccounts-ad4c4f96-09aa-4f91-ba10-5cb8ad530f74"
+       x1="9"
+       y1="15.83"
+       x2="9"
+       y2="5.79"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#b3b3b3"
+         id="StorageAccounts-stop75520" />
+      <stop
+         offset="0.26"
+         stop-color="#c1c1c1"
+         id="StorageAccounts-stop75522" />
+      <stop
+         offset="1"
+         stop-color="#e6e6e6"
+         id="StorageAccounts-stop75524" />
+    </linearGradient>
+  </defs>
+  <title
+     id="StorageAccounts-title75529">Icon-storage-86</title>
+  <path
+     d="m 0,3.62 h 17 v 9.48 a 0.57,0.57 0 0 1 -0.57,0.57 H 0.57 A 0.57,0.57 0 0 1 0,13.1 Z"
+     id="StorageAccounts-path75531"
+    
+     style="fill:url(#StorageAccounts-ad4c4f96-09aa-4f91-ba10-5cb8ad530f74)" />
+  <path
+     d="M 0.57,0 H 16.43 A 0.57,0.57 0 0 1 17,0.57000001 V 3.62 H 0 V 0.56000001 A 0.57,0.57 0 0 1 0.57,0 Z"
+     id="StorageAccounts-path75533"
+    
+     style="fill:#37c2b1" />
+  <path
+     d="m 2.31,4.72 h 12.37 a 0.27,0.27 0 0 1 0.26,0.27 v 1.4 A 0.27,0.27 0 0 1 14.68,6.66 H 2.31 A 0.27,0.27 0 0 1 2.05,6.39 V 4.99 A 0.27,0.27 0 0 1 2.31,4.72 Z"
+     id="StorageAccounts-path75535"
+    
+     style="fill:#ffffff" />
+  <path
+     d="m 2.32,7.51 h 12.37 a 0.27,0.27 0 0 1 0.26,0.27 V 9.19 A 0.27,0.27 0 0 1 14.69,9.46 H 2.32 A 0.27,0.27 0 0 1 2.06,9.19 V 7.83 A 0.27,0.27 0 0 1 2.32,7.51 Z"
+     id="StorageAccounts-path75537"
+    
+     style="fill:#37c2b1" />
+  <path
+     d="m 2.32,10.33 h 12.37 a 0.27,0.27 0 0 1 0.26,0.27 v 1.41 a 0.27,0.27 0 0 1 -0.26,0.27 H 2.32 A 0.27,0.27 0 0 1 2.06,12.01 V 10.6 a 0.27,0.27 0 0 1 0.26,-0.27 z"
+     id="StorageAccounts-path75539"
+    
+     style="fill:#258277" />
+  
+</symbol>
+<symbol id="ic-Globe" viewBox="0 0 14.3701 17">
+  
+  <defs
+     id="Globe-defs25852">
+    <linearGradient
+       id="Globe-bc325d07-864b-4946-a0b7-6e17647feb1e"
+       x1="-212.049"
+       y1="722.745"
+       x2="-212.049"
+       y2="734.87097"
+       gradientTransform="matrix(0.707,0.707,0.707,-0.707,-355.725,672.349)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0078d4"
+         id="Globe-stop25844" />
+      <stop
+         offset="0.82"
+         stop-color="#5ea0ef"
+         id="Globe-stop25846" />
+    </linearGradient>
+    <clipPath
+       id="Globe-a2d3a9ab-6b81-49cc-a6d0-1eb27e4d8e5e">
+      <circle
+         cx="7.8709998"
+         cy="6.5630002"
+         r="6.0630002"
+         id="Globe-circle25849"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <title
+     id="Globe-title25854">MsPortalFx.base.images-68</title>
+  <g
+     id="Globe-ae08251c-f90b-45c3-901b-bcb035722af4"
+     transform="translate(-1.8079996,-0.5)">
+    <g
+       id="Globe-g25880">
+      <path
+         d="m 9.3,14.752 c 0,-0.154 -0.613,-0.154 -0.613,0 a 1.656,1.656 0 0 1 -1.636,1.8 h 3.882 A 1.655,1.655 0 0 1 9.3,14.752 Z"
+         id="Globe-path25856"
+        
+         style="fill:#ef7100" />
+      <path
+         d="m 13.335,1.1 a 0.571,0.571 0 0 1 0.807,0 l 0.026,0.028 a 8.32,8.32 0 0 1 -11.736,11.73 0.57,0.57 0 0 1 -0.049,-0.8 l 0.025,-0.026 v 0 A 0.571,0.571 0 0 1 3.19,12 7.178,7.178 0 0 0 13.312,1.882 0.573,0.573 0 0 1 13.335,1.1 Z"
+         id="Globe-path25858"
+        
+         style="fill:#f78d1e" />
+      <path
+         d="m 11.946,17.5 h -5.9 A 0.476,0.476 0 0 1 5.57,17.024 v 0 a 0.476,0.476 0 0 1 0.476,-0.476 h 5.9 a 0.476,0.476 0 0 1 0.475,0.476 v 0 A 0.476,0.476 0 0 1 11.946,17.5 Z"
+         id="Globe-path25860"
+        
+         style="fill:#f78d1e" />
+      <circle
+         cx="7.8709998"
+         cy="6.5630002"
+         r="6.0630002"
+         id="Globe-circle25862"
+         style="fill:url(#Globe-bc325d07-864b-4946-a0b7-6e17647feb1e)" />
+      <g
+         clip-path="url(#Globe-a2d3a9ab-6b81-49cc-a6d0-1eb27e4d8e5e)"
+         id="Globe-g25878">
+        <path
+           d="m 0.724,1.776 1.962,1.962 a 0.839,0.839 0 0 1 0,1.187 v 0 a 0.839,0.839 0 0 1 -1.187,0 L -0.463,2.963 a 0.839,0.839 0 0 1 0,-1.187 v 0 a 0.841,0.841 0 0 1 1.187,0 z"
+           id="Globe-path25864"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 6.7,5.389 v 0 a 0.839,0.839 0 0 1 0,1.187 v 0 a 0.841,0.841 0 0 1 -1.187,0 v 0 a 0.841,0.841 0 0 1 0,-1.187 v 0 a 0.839,0.839 0 0 1 1.187,0 z"
+           id="Globe-path25866"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 3.871,-1.974 3.286,3.286 a 1.407,1.407 0 0 1 0,1.989 v 0 a 1.407,1.407 0 0 1 -1.989,0 L 1.882,0.015 a 1.407,1.407 0 0 1 0,-1.989 v 0 a 1.407,1.407 0 0 1 1.989,0 z"
+           id="Globe-path25868"
+          
+           style="fill:#42e8ca" />
+        <rect
+           x="12.667"
+           y="3.516"
+           width="4.5960002"
+           height="12.191"
+           rx="2.2969999"
+           transform="rotate(-45,14.96511,9.6112487)"
+           id="Globe-rect25870"
+           style="fill:#42e8ca" />
+        <path
+           d="m 9.744,11.85 6.119,6.119 a 2.618,2.618 0 0 1 0,3.7 v 0 a 2.618,2.618 0 0 1 -3.7,0 L 6.041,15.554 a 2.619,2.619 0 0 1 0,-3.7 v 0 A 2.619,2.619 0 0 1 9.744,11.85 Z"
+           id="Globe-path25872"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 10.478,9.637 a 0.446,0.446 0 0 0 0.63,0 v 0 0 a 0.445,0.445 0 0 0 0,-0.63 v 0 l 5.04,5.039 -1.407,1.418"
+           id="Globe-path25874"
+          
+           style="fill:#42e8ca" />
+        <path
+           d="m 10.487,9.646 1.468,1.468 a 0.606,0.606 0 0 1 0,0.856 v 0 a 0.606,0.606 0 0 1 -0.856,0 L 9.631,10.5 a 0.606,0.606 0 0 1 0,-0.856 v 0 a 0.606,0.606 0 0 1 0.856,0.002 z"
+           id="Globe-path25876"
+          
+           style="fill:#42e8ca" />
+      </g>
+    </g>
+  </g>
+  
+</symbol>
+</defs>
+<rect width="2200" height="1560" fill="#FFFFFF"/>
+<text x="30" y="34" font-size="26" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Solstice Analytics: Labs 01 to 05 as one environment</text>
+<text x="30" y="62" font-size="13.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Everything built across the five labs, in one Azure subscription, with every connection drawn. Numbered arrows are the traffic flows; the key at the bottom right explains each one.</text>
+<rect x="30" y="236" width="150" height="1144" rx="12" fill="#EEF2F7" stroke="#8A98A8" stroke-width="1.6"/>
+<text x="105" y="252" font-size="12" font-weight="700" fill="#44546A" text-anchor="middle" dominant-baseline="central">INTERNET</text>
+<rect x="40" y="262" width="130" height="58" rx="8" fill="#FFFFFF" stroke="#A8B4C2" stroke-width="1"/>
+<text x="105" y="282" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">Clients</text>
+<text x="105" y="300" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">browsers, API callers</text>
+<rect x="40" y="536" width="130" height="58" rx="8" fill="#FFFFFF" stroke="#A8B4C2" stroke-width="1"/>
+<text x="105" y="556" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">App admins</text>
+<text x="105" y="574" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">admin tool users</text>
+<rect x="40" y="625" width="130" height="58" rx="8" fill="#FFFFFF" stroke="#A8B4C2" stroke-width="1"/>
+<text x="105" y="645" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">Outbound</text>
+<text x="105" y="663" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">apt, updates, extensions</text>
+<rect x="40" y="901" width="130" height="58" rx="8" fill="#FFFFFF" stroke="#A8B4C2" stroke-width="1"/>
+<text x="105" y="921" font-size="10.5" font-weight="700" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">Outbound</text>
+<text x="105" y="939" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">apt, updates, extensions</text>
+<rect x="240" y="86" width="1720" height="1330" rx="16" fill="none" stroke="#6B7A8C" stroke-width="2" stroke-dasharray="10 6"/>
+<text x="262" y="106" font-size="13" font-weight="700" fill="#44546A" text-anchor="start" dominant-baseline="central">AZURE SUBSCRIPTION  ·  Solstice-Production  ·  East US</text>
+<rect x="262" y="122" width="1676" height="100" rx="12" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.6"/>
+<text x="280" y="138" font-size="13" font-weight="700" fill="#633806" text-anchor="start" dominant-baseline="central">LAB 01  ·  Governance and identity</text>
+<rect x="520" y="130" width="30" height="16" rx="8" fill="#854F0B"/>
+<text x="535" y="138.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L01</text>
+<rect x="280" y="152" width="330" height="60" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1"/>
+<text x="290" y="168" font-size="11" font-weight="700" fill="#633806" text-anchor="start" dominant-baseline="central">Policy: require CostCenter tag (deny)</text>
+<text x="290" y="184" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Same definition assigned by Labs 01, 02, 03 and 05</text>
+<text x="290" y="198" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Resources without the tag are refused</text>
+<rect x="622" y="152" width="330" height="60" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1"/>
+<text x="632" y="168" font-size="11" font-weight="700" fill="#633806" text-anchor="start" dominant-baseline="central">Policy: allowed locations (deny)</text>
+<text x="632" y="184" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">East US and East US 2 only</text>
+<text x="632" y="198" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Applied to all five resource groups</text>
+<rect x="964" y="152" width="366" height="60" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1"/>
+<text x="974" y="168" font-size="11" font-weight="700" fill="#633806" text-anchor="start" dominant-baseline="central">Applied to every resource group</text>
+<text x="974" y="184" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">core, data, network, compute, monitoring</text>
+<text x="974" y="198" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">so each later lab inherits the same rules</text>
+<rect x="1340" y="152" width="260" height="60" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1"/>
+<g transform="translate(1348,160) scale(0.62)"><rect x="8" y="21" width="32" height="23" rx="4" fill="#C98A2B"/><path d="M15 21V15a9 9 0 0 1 18 0v6" fill="none" stroke="#7A4B08" stroke-width="4"/><circle cx="24" cy="32" r="3.5" fill="#FAEEDA"/></g>
+<text x="1384" y="168" font-size="11" font-weight="700" fill="#633806" text-anchor="start" dominant-baseline="central">Resource lock: CanNotDelete</text>
+<text x="1384" y="184" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">on rg-solstice-core</text>
+<text x="1384" y="198" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">watched by alert C below</text>
+<rect x="1612" y="152" width="314" height="60" rx="8" fill="#FFFFFF" stroke="#854F0B" stroke-width="1"/>
+<g transform="translate(1620,160) scale(0.62)"><circle cx="24" cy="16" r="9" fill="#0078D4"/><path d="M6 44C6 31 14 27 24 27S42 31 42 44Z" fill="#50A0E8"/></g>
+<text x="1656" y="168" font-size="11" font-weight="700" fill="#633806" text-anchor="start" dominant-baseline="central">Entra ID groups and role</text>
+<text x="1656" y="184" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">sg-client-success: Dashboard Operator</text>
+<text x="1656" y="198" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">sg-contractors-external (no assignments)</text>
+<rect x="262" y="262" width="240" height="58" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.4"/>
+<use href="#ic-Public_IP_Addresses" x="270" y="270" width="30" height="30"/>
+<text x="308" y="280" font-size="11.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">pip-dashboard-api</text>
+<text x="308" y="297" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Standard · zones 1-3 · rg-solstice-compute</text>
+<rect x="262" y="352" width="240" height="118" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.4"/>
+<use href="#ic-Load_Balancers" x="270" y="360" width="30" height="30"/>
+<text x="308" y="370" font-size="11.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">lb-dashboard-api</text>
+<text x="308" y="387" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Standard · rule 80 to 80</text>
+<text x="308" y="402" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">probe HTTP / on port 80</text>
+<text x="308" y="417" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">closed until an NSG allows traffic</text>
+<text x="308" y="432" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">rg-solstice-compute</text>
+<rect x="262" y="520" width="240" height="90" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.4"/>
+<use href="#ic-Globe" x="270" y="528" width="30" height="30"/>
+<text x="308" y="538" font-size="10.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">app-solstice-admin-{suffix}</text>
+<text x="308" y="555" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">App Service B1 · HTTPS only</text>
+<text x="308" y="570" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">the PaaS comparison, no VNet link</text>
+<text x="308" y="585" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">rg-solstice-compute</text>
+<rect x="540" y="330" width="750" height="370" rx="12" fill="#F7F6F2" stroke="#8A8880" stroke-width="1.6" stroke-dasharray="7 5"/>
+<use href="#ic-Virtual_Networks" x="550" y="336" width="26" height="26"/>
+<text x="582" y="347" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">vnet-solstice-prod  ·  10.1.0.0/16</text>
+<text x="582" y="364" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">rg-solstice-network  ·  peered to hub</text>
+<rect x="1200" y="338" width="30" height="16" rx="8" fill="#0F6E56"/>
+<text x="1215" y="346.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L02</text>
+<rect x="1236" y="338" width="30" height="16" rx="8" fill="#534AB7"/>
+<text x="1251" y="346.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L03</text>
+<rect x="560" y="385" width="250" height="305" rx="8" fill="#FFFFFF" stroke="#B8B6AE" stroke-width="1.2"/>
+<text x="572" y="399" font-size="10.5" font-weight="700" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-compute  ·  10.1.1.0/24</text>
+<rect x="572" y="408" width="226" height="104" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.4"/>
+<use href="#ic-VM_Scale_Sets" x="580" y="416" width="30" height="30"/>
+<text x="618" y="426" font-size="11" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">vmss-dashboard-api</text>
+<text x="618" y="443" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">2 to 6 instances · zones 1-3</text>
+<text x="618" y="458" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Ubuntu 24.04 · nginx</text>
+<rect x="580" y="478" width="210" height="17" rx="8.5" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="685.0" y="487.0" font-size="9" font-weight="600" fill="#3C3489" text-anchor="middle" dominant-baseline="central">Autoscale: CPU &gt;70% adds 1, &lt;30% removes 1</text>
+<rect x="572" y="522" width="226" height="96" rx="8" fill="#FBE9F0" stroke="#A8325E" stroke-width="1.4"/>
+<use href="#ic-Network_Security_Groups" x="580" y="530" width="30" height="30"/>
+<text x="618" y="540" font-size="11" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">nsg-prod-compute</text>
+<text x="618" y="557" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">100 http :80 Internet · 105 LB probe</text>
+<text x="618" y="572" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">110 ssh from ops · 120 deny dev</text>
+<text x="618" y="587" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">4096 deny-all</text>
+<rect x="572" y="628" width="226" height="52" rx="8" fill="#FBE9F0" stroke="#A8325E" stroke-width="1.4"/>
+<use href="#ic-NAT" x="580" y="636" width="30" height="30"/>
+<text x="618" y="646" font-size="11" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">natgw-prod-compute</text>
+<text x="618" y="663" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">pip-nat-prod-compute, static</text>
+<rect x="830" y="385" width="210" height="305" rx="8" fill="#FFFFFF" stroke="#B8B6AE" stroke-width="1.2"/>
+<text x="842" y="399" font-size="10.5" font-weight="700" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-batch  ·  10.1.3.0/24</text>
+<rect x="842" y="420" width="186" height="140" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.4"/>
+<use href="#ic-Container_Instances" x="850" y="428" width="30" height="30"/>
+<text x="888" y="438" font-size="10.5" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">aci-batch-processor</text>
+<text x="888" y="455" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">private IP · runs once, exits</text>
+<text x="888" y="470" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">id-solstice-batch</text>
+<text x="888" y="485" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">(managed identity)</text>
+<text x="888" y="500" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Reader on raw-manifests</text>
+<text x="888" y="515" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Contributor on processed</text>
+<text x="842" y="590" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Delegated to</text>
+<text x="842" y="604" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Microsoft.ContainerInstance/</text>
+<text x="842" y="618" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">containerGroups</text>
+<rect x="1055" y="385" width="220" height="305" rx="8" fill="#FFFFFF" stroke="#B8B6AE" stroke-width="1.2"/>
+<text x="1067" y="399" font-size="10.5" font-weight="700" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-data  ·  10.1.2.0/24</text>
+<rect x="1068" y="470" width="194" height="100" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.4"/>
+<use href="#ic-Private_Endpoint" x="1076" y="478" width="30" height="30"/>
+<text x="1114" y="488" font-size="10.5" font-weight="700" fill="#085041" text-anchor="start" dominant-baseline="central">pe-stsolsticedata-blob</text>
+<text x="1114" y="505" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">private IP 10.1.2.4</text>
+<text x="1114" y="520" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">sub-resource: blob</text>
+<text x="1114" y="535" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">NSG-aware (policy enabled)</text>
+<rect x="1068" y="590" width="194" height="90" rx="8" fill="#FBE9F0" stroke="#A8325E" stroke-width="1.4"/>
+<use href="#ic-Network_Security_Groups" x="1076" y="598" width="30" height="30"/>
+<text x="1114" y="608" font-size="11" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">nsg-prod-data</text>
+<text x="1114" y="625" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">443 from compute, batch,</text>
+<text x="1114" y="640" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">and the hub ops subnet</text>
+<text x="1114" y="655" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">4096 deny-all</text>
+<rect x="830" y="256" width="210" height="58" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.4"/>
+<g transform="translate(838,264) scale(0.62)"><path d="M24 3L43 13V35L24 45L5 35V13Z" fill="#1E88E5"/><path d="M24 3L43 13L24 23L5 13Z" fill="#64B5F6"/><path d="M24 23V45" stroke="#0D47A1" stroke-width="2"/></g>
+<text x="876" y="274" font-size="11" font-weight="700" fill="#3C3489" text-anchor="start" dominant-baseline="central">crsolstice{suffix}</text>
+<text x="876" y="291" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">ACR Basic · rg-solstice-compute</text>
+<rect x="262" y="760" width="1028" height="310" rx="12" fill="#F7F6F2" stroke="#8A8880" stroke-width="1.6" stroke-dasharray="7 5"/>
+<use href="#ic-Virtual_Networks" x="272" y="766" width="26" height="26"/>
+<text x="304" y="777" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">vnet-solstice-hub  ·  10.0.0.0/16</text>
+<rect x="1240" y="768" width="30" height="16" rx="8" fill="#A8325E"/>
+<text x="1255" y="776.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L04</text>
+<rect x="282" y="800" width="988" height="250" rx="8" fill="#FFFFFF" stroke="#B8B6AE" stroke-width="1.2"/>
+<text x="296" y="814" font-size="10.5" font-weight="700" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-shared-services  ·  10.0.1.0/24</text>
+<rect x="300" y="850" width="250" height="150" rx="8" fill="#FBE9F0" stroke="#A8325E" stroke-width="1.4"/>
+<use href="#ic-NAT" x="308" y="858" width="30" height="30"/>
+<text x="346" y="868" font-size="12" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">natgw-hub</text>
+<text x="346" y="885" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">pip-nat-hub, Standard static</text>
+<text x="346" y="900" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central"></text>
+<text x="346" y="915" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Attached to this subnet.</text>
+<text x="346" y="930" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Outbound for hub VMs:</text>
+<text x="346" y="945" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">apt and extension downloads</text>
+<rect x="640" y="810" width="360" height="230" rx="8" fill="#FBE9F0" stroke="#A8325E" stroke-width="1.4"/>
+<use href="#ic-Virtual_Machine" x="652" y="820" width="34" height="34"/>
+<text x="696" y="832" font-size="12.5" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">vm-solstice-ops</text>
+<text x="696" y="849" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Ubuntu 24.04 · Standard_D2nlds_v6</text>
+<text x="652" y="888" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">no public IP · reached by SSH key</text>
+<text x="652" y="906" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">system-assigned managed identity</text>
+<rect x="652" y="926" width="190" height="17" rx="8.5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="747.0" y="935.0" font-size="9.5" font-weight="600" fill="#0C447C" text-anchor="middle" dominant-baseline="central">Azure Monitor Agent  (Lab 05)</text>
+<rect x="652" y="950" width="190" height="17" rx="8.5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="747.0" y="959.0" font-size="9.5" font-weight="600" fill="#0C447C" text-anchor="middle" dominant-baseline="central">Daily backup  (Lab 05)</text>
+<text x="652" y="985" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">Test point for the private endpoint,</text>
+<text x="652" y="1000" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">scale set SSH and the backup target</text>
+<text x="1020" y="925" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">The hub only shares services.</text>
+<text x="1020" y="941" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">It is peered to prod and dev but</text>
+<text x="1020" y="957" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">never routes between them.</text>
+<rect x="262" y="1110" width="1028" height="270" rx="12" fill="#F7F6F2" stroke="#8A8880" stroke-width="1.6" stroke-dasharray="7 5"/>
+<use href="#ic-Virtual_Networks" x="272" y="1116" width="26" height="26"/>
+<text x="304" y="1127" font-size="12.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">vnet-solstice-dev  ·  10.2.0.0/16</text>
+<rect x="1240" y="1118" width="30" height="16" rx="8" fill="#A8325E"/>
+<text x="1255" y="1126.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L04</text>
+<rect x="282" y="1150" width="480" height="210" rx="8" fill="#FFFFFF" stroke="#B8B6AE" stroke-width="1.2"/>
+<text x="296" y="1164" font-size="10.5" font-weight="700" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">subnet-compute  ·  10.2.1.0/24</text>
+<rect x="296" y="1180" width="452" height="92" rx="8" fill="#FBE9F0" stroke="#A8325E" stroke-width="1.4"/>
+<use href="#ic-Network_Security_Groups" x="304" y="1188" width="30" height="30"/>
+<text x="342" y="1198" font-size="11" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">nsg-dev-compute</text>
+<text x="342" y="1215" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">100 deny from 10.1.0.0/16 (prod)</text>
+<text x="342" y="1230" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">4096 deny-all</text>
+<text x="300" y="1296" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Default outbound access is off and there is no NAT gateway,</text>
+<text x="300" y="1312" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">so dev has no internet egress. Throwaway test VMs only.</text>
+<text x="300" y="1336" font-size="10.5" font-weight="700" fill="#7A1E41" text-anchor="start" dominant-baseline="central">peered to the hub only</text>
+<rect x="790" y="1150" width="480" height="210" rx="8" fill="#FFFFFF" stroke="#B3261E" stroke-width="1.6"/>
+<text x="806" y="1168" font-size="11.5" font-weight="700" fill="#B3261E" text-anchor="start" dominant-baseline="central">X  ISOLATION BY DESIGN</text>
+<text x="806" y="1194" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Prod and dev are NOT peered. Peering is not transitive,</text>
+<text x="806" y="1214" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">so the hub does not pass traffic between them.</text>
+<text x="806" y="1234" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">nsg-prod-compute denies 10.2.0.0/16 (rule 120).</text>
+<text x="806" y="1254" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">nsg-dev-compute denies 10.1.0.0/16 (rule 100).</text>
+<text x="806" y="1274" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Dev has no NAT gateway and default outbound is off.</text>
+<rect x="1340" y="252" width="550" height="190" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<g transform="translate(1352,258) scale(0.62)"><path d="M24 4C16 4 13 10 13 17V28L8 34H40L35 28V17C35 10 32 4 24 4Z" fill="#FFB300"/><circle cx="24" cy="40" r="5" fill="#FB8C00"/></g>
+<text x="1390" y="270" font-size="12" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">Azure Monitor alert rules</text>
+<rect x="1855" y="260" width="30" height="16" rx="8" fill="#185FA5"/>
+<text x="1870" y="268.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L05</text>
+<circle cx="1362" cy="304" r="9" fill="#185FA5"/>
+<text x="1362" y="304.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">A</text>
+<text x="1380" y="304" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">vmss-dashboard-api: average CPU &gt; 85% for 15 min (sev 2)</text>
+<circle cx="1362" cy="328" r="9" fill="#185FA5"/>
+<text x="1362" y="328.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">B</text>
+<text x="1380" y="328" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Storage account: availability &lt; 99.9% (sev 1)</text>
+<circle cx="1362" cy="352" r="9" fill="#185FA5"/>
+<text x="1362" y="352.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="1380" y="352" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Activity log: any resource lock deleted (protects Lab 01)</text>
+<rect x="1352" y="376" width="526" height="54" rx="8" fill="#FFFFFF" stroke="#185FA5" stroke-width="1.2"/>
+<g transform="translate(1360,383) scale(0.5)"><rect x="4" y="10" width="40" height="28" rx="4" fill="#185FA5"/><path d="M5 12L24 28L43 12" fill="none" stroke="#fff" stroke-width="3"/></g>
+<text x="1392" y="394" font-size="11" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">ag-solstice-oncall  ·  action group</text>
+<text x="1392" y="412" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">email receiver: primary-oncall, one group serves all three rules</text>
+<rect x="1985" y="360" width="195" height="100" rx="10" fill="#FFFFFF" stroke="#8A98A8" stroke-width="1.4"/>
+<g transform="translate(1995,370) scale(0.7)"><rect x="4" y="10" width="40" height="28" rx="4" fill="#78909C"/><path d="M5 12L24 28L43 12" fill="none" stroke="#fff" stroke-width="3"/></g>
+<text x="2032" y="386" font-size="11.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">On-call engineer</text>
+<text x="2032" y="402" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">gets the alert email</text>
+<text x="1995" y="432" font-size="9.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">outside Azure</text>
+<rect x="1340" y="470" width="550" height="270" rx="10" fill="#F4FBF8" stroke="#0F6E56" stroke-width="1.6"/>
+<text x="1356" y="486" font-size="11" font-weight="700" fill="#085041" text-anchor="start" dominant-baseline="central">rg-solstice-data  ·  Lab 02</text>
+<rect x="1855" y="478" width="30" height="16" rx="8" fill="#0F6E56"/>
+<text x="1870" y="486.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L02</text>
+<rect x="1356" y="502" width="518" height="142" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.4"/>
+<use href="#ic-Storage_Accounts" x="1366" y="512" width="36" height="36"/>
+<text x="1412" y="524" font-size="12.5" font-weight="700" fill="#085041" text-anchor="start" dominant-baseline="central">stsolsticedata{suffix}</text>
+<text x="1412" y="542" font-size="10.5" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">RA-GZRS · TLS 1.2 · public network access off after lock-down</text>
+<rect x="1368" y="562" width="104" height="17" rx="8.5" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1"/>
+<text x="1420.0" y="571.0" font-size="9.5" font-weight="600" fill="#085041" text-anchor="middle" dominant-baseline="central">raw-manifests</text>
+<text x="1480" y="571" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Cool 30d, Cold 90d, delete 365d (lifecycle rule)</text>
+<rect x="1368" y="588" width="104" height="17" rx="8.5" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1"/>
+<text x="1420.0" y="597.0" font-size="9.5" font-weight="600" fill="#085041" text-anchor="middle" dominant-baseline="central">processed</text>
+<text x="1480" y="597" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Client Success reads (RBAC), the batch job writes</text>
+<text x="1368" y="626" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">Reached only through the private endpoint once locked down</text>
+<rect x="1356" y="654" width="518" height="74" rx="8" fill="#FFFFFF" stroke="#0F6E56" stroke-width="1.2"/>
+<use href="#ic-DNS_Zones" x="1364" y="662" width="30" height="30"/>
+<text x="1402" y="672" font-size="11.5" font-weight="700" fill="#085041" text-anchor="start" dominant-baseline="central">privatelink.blob.core.windows.net</text>
+<text x="1402" y="689" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">private DNS zone · rg-solstice-data · registration off</text>
+<text x="1402" y="705" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">linked to vnet-solstice-prod (Lab 02) and vnet-solstice-hub (Lab 04)</text>
+<rect x="1340" y="820" width="550" height="140" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<g transform="translate(1352,826) scale(0.62)"><rect x="4" y="4" width="40" height="40" rx="5" fill="#0078D4"/><g fill="#fff"><rect x="12" y="24" width="6" height="12"/><rect x="21" y="16" width="6" height="20"/><rect x="30" y="10" width="6" height="26"/></g></g>
+<text x="1390" y="838" font-size="12" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">law-solstice  ·  Log Analytics workspace</text>
+<rect x="1855" y="828" width="30" height="16" rx="8" fill="#185FA5"/>
+<text x="1870" y="836.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L05</text>
+<text x="1352" y="868" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">StorageBlobLogs  from the blob service diagnostic setting</text>
+<text x="1352" y="886" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Perf  from the Azure Monitor Agent and dcr-solstice-ops-perf</text>
+<text x="1352" y="904" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Saved KQL: storage errors, and ops-VM CPU against storage errors</text>
+<text x="1352" y="928" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">PerGB2018 · 30-day retention · rg-solstice-monitoring</text>
+<rect x="1340" y="980" width="550" height="122" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.6"/>
+<g transform="translate(1352,986) scale(0.62)"><path d="M11 32a8 8 0 0 1 1-16a11 11 0 0 1 21 2a7.5 7.5 0 0 1 0 14Z" fill="#43A047"/><path d="M30 26L38 29V35C38 39 34 42 30 43C26 42 22 39 22 35V29Z" fill="#2E7D32"/><path d="M26 35L29 38L35 31" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></g>
+<text x="1390" y="998" font-size="12" font-weight="700" fill="#0C447C" text-anchor="start" dominant-baseline="central">rsv-solstice  ·  Recovery Services vault</text>
+<rect x="1855" y="988" width="30" height="16" rx="8" fill="#185FA5"/>
+<text x="1870" y="996.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L05</text>
+<text x="1352" y="1028" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Policy policy-daily-30day: daily at 23:00, keep 30 days</text>
+<text x="1352" y="1046" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Protects vm-solstice-ops, the one stateful VM</text>
+<text x="1352" y="1064" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Scale-set instances are rebuilt from the model, so they are not backed up</text>
+<text x="1352" y="1086" font-size="10" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central">Locally redundant · rg-solstice-monitoring · backup job and recovery point verified</text>
+<rect x="1340" y="1120" width="550" height="276" rx="10" fill="#FFFFFF" stroke="#8A8880" stroke-width="1.4"/>
+<text x="1356" y="1138" font-size="11.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">HOW TO READ THE NUMBERED FLOWS</text>
+<circle cx="1366" cy="1164" r="9.5" fill="#1F2937"/>
+<text x="1366" y="1164.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="1384" y="1164" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Inbound: clients reach the load balancer and scale set, and the admin tool</text>
+<circle cx="1366" cy="1192" r="9.5" fill="#1F2937"/>
+<text x="1366" y="1192.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="1384" y="1192" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Batch job: image from ACR, then the private endpoint to storage</text>
+<circle cx="1366" cy="1220" r="9.5" fill="#1F2937"/>
+<text x="1366" y="1220.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="1384" y="1220" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Ops VM reaches the scale set (SSH) and the private endpoint (443)</text>
+<circle cx="1366" cy="1248" r="9.5" fill="#6B7280"/>
+<text x="1366" y="1248.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="1384" y="1248" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Outbound: NAT gateways give prod compute and the hub a static IP</text>
+<circle cx="1366" cy="1276" r="9.5" fill="#185FA5"/>
+<text x="1366" y="1276.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="1384" y="1276" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Telemetry: blob logs and ops VM CPU and memory into Log Analytics</text>
+<circle cx="1366" cy="1304" r="9.5" fill="#1F2937"/>
+<text x="1366" y="1304.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="1384" y="1304" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Backup: the ops VM is protected in the Recovery Services vault</text>
+<circle cx="1366" cy="1332" r="9.5" fill="#854F0B"/>
+<text x="1366" y="1332.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">7</text>
+<text x="1384" y="1332" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Access: sg-client-success can read the processed container</text>
+<circle cx="1366" cy="1360" r="9.5" fill="#185FA5"/>
+<text x="1366" y="1360.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">A</text>
+<text x="1384" y="1360" font-size="10.5" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">A, B and C alert rules all notify the on-call action group</text>
+<path d="M180 291 L262 291" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="221" cy="291" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="221" y="291.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">1</text>
+<path d="M382 320 L382 352" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<path d="M502 411 L572 411" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="537" cy="411" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="537" y="411.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">1</text>
+<path d="M180 565 L262 565" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="221" cy="565" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="221" y="565.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">1</text>
+<path d="M1005 314 L1005 420" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="1005" cy="366" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1005" y="366.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">2</text>
+<path d="M1028 520 L1068 520" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="1048" cy="520" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1048" y="520.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">2</text>
+<path d="M1262 520 L1356 520" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="1309" cy="520" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1309" y="520.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">2</text>
+<path d="M740 810 L740 690" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="740" cy="750" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="740" y="750.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="753" y="750" font-size="10.5" font-weight="600" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">ssh :22</text>
+<path d="M900 810 L900 745 L1165 745 L1165 690" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="940" cy="745" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="940" y="745.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="955" y="733" font-size="10.5" font-weight="600" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">https :443 to the private endpoint</text>
+<path d="M600 760 L600 700" fill="none" stroke="#0F6E56" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mk-teal)" marker-start="url(#mk-teal)" stroke-linejoin="round"/>
+<text x="590" y="733" font-size="10.5" font-weight="600" fill="#0F6E56" text-anchor="end" dominant-baseline="central">hub-prod peering</text>
+<path d="M600 1070 L600 1110" fill="none" stroke="#0F6E56" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mk-teal)" marker-start="url(#mk-teal)" stroke-linejoin="round"/>
+<text x="590" y="1092" font-size="10.5" font-weight="600" fill="#0F6E56" text-anchor="end" dominant-baseline="central">hub-dev peering</text>
+<path d="M1356 690 L1290 690" fill="none" stroke="#0F6E56" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mk-teal)" stroke-linejoin="round"/>
+<text x="1323" y="677" font-size="9" font-weight="600" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">DNS link</text>
+<path d="M1400 728 L1400 800 L1290 800" fill="none" stroke="#0F6E56" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mk-teal)" stroke-linejoin="round"/>
+<text x="1345" y="788" font-size="9" font-weight="600" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">DNS link (Lab 04)</text>
+<path d="M572 654 L180 654" fill="none" stroke="#6B7280" stroke-width="2.2" marker-end="url(#mk-gray)" stroke-linejoin="round"/>
+<circle cx="330" cy="654" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="330" y="654.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="348" y="640" font-size="10" font-weight="600" fill="#6B7280" text-anchor="start" dominant-baseline="central">outbound through natgw-prod-compute</text>
+<path d="M300 930 L180 930" fill="none" stroke="#6B7280" stroke-width="2.2" marker-end="url(#mk-gray)" stroke-linejoin="round"/>
+<circle cx="240" cy="930" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="240" y="930.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">4</text>
+<path d="M1750 740 L1750 820" fill="none" stroke="#185FA5" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#mk-blue)" stroke-linejoin="round"/>
+<circle cx="1750" cy="780" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1750" y="780.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="1766" y="780" font-size="10" font-weight="600" fill="#185FA5" text-anchor="start" dominant-baseline="central">diagnostic setting</text>
+<path d="M1000 880 L1340 880" fill="none" stroke="#185FA5" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#mk-blue)" stroke-linejoin="round"/>
+<circle cx="1170" cy="880" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1170" y="880.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="1060" y="866" font-size="10" font-weight="600" fill="#185FA5" text-anchor="start" dominant-baseline="central">Azure Monitor Agent + DCR</text>
+<path d="M1000 1010 L1340 1010" fill="none" stroke="#1F2937" stroke-width="2.2" marker-end="url(#mk-ink)" stroke-linejoin="round"/>
+<circle cx="1170" cy="1010" r="10.5" fill="#1F2937" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1170" y="1010.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="1060" y="996" font-size="10" font-weight="600" fill="#1F2937" text-anchor="start" dominant-baseline="central">daily backup</text>
+<path d="M790 408 L790 244 L1318 244 L1318 304 L1340 304" fill="none" stroke="#185FA5" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#mk-blue)" stroke-linejoin="round"/>
+<circle cx="1180" cy="244" r="10.5" fill="#185FA5" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1180" y="244.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">A</text>
+<path d="M1700 470 L1700 442" fill="none" stroke="#185FA5" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#mk-blue)" stroke-linejoin="round"/>
+<circle cx="1700" cy="456" r="10.5" fill="#185FA5" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1700" y="456.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">B</text>
+<path d="M1470 212 L1470 252" fill="none" stroke="#185FA5" stroke-width="2.2" stroke-dasharray="2 5" marker-end="url(#mk-blue)" stroke-linejoin="round"/>
+<circle cx="1470" cy="232" r="10.5" fill="#185FA5" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1470" y="232.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">C</text>
+<path d="M1878 403 L1985 403" fill="none" stroke="#185FA5" stroke-width="2.2" marker-end="url(#mk-blue)" stroke-linejoin="round"/>
+<path d="M1912 212 L1912 598 L1874 598" fill="none" stroke="#854F0B" stroke-width="2.2" stroke-dasharray="7 4" marker-end="url(#mk-amber)" stroke-linejoin="round"/>
+<circle cx="1912" cy="520" r="10.5" fill="#854F0B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1912" y="520.5" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">7</text>
+<text x="30" y="1440" font-size="11.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Lab colours</text>
+<rect x="130" y="1432" width="30" height="16" rx="8" fill="#854F0B"/>
+<text x="145" y="1440.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L01</text>
+<text x="168" y="1440" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Identity and governance</text>
+<rect x="349.20000000000005" y="1432" width="30" height="16" rx="8" fill="#0F6E56"/>
+<text x="364.20000000000005" y="1440.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L02</text>
+<text x="387.20000000000005" y="1440" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Storage</text>
+<rect x="466.00000000000006" y="1432" width="30" height="16" rx="8" fill="#534AB7"/>
+<text x="481.00000000000006" y="1440.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L03</text>
+<text x="504.00000000000006" y="1440" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Compute</text>
+<rect x="582.8000000000001" y="1432" width="30" height="16" rx="8" fill="#A8325E"/>
+<text x="597.8000000000001" y="1440.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L04</text>
+<text x="620.8000000000001" y="1440" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Virtual networking</text>
+<rect x="770.0" y="1432" width="30" height="16" rx="8" fill="#185FA5"/>
+<text x="785.0" y="1440.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">L05</text>
+<text x="808.0" y="1440" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Monitoring and backup</text>
+<text x="30" y="1476" font-size="11.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Line styles</text>
+<line x1="130" y1="1476" x2="176" y2="1476" stroke="#1F2937" stroke-width="2.4"/>
+<text x="186" y="1476" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">request or data path</text>
+<line x1="348.0" y1="1476" x2="394.0" y2="1476" stroke="#6B7280" stroke-width="2.4"/>
+<text x="404.0" y="1476" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">outbound internet</text>
+<line x1="546.8" y1="1476" x2="592.8" y2="1476" stroke="#0F6E56" stroke-width="2.4" stroke-dasharray="6 4"/>
+<text x="602.8" y="1476" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">VNet peering or DNS link</text>
+<line x1="790.4" y1="1476" x2="836.4" y2="1476" stroke="#185FA5" stroke-width="2.4" stroke-dasharray="2 5"/>
+<text x="846.4" y="1476" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">telemetry and alerts</text>
+<line x1="1008.4" y1="1476" x2="1054.4" y2="1476" stroke="#854F0B" stroke-width="2.4" stroke-dasharray="7 4"/>
+<text x="1064.4" y="1476" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">RBAC access</text>
+<text x="30" y="1512" font-size="11.5" font-weight="700" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">Resource groups</text>
+<text x="130" y="1512" font-size="11" font-weight="400" fill="#2C2C2A" text-anchor="start" dominant-baseline="central">rg-solstice-core (L01) · rg-solstice-data (L02) · rg-solstice-network (L02, L04) · rg-solstice-compute (L03) · rg-solstice-monitoring (L05).  Names with {suffix} use the name_suffix variable.</text>
+<text x="30" y="1540" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="start" dominant-baseline="central" font-style="italic">Prod and dev are deliberately not connected. Everything else in the subscription connects through the paths drawn above.</text>
 </svg>
