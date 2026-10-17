@@ -78,6 +78,6 @@ Each lab folder contains a `README.md`, a `Terraform/` folder with the code, and
 
 I work as a Microsoft Support Escalation Engineer, focused on complex Microsoft Teams issues. Many cases also call for adjacent troubleshooting across technologies like Entra ID, SharePoint and Exchange Online. I'm moving toward Azure cloud engineering and completing a B.S. in Cloud & Network Engineering at WGU. This repo is the hands-on side of that move: each lab is something I built and tested in a live subscription.
 
-**Certifications:** AZ-900 · SC-900 · MS-900 · AI-900 · CompTIA Security+ · CompTIA A+
+**Certifications:** Azure Administrator Associate · CompTIA Security+ · CompTIA A+
 
 **Connect:** [LinkedIn — Romy Francis](https://www.linkedin.com/in/romy-francis)
